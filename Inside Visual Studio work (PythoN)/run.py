@@ -1,8 +1,8 @@
-# # Age = int(input('Enter Your Age\n'))
-# # if(Age>18):
-# #     print("YES")
-# # else:
-# #     print("Hatt Bhosdk")
+# Age = int(input('Enter Your Age\n'))
+# if(Age>18):
+#     print("YES")
+# else:
+#     print("Hatt Bhosdk")
 
 # THIS CODE ENDS HERE
 
@@ -36,20 +36,38 @@
 
 # fruits = ['Banana', 'Apple', 'Brocolli', 'Mango', 'Guava']
 
-# for text in fruits:
-#     print(text)   This text word give no. of elements in list
-
+# for lklj in fruits:
+#     print(lklj)   
+   
 
 # THIS CODE ENDS HERE 
 
+# def is_prime(number):
+#     if number <= 1:
+#         return False
+#     for i in range(2, int(number ** 0.5) + 1):
+#         if number % i == 0:
+#             return False
+#     else: True
 
-# num = int(input("Enter the number "))
-# for i in range(2, num):
-#     if (num%i == 0):
-#         print("The Number Is Not a Prime No.")
-#     else:
-#         print("this no. is a prime no.")
-#         break
+# # Get input from the user
+# num = int(input("Enter a number: "))
+
+# if is_prime(num):
+#     print(f"{num} is a prime number.")
+# else:
+#     print(f"{num} is not a prime number.")
+                        
+n = int(input("Please enter the number\n"))
+if (n>1) and (n%2!=0):
+    print("Weird")
+elif (n>1) and 1<n<6:
+    print("Not Weird")
+elif (n>1) and (n%2==0) and 5<n<21:
+    print("Weird")
+elif (n>1) and (n%2==0) and n>20:
+    print("Not Weird")          
+    
 
 # THIS CODE ENDS HERE 
 
@@ -302,13 +320,13 @@
 
 # THIS CODE ENDS HERE
 
-class employee:
-    def greet(uiuih):
-        print("Hello welcome to the club")
+# class employee:
+#     def greet(uiuih):
+#         print("Hello welcome to the club")
     
-anuj = employee()
-k = anuj.greet()
-print(k)
+# anuj = employee()
+# k = anuj.greet()
+# print(k)
 
 # THIS CODE ENDS HERE
 
