@@ -58,15 +58,15 @@
 # else:
 #     print(f"{num} is not a prime number.")
                         
-n = int(input("Please enter the number\n"))
-if (n>1) and (n%2!=0):
-    print("Weird")
-elif (n>1) and 1<n<6:
-    print("Not Weird")
-elif (n>1) and (n%2==0) and 5<n<21:
-    print("Weird")
-elif (n>1) and (n%2==0) and n>20:
-    print("Not Weird")          
+# n = int(input("Please enter the number\n"))
+# if (n>1) and (n%2!=0):
+#     print("Weird")
+# elif (n>1) and 1<n<6:
+#     print("Not Weird")
+# elif (n>1) and (n%2==0) and 5<n<21:
+#     print("Weird")
+# elif (n>1) and (n%2==0) and n>20:
+#     print("Not Weird")          
     
 
 # THIS CODE ENDS HERE 
@@ -91,12 +91,21 @@ elif (n>1) and (n%2==0) and n>20:
 # print((n/2)*(2*n+(n-1)))
 
 
-   # THIS CODE ENDS HERE   
+#    # THIS CODE ENDS HERE   
 
 # i = 1
 # while i<=50:
 #     print(i)
 #     i=i+1
+
+n = int(input(""))
+i=0
+while i in range(0, n):
+    print(i*i)
+    i=i+1
+
+
+       
 
 
 # THIS CODE ENDS HERE   
