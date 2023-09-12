@@ -37,7 +37,7 @@
 # fruits = ['Banana', 'Apple', 'Brocolli', 'Mango', 'Guava']
 
 # for lklj in fruits:
-#     print(lklj)   
+#     print(fruits[0])   
    
 
 # THIS CODE ENDS HERE 
@@ -48,16 +48,27 @@
 #     for i in range(2, int(number ** 0.5) + 1):
 #         if number % i == 0:
 #             return False
-#     else: True
+#     return True
+# number = int(input(""))
+# print(is_prime(number))
 
-# # Get input from the user
+
+
+# Get input from the user
 # num = int(input("Enter a number: "))
 
 # if is_prime(num):
 #     print(f"{num} is a prime number.")
 # else:
 #     print(f"{num} is not a prime number.")
-                        
+
+# 0
+
+            
+            
+
+# THIS CODE ENDS HERE                  
+
 # n = int(input("Please enter the number\n"))
 # if (n>1) and (n%2!=0):
 #     print("Weird")
@@ -73,11 +84,15 @@
 
 
 # num = int(input("Enter the number: "))
-# prime = True
+
 # for i in range(2, num):
 #     if (num%i == 0):
-#         prime = False
+#         print('Number is not prime')
 #         break
+#     else:
+#         print('number is prime')
+#         break
+
 
 # if prime:
 #     print("This number is a prime number.")
@@ -98,26 +113,45 @@
 #     print(i)
 #     i=i+1
 
-n = int(input(""))
-i=0
-while i in range(0, n):
-    print(i*i)
-    i=i+1
+# n = int(input("Enter a number: "))
+# i = 0
+# while i < n:
+#     print(i * i)
+#     i = i + 1
 
+# THIS CODE ENDS HERE   
 
-       
-
+# number = int(input("Enter the number\n"))
+# i = 0
+# for i in range(0, 21):
+#     k = number*i
+#     print(f"{number} x {i} = {k}")
+    
 
 # THIS CODE ENDS HERE   
 
 
-# num = int(input("enter your number here"))
-# factorial = 1
-# for i in range(1, num+1):
-#     print(factorial)
-#     factorial = factorial * i
-# print(f"The Factorial of {num} is {factorial}")
+# def yo(n):
+#     if n == 0:
+#         return 1
+#     else:
+#         return n * yo(n-1)
 
+# # # # Input from the user
+# try:
+#     num = int(input("Enter a positive integer: "))
+#     if num < 0:
+#         print("Factorial is not defined for negative numbers.")
+#     else:
+#         result = yo(num)
+#         print(f"The factorial of {num} is {result}")
+# except ValueError:
+#     print("Invalid input. Please enter a positive integer.")
+ 
+    
+    
+    
+        
 # THIS CODE ENDS HERE   
 
 # num = int(input("enter your number here"))
@@ -138,44 +172,91 @@ while i in range(0, n):
 # print(f"The Sum of first {num} natural numbers is {sum}")
 
 
-# THIS CODE ENDS HERE 
+# THIS CODE ENDS HERE
 
-
-# num = int(input("Enter Your Number "))
-# factorial = 1
-# i = 1
-# while i <= num:
-#     factorial = factorial*i
-#     i = i+1
-# print(f"The factorial of {num} is {factorial}")
-
-
-# THIS CODE ENDS HERE 
-
-# num = int(input("Enter Your Number Here "))
-# Prime = True
-# for i in range(2, num):
-#     if (num%i == 0):
-#         Prime = False
-#         break
-    
-# if Prime:
-#     print(f"The number {num} is prime")
-# else:
-#     print(f"The Number {num} is not prime")
-
-
-# THIS CODE ENDS HERE 
-
-
-# num = int(input("Enter Your Number Here "))
-# i = 1 
-# while i<=10:
-#     num1 = num*i
-#     print(num, "X", i, "=", num1)
-#     i = i+1
+# n = int(input("Enter\n"))
+# def sum(n):
+#     if n == 0:
+#         return 0
+        
+#     elif n>0:
+#         k=0
+#         for i in range(1,n+1):
+#             k = k+i
+#     return k
+# print(sum(n))
 
 # THIS CODE ENDS HERE
+
+
+
+# n = int(input("Enter a positive integer: "))
+
+# def sum_natural_numbers(n):
+#     if n <= 0:
+#         return "Invalid input. Please enter a positive integer."
+    
+#     sum_result = 0
+#     for i in range(1, n + 1):
+#         sum_result += i
+
+#     return sum_result
+
+# result = sum_natural_numbers(n)
+# print(result)
+
+# # try:
+# #     num = int(input("Enter a natural number: "))
+# #     if num < 0:
+# #         print("Natural number is not negative numbers.")
+# #     else:
+# #         result = sum(num)
+# #         print(f"The factorial of {num} is {result}")
+# # except ValueError:
+# #     print("Invalid input. Please enter a positive integer.")
+
+# THIS CODE ENDS HERE
+ 
+
+
+# # THIS CODE ENDS HERE 
+
+
+# # num = int(input("Enter Your Number "))
+# # factorial = 1
+# # i = 1
+# # while i <= num:
+# #     factorial = factorial*i
+# #     i = i+1
+# # print(f"The factorial of {num} is {factorial}")
+
+
+# # THIS CODE ENDS HERE 
+
+# # num = int(input("Enter Your Number Here "))
+# # Prime = True
+# # for i in range(2, num):
+# #     if (num%i == 0):
+# #         Prime = False
+# #         break
+    
+# # if Prime:
+# #     print(f"The number {num} is prime")
+# # else:
+# #     print(f"The Number {num} is not prime")
+
+
+# # THIS CODE ENDS HERE 
+
+
+# # num = int(input("Enter Your Number Here "))
+# # i = 1 
+# # while i<=10:
+# #     num1 = num*i
+# #     print(num, "X", i, "=", num1)
+# #     i = i+1
+
+# # THIS CODE ENDS HERE
 
 # def greet(name):
 #     print("Good Day," + name)
@@ -183,34 +264,32 @@ while i in range(0, n):
 # greet("anuj")
 
 
-# THIS CODE ENDS HERE
+# # THIS CODE ENDS HERE
 
 
 # num = 4*5
 
-# print("The multiplication of 4 and 5 is, " + str(num))
+# print("The multiplication of 4 and 5 is," +str(num))
 
 
-# THIS CODE ENDS HERE
+# # THIS CODE ENDS HERE
 
 
-# num1 = int(input("Enter First Number "))
-# num2 = int(input("Enter second Number "))
-# num3 = int(input("Enter third Number "))
+# num1 = int(input("Input the 1st number\n "))
+# num2 = int(input("Input the 2nd number\n "))
+# num3 = int(input("Input the 3rd number\n "))
 
-# if (num1>num3):
-#     if (num2>num1):
-#         print(f"{num2} is greatest among all")
-#     else:
-#         print(f"{num1} is greatest among all")
+# if num1>num2 and num2>num3:
+#     print("num1 is the greatest")
+# elif num2>num1 and num2>num3:
+#     print("num2 is the greatest")
 # else:
-#     if (num3>num2):
-#         print(f"{num3} is greatest among all")
-#     else:
-#         print(f"{num2} is greatest among all")
+#     print("num3 is greatest")
 
 
-# THIS CODE ENDS HERE
+     
+
+# # THIS CODE ENDS HERE
 
 
 # def Celcius(C):
@@ -219,7 +298,7 @@ while i in range(0, n):
 # print(Celcius(0))
 
 
-# THIS CODE ENDS HERE
+# # THIS CODE ENDS HERE
 
 
 # def sum_r(n):
@@ -340,24 +419,25 @@ while i in range(0, n):
 # THIS CODE ENDS HERE
 
 
-# class programmer:
-#     company = "accenture"
-#     salary = "200k"
-#     location = "India"
-#     designation = "senior developer"
 
-#     def info(self, signature, mobileno):
-#         print(f"The name of  is {self.c}")
+class programmer:
+    company = "accenture"
+    salary = "200k"
+    location = "India"
+    designation = "senior developer"
+
+    def info(self, signature, mobileno):
+        print(f"The name of  is {self.c}")
       
 
-#     def greet():
-#         print("Hello Gentleman")
+    def greet():
+        print("Hello Gentleman")
 
    
     
 
-# anuj = programmer()   
-# print(anuj.salary)
+anuj = programmer()   
+print(anuj.salary)
 
 # THIS CODE ENDS HERE
 
