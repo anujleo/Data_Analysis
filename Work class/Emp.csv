@@ -1,0 +1,829 @@
+Employee Code,Gender,Location,Designation,Qualification,Married,Age,Left,Reason,No of Yrs in Org,Total yrs of Exp,Sourcing Channel,Avg rating last 2yrs,Avg rating this yrs,No of Promotions,Satisfaction compensation,Satisfaction benefits,Satisfaction work life balance,Satisfaction learning opportunity,Satisfaction,Hygiene seating arrangement,Hygiene egronomics,Hygiene infrastructure,Sentiment existing processes,Sentiment recently launched policies,Team performanc goal orientation,Team performanc timely delivery,Team performanc managers interpersonal issues ,Transparency channels of feedback,Transparency communication across peers,Transparency communiction with superior,Transparency newly rolled out process,Challenging organizational environment,Curiosity or Skill-will,Control,Competitive  organizational environment,Appropriate recognition,Co-operative environment,Engagement score external,Engagement score Internal,Engagement,Retention case,Avoidable vs Unavoidable (attrition),Rehire in future,Sentiment towards org
+E1,Male,Bangalore,RM1,BCOM,NO,24,0,Involuntary,0,1,Reference,NJ-16,NJ-16,0,4,4,2,4,3.5,3,4,4,5,4,2,1,2,4,4,5,2,4,5,4,4,4,2,3.38,3.78,3.58,NO,NA,NO,1
+E2,Female,Mumbai,RM5,PGDM/MBA_Mkt,YES,45,0,Involuntary,7.1,29.8,Agency,4.3,NA,2,3,4,3,1,2.8,4,3,5,4,4,2,5,3,5,4,5,1,4,5,4,4,4,3,3.46,4.00,3.73,NO,NA,NO,2
+E3,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,29,1,,1.4,4.6,Reference,NJ-15,3.56,0,4,5,5,4,4.5,5,4,5,5,4,4,5,1,4,5,5,3,5,5,2,5,1,3,4.24,3.44,3.84,,,,
+E4,Male,NCR,RM2,PGDM/MBA_Mkt,NO,23,0,Location,1.8,5.2,IJP,NJ-15,NA,0,4,4,5,3,4.0,5,4,4,4,3,3,4,2,5,4,3,5,4,5,2,4,3,4,3.88,3.72,3.80,NO,NA,NO,1
+E5,Male,Mumbai,RM4,PGDM/MBA_Mkt,NO,33,1,,5.1,17.9,Reference,4.4,3.57,1,4,4,5,4,4.3,4,4,4,5,3,4,4,4,4,4,3,2,4,3,4,4,4,4,3.90,3.78,3.84,,,,
+E6,Male,Bangalore,RM3,PGDM/MBA_Mkt,YES,33,0,Better Prospects,3,9,Reference,4.2,NA,1,4,5,5,5,4.8,4,4,5,3,4,4,5,2,3,5,4,3,5,3,3,4,1,4,4.10,3.33,3.72,YES,UA,,4
+E7,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,35,1,,3,6,IJP,4.1,3.98,0,4,5,3,3,3.8,5,4,4,5,4,2,4,5,2,4,4,4,5,4,4,4,4,5,3.87,4.28,4.07,,,,
+E8,Female,Chennai,RM5,PGDM/MBA_Mkt,NO,28,1,,8,31.5,IJP,4.3,3.78,3,3,4,3,4,3.5,4,3,4,5,4,4,4,2,4,4,3,2,4,4,4,4,5,5,3.56,4.33,3.95,,,,
+E9,Male,Bangalore,RM3,PGDM/MBA_Mkt,NO,30,0,Involuntary,3.5,9.4,IJP,4.3,NA,1,3,4,4,3,3.5,4,3,4,4,1,4,4,4,2,5,4,3,4,3,2,5,4,4,3.50,3.58,3.54,NO,NA,NO,1
+E10,Male,Bangalore,RM1,BBA,YES,39,1,,0.3,2,IJP,NJ-16,NJ-16,0,4,4,4,5,4.3,4,4,4,3,5,4,4,2,1,4,4,2,4,4,4,4,2,4,3.66,3.67,3.66,,,,
+E11,Female,Chennai ,RM2,PGDM/MBA_Mkt,YES,29,0,Better Prospects,3.1,5.2,Reference,4.1,NA,1,4,5,3,4,4.0,4,4,4,2,4,1,4,4,3,4,4,2,4,4,4,4,5,4,3.53,4.17,3.85,YES,UA,,3
+E12,Female,Chennai,RM5,PGDM/MBA_Mkt,YES,33,1,,8.5,34.9,Reference,4.4,3.98,2,4,4,4,5,4.3,4,4,4,3,5,4,4,3,3,5,5,4,5,4,4,4,2,4,4.07,3.83,3.95,,,,
+E13,Male,Chennai ,RM2,PGDM/MBA_Mkt,YES,43,1,,2.7,4.9,IJP,4.0,3.56,1,1,4,4,4,3.3,5,1,4,4,4,2,4,2,2,5,4,5,4,5,1,5,1,4,3.43,3.33,3.38,,,,
+E14,Male,Chennai,RM1,BCOM,YES,37,1,,0.4,1,Campus,NJ-16,NJ-16,0,5,4,4,5,4.5,4,5,5,4,3,3,4,3,3,5,4,2,5,4,4,5,1,2,3.97,3.50,3.74,,,,
+E15,Male,Bangalore,RM4,PGDM/MBA_Mkt,NO,33,0,Personal,5.5,19.9,Reference,4.3,NA,1,4,4,5,3,4.0,5,3,4,4,3,4,4,3,4,4,3,2,4,4,3,4,4,5,3.71,4.00,3.85,YES,UA,,3
+E16,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,38,0,Involuntary,3.8,10.6,Agency,4.3,NA,1,5,4,4,5,4.5,1,5,4,1,4,4,4,4,4,5,4,5,4,3,5,4,4,3,3.97,3.83,3.90,YES,UA,NO,1
+E17,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,33,1,,2.6,6.3,Online,3.9,4.17,0,4,4,4,5,4.3,5,4,4,5,4,4,4,2,3,4,4,2,4,4,4,5,3,5,3.90,4.17,4.03,,,,
+E18,Female,Bangalore,RM4,PGDM/MBA_Mkt,YES,39,0,Location,6.3,17.3,IJP,4.1,NA,1,4,4,2,4,3.5,4,3,4,3,2,1,5,2,3,5,2,2,4,4,4,4,3,4,3.15,3.83,3.49,YES,A,,2
+E19,Female,Chennai,RM5,PGDM/MBA_Mkt,NO,29,1,,9,27.9,IJP,4.2,3.87,3,3,4,4,4,3.8,4,2,4,5,4,1,5,1,5,4,2,4,4,2,1,4,1,5,3.51,2.83,3.17,,,,
+E20,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,39,1,,5,11.8,Agency,4.1,4.17,1,4,4,4,4,4.0,1,4,4,4,3,4,5,4,5,4,4,2,4,2,3,4,4,4,3.76,3.50,3.63,,,,
+E21,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,25,0,Better Prospects,0.5,3,IJP,NJ-16,NJ-16,0,4,5,2,5,4.0,5,4,4,4,4,4,5,4,4,4,4,2,4,4,4,4,4,2,4.00,3.67,3.83,NO,NA,NO,2
+E22,Male,Bangalore,RM3,PGDM/MBA_Mkt,NO,32,0,Better Prospects,4.5,10.3,Walk in,4.3,NA,1,2,5,2,2,2.8,5,3,5,4,5,3,4,4,4,4,2,1,4,2,2,5,2,4,3.40,3.17,3.28,NO,NA,NO,1
+E23,Male,Bangalore,RM5,PGDM/MBA_Mkt,YES,56,0,Personal,7.5,32.5,Walk in,4.4,NA,2,4,5,2,2,3.3,1,4,4,4,4,1,4,5,5,4,5,1,4,4,4,5,4,4,3.43,4.17,3.80,YES,UA,,3
+E24,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,31,1,,2,5.9,Reference,4.2,4.70,0,4,5,4,4,4.3,4,4,3,4,4,5,5,5,4,4,5,4,5,4,1,4,4,4,4.25,3.67,3.96,,,,
+E25,Male,Mumbai,RM4,PGDM/MBA_Mkt,YES,36,1,,6,15.9,Reference,4.2,3.89,2,5,4,2,4,3.8,4,5,5,4,4,2,5,4,4,4,4,3,4,4,4,5,3,4,3.93,4.00,3.96,,,,
+E26,Male,Mumbai,RM4,PGDM/MBA_Mkt,NO,33,1,,4.5,19.4,IJP,4.2,3.37,1,4,5,2,2,3.3,5,5,4,4,3,4,5,3,4,4,4,3,4,4,3,5,4,4,3.78,4.00,3.89,,,,
+E27,Female,Chennai,RM3,PGDM/MBA_Mkt,NO,25,1,,5,8.7,Reference,3.9,4.06,2,4,4,2,5,3.8,4,4,5,3,4,4,4,5,4,4,5,4,4,4,5,5,4,4,4.04,4.33,4.19,,,,
+E28,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,25,0,Better Prospects,2.4,4.9,Agency,4.3,NA,0,2,4,4,1,2.8,4,3,5,3,4,3,5,4,4,4,4,4,5,3,3,4,4,4,3.57,3.83,3.70,NO,NA,NO,2
+E29,Female,Mumbai,RM5,PGDM/MBA_Mkt,YES,39,1,,8.1,33.3,Reference,4.2,3.98,2,3,4,4,5,4.0,3,3,4,4,4,4,5,3,5,4,4,4,5,4,1,5,4,4,3.94,3.83,3.89,,,,
+E30,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,42,1,,3,6.1,Online,4.0,3.56,0,4,4,5,5,4.5,5,4,4,4,4,1,4,4,4,4,4,2,5,4,1,4,4,4,3.91,3.67,3.79,,,,
+E31,Female,Bangalore,RM1,BBA,YES,41,1,,0,1,Agency,NJ-16,NJ-16,0,4,4,4,4,4.0,5,4,4,4,4,1,5,3,5,4,4,3,4,4,4,4,4,4,3.88,4.00,3.94,,,,
+E32,Male,Bangalore,RM3,PGDM/MBA_Mkt,NO,30,1,,4.6,9.2,Online,4.4,3.65,1,2,4,3,5,3.5,5,2,5,1,3,5,5,5,1,4,5,4,5,5,4,5,3,4,3.68,4.33,4.00,,,,
+E33,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,27,0,Transfer,3.1,5.9,Online,4.1,NA,1,5,4,4,5,4.5,5,5,5,2,3,4,4,5,5,4,2,1,4,3,2,4,5,4,3.97,3.67,3.82,NO,NA,NO,1
+E34,Male,Bangalore,RM4,PGDM/MBA_Mkt,YES,26,1,,7.1,18.9,Online,4.1,3.65,2,4,5,5,5,4.8,5,4,5,3,4,4,5,4,4,4,5,5,5,4,3,4,4,4,4.46,4.00,4.23,,,,
+E35,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,37,0,Personal,4.2,11.3,Walk in,4.1,NA,1,2,4,4,3,3.3,5,4,4,1,4,1,4,1,2,5,4,2,4,2,4,4,2,4,3.13,3.33,3.23,NO,NA,NO,2
+E36,Male,Bangalore,RM3,PGDM/MBA_Mkt,YES,40,1,,3.9,8.5,Online,4.3,3.65,1,4,3,4,4,3.8,1,4,5,2,4,5,4,1,2,5,4,5,4,4,4,4,1,4,3.57,3.50,3.54,,,,
+E37,Male,NCR,RM2,PGDM/MBA_Mkt,YES,25,0,Better Prospects,2.5,4.3,IJP,3.9,NA,0,4,5,4,2,3.8,5,4,5,4,5,3,4,4,4,5,1,5,4,4,1,4,4,4,3.99,3.50,3.74,NO,NA,NO,2
+E38,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,28,0,Personal,0.9,2.3,Reference,NJ-16,NJ-16,0,3,5,3,4,3.8,4,2,5,5,5,4,4,4,3,4,5,4,4,4,5,4,4,3,3.99,4.00,3.99,YES,UA,,3
+E39,Male,Mumbai,RM4,PGDM/MBA_Mkt,YES,33,1,,6.5,21.8,Reference,4.4,3.57,2,3,4,4,4,3.8,1,3,4,2,4,5,4,3,4,4,4,4,4,3,2,4,4,5,3.57,3.67,3.62,,,,
+E40,Female,Bangalore,RM3,PGDM/MBA_Mkt,YES,40,1,,4.5,9.3,Online,4.2,4.06,1,4,5,4,4,4.3,4,4,5,3,5,4,4,1,4,4,4,4,4,4,4,4,4,4,3.96,4.00,3.98,,,,
+E41,Male,Bangalore,RM1,BBA,YES,27,0,Involuntary,1.1,2.1,Campus,NJ-15,NA,0,3,5,4,4,4.0,3,3,5,4,5,4,4,5,2,4,1,5,4,2,3,4,1,4,3.82,3.00,3.41,NO,NA,NO,2
+E42,Female,Chennai ,RM2,PGDM/MBA_Mkt,NO,31,1,,2.8,6.4,Walk in,4.1,3.56,0,5,4,4,5,4.5,5,5,4,2,5,4,4,2,4,4,3,2,4,2,4,4,3,4,3.91,3.50,3.71,,,,
+E43,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,23,0,Better Prospects,2.4,4,Campus,4.1,NA,0,4,4,4,5,4.3,5,4,5,3,3,3,4,4,2,4,3,4,5,3,4,4,4,4,3.84,4.00,3.92,NO,NA,NO,1
+E44,Male,Bangalore,RM4,PGDM/MBA_Mkt,YES,44,0,Transfer,7.3,21,Online,4.3,NA,2,4,4,3,2,3.3,5,4,4,2,5,4,5,4,4,4,3,3,4,5,3,4,4,4,3.72,4.00,3.86,YES,A,,4
+E45,Female,NCR,RM3,PGDM/MBA_Mkt,YES,31,1,,5.5,10.2,Agency,4.0,4.52,1,4,5,5,5,4.8,5,4,5,5,1,4,4,4,1,4,4,4,3,4,4,4,4,5,4.04,4.00,4.02,,,,
+E46,Female,Chennai ,RM4,PGDM/MBA_Mkt,YES,45,0,Involuntary,7,18.7,Online,4.2,NA,2,4,5,2,4,3.8,4,4,4,3,2,4,4,4,3,5,1,3,3,4,4,4,1,4,3.51,3.33,3.42,NO,NA,NO,1
+E47,Male,NCR,RM3,PGDM/MBA_Mkt,NO,29,0,Involuntary,4.3,10,Agency,4.0,NA,2,5,4,4,5,4.5,4,5,4,3,1,4,4,2,1,5,3,5,4,3,4,4,3,5,3.74,3.83,3.78,NO,NA,NO,2
+E48,Female,NCR,RM3,PGDM/MBA_Mkt,NO,30,0,Better Prospects,3.4,9,Online,4.0,NA,0,2,5,4,4,3.8,5,2,4,5,2,4,4,1,4,5,3,4,3,3,3,4,5,4,3.63,3.67,3.65,YES,UA,,4
+E49,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,36,1,,3.2,7,Online,4.1,3.98,1,5,5,2,5,4.3,4,5,4,4,1,3,4,3,2,5,5,4,5,5,5,4,2,5,3.84,4.33,4.09,,,,
+E50,Female,Chennai,RM1,PGDM/MBA_Mkt,NO,29,1,,0,1.5,IJP,NJ-16,NJ-16,0,4,5,4,5,4.5,5,4,4,4,4,3,3,5,3,5,3,4,5,2,4,4,3,5,4.09,3.83,3.96,,,,
+E51,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,29,0,Better Prospects,1.5,5.1,IJP,NJ-15,NA,0,5,5,3,5,4.5,4,3,4,4,2,4,4,2,4,5,5,4,5,3,3,4,4,5,3.97,4.00,3.99,NO,NA,NO,2
+E52,Male,NCR,RM3,PGDM/MBA_Mkt,YES,32,0,Job Environment ,4.6,8,Agency,4.4,NA,1,1,4,4,4,3.3,1,1,4,5,3,4,5,3,5,5,1,5,4,4,1,4,2,5,3.43,3.33,3.38,YES,A,,3
+E53,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,38,1,,1.9,7.2,Reference,NJ-15,4.60,0,5,5,5,5,5.0,5,5,4,5,5,5,5,4,2,4,5,2,4,4,4,4,4,5,4.47,4.17,4.32,,,,
+E54,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,36,1,,4.8,8.9,Online,4.3,3.65,1,4,5,4,4,4.3,5,4,4,5,5,1,4,2,2,4,3,5,5,1,4,4,2,4,3.84,3.33,3.59,,,,
+E55,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,35,1,,4,10.6,Walk in,4.6,3.63,1,4,5,5,4,4.5,5,4,4,4,5,5,4,3,2,4,4,4,5,4,4,5,2,4,4.15,4.00,4.07,,,,
+E56,Male,Bangalore,RM3,PGDM/MBA_Mkt,YES,31,0,Job Environment ,3.8,10.4,Reference,4.3,NA,1,1,5,4,2,3.0,5,2,4,4,5,5,4,2,1,4,3,4,4,4,2,5,4,4,3.41,3.83,3.62,YES,A,,3
+E57,Male,Chennai,RM1,PGDM/MBA_Mkt,NO,25,0,Better Prospects,0.7,2.4,IJP,NJ-16,NJ-16,0,2,4,4,1,2.8,4,3,4,4,3,4,5,2,3,4,2,1,5,2,2,5,5,3,3.10,3.67,3.38,NO,NA,NO,2
+E58,Female,Bangalore,RM1,BBA,YES,24,0,Better Prospects,0.6,2,Reference,NJ-16,NJ-16,0,3,4,3,4,3.5,4,3,4,5,3,5,4,4,1,4,1,5,5,4,3,4,2,1,3.56,3.17,3.36,NO,NA,NO,2
+E59,Male,Bangalore,RM5,PGDM/MBA_Mkt,NO,30,1,,8.4,32,Reference,4.4,4.17,3,4,4,4,4,4.0,5,4,4,5,4,5,4,5,3,4,4,4,4,2,4,5,2,4,4.18,3.50,3.84,,,,
+E60,Male,NCR,RM2,PGDM/MBA_Mkt,YES,25,0,Better Prospects,1.1,4.9,Campus,NJ-15,NA,0,4,5,4,4,4.3,3,4,5,4,4,5,4,2,2,4,2,4,4,5,3,4,5,4,3.76,4.17,3.96,NO,NA,NO,2
+E61,Male,Bangalore,RM4,PGDM/MBA_Mkt,YES,41,1,,6.9,19.8,IJP,4.3,3.93,2,4,5,5,4,4.5,3,4,4,4,3,3,4,3,2,4,1,1,5,5,3,4,2,4,3.44,3.83,3.64,,,,
+E62,Female,NCR,RM3,PGDM/MBA_Mkt,NO,27,0,Better Prospects,3.2,9.4,Campus,4.1,NA,1,4,4,4,4,4.0,3,4,4,5,4,4,4,4,4,4,3,3,5,1,4,4,2,5,3.88,3.50,3.69,YES,UA,,4
+E63,Female,Bangalore,RM5,PGDM/MBA_Mkt,YES,37,0,Better Prospects,9.2,29.7,Reference,4.3,NA,3,3,5,2,5,3.8,2,3,4,5,4,2,5,2,2,5,1,3,4,3,4,4,4,4,3.34,3.83,3.59,YES,UA,,4
+E64,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,24,0,Better Prospects,1,6.9,Online,NJ-15,NA,0,3,4,4,5,4.0,2,3,4,5,4,4,4,3,5,5,2,4,5,3,4,4,2,5,3.82,3.83,3.83,NO,NA,NO,3
+E65,Female,Bangalore,RM4,PGDM/MBA_Mkt,NO,32,0,Better Prospects,4.8,19.7,Online,4.4,NA,2,5,5,4,5,4.8,1,5,4,5,5,4,4,2,3,4,4,2,5,2,4,4,2,4,3.93,3.50,3.71,YES,A,,4
+E66,Male,NCR,RM1,PGDM/MBA_Mkt,YES,25,0,Location,0,2.2,IJP,NJ-16,NJ-16,0,4,5,5,3,4.3,5,4,4,5,4,3,4,1,3,5,5,3,5,2,2,5,1,4,3.96,3.17,3.56,NO,NA,NO,2
+E67,Male,NCR,RM3,PGDM/MBA_Mkt,NO,22,0,Better Prospects,3.1,8.9,Walk in,3.5,NA,0,2,4,4,5,3.8,1,2,3,3,4,4,4,3,2,4,2,1,5,2,3,4,1,4,3.04,3.17,3.11,NO,NA,NO,1
+E68,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,35,1,,2.9,12.1,Reference,4.5,4.17,1,3,4,3,4,3.5,5,3,4,2,3,5,5,3,4,3,4,4,5,4,4,4,4,4,3.68,4.17,3.92,,,,
+E69,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,29,1,,5,10.7,IJP,4.3,4.17,1,5,4,4,5,4.5,4,5,5,4,2,5,5,5,1,3,2,2,4,4,5,5,3,4,3.85,4.17,4.01,,,,
+E70,Female,NCR,RM3,PGDM/MBA_Mkt,YES,27,0,Location,4.3,12.1,Campus,4.3,NA,1,4,4,4,4,4.0,4,4,5,4,4,4,4,4,3,4,1,3,5,3,2,5,3,4,3.76,3.67,3.72,YES,UA,,3
+E71,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,26,0,Better Prospects,1.4,5.7,Reference,NJ-15,NA,0,4,4,4,4,4.0,4,4,4,4,1,4,4,2,1,5,3,1,5,5,5,5,3,5,3.35,4.67,4.01,YES,A,,4
+E72,Female,NCR,RM4,PGDM/MBA_Mkt,YES,43,1,,5.9,21.7,Online,4.3,3.74,2,4,4,5,4,4.3,5,4,4,4,2,5,5,1,4,4,1,2,5,2,5,5,5,5,3.66,4.50,4.08,,,,
+E73,Male,Bangalore,RM3,PGDM/MBA_Mkt,YES,37,0,Better Prospects,3.9,9.9,Reference,4.2,NA,1,4,4,2,5,3.8,5,4,4,1,3,4,4,4,2,5,2,4,5,4,4,5,4,4,3.57,4.33,3.95,YES,UA,,3
+E74,Male,Chennai,RM1,BCOM,NO,23,0,Location,0.5,1,Walk in,NJ-16,NJ-16,0,4,4,5,4,4.3,4,4,4,4,4,3,4,2,4,4,2,2,4,3,4,4,2,2,3.66,3.17,3.41,NO,NA,NO,1
+E75,Male,NCR,RM2,PGDM/MBA_Mkt,YES,27,0,Involuntary,3.4,6.3,IJP,4.3,NA,1,5,4,4,4,4.3,5,3,5,4,2,4,5,5,2,4,5,5,5,3,3,5,5,1,4.13,3.67,3.90,NO,NA,NO,2
+E76,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,0,Involuntary,2.5,5.2,Reference,3.1,NA,0,2,4,5,4,3.8,5,2,5,4,5,2,4,1,1,5,2,2,4,4,2,5,4,4,3.34,3.83,3.59,NO,NA,NO,1
+E77,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,35,1,,4.8,10.9,IJP,4.4,4.17,1,4,4,1,5,3.5,5,4,4,2,2,1,5,5,3,4,4,4,4,4,4,5,4,4,3.56,4.17,3.86,,,,
+E78,Male,Bangalore,RM4,PGDM/MBA_Mkt,YES,41,1,,6.8,22,Agency,4.4,3.89,2,5,4,5,5,4.8,3,5,4,5,3,4,5,2,2,3,1,1,4,4,5,4,4,4,3.63,4.17,3.90,,,,
+E79,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,0,Involuntary,2.8,4.4,IJP,4.0,NA,0,3,4,4,1,3.0,5,4,4,3,4,4,5,1,2,4,5,2,5,4,3,4,4,4,3.39,4.00,3.70,NO,NA,NO,1
+E80,Female,Chennai,RM3,PGDM/MBA_Mkt,NO,31,1,,3.7,11.4,Online,4.2,3.63,1,5,4,4,5,4.5,1,5,4,2,1,4,4,4,4,4,4,4,5,4,5,4,1,5,3.74,4.00,3.87,,,,
+E81,Female,Chennai ,RM4,PGDM/MBA_Mkt,NO,29,1,,7,20.1,Campus,4.1,3.37,1,4,4,1,5,3.5,5,2,4,4,3,4,4,2,1,5,5,2,3,4,1,4,3,3,3.41,3.00,3.21,,,,
+E82,Male,NCR,RM3,PGDM/MBA_Mkt,NO,32,1,,4,12.3,Online,4.1,4.17,1,4,4,2,3,3.3,1,3,4,4,3,4,4,3,2,4,4,1,4,4,5,4,4,4,3.13,4.17,3.65,,,,
+E83,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,29,0,Better Prospects,2.4,6.2,Reference,2.7,NA,0,4,4,3,2,3.3,2,1,5,4,4,5,4,1,1,4,3,3,5,5,2,4,3,4,3.14,3.83,3.49,NO,NA,NO,2
+E84,Female,Chennai ,RM4,PGDM/MBA_Mkt,YES,43,1,,5.2,19.7,Online,4.1,3.57,1,4,5,4,4,4.3,1,4,4,4,3,5,4,4,4,4,3,2,4,1,2,4,3,4,3.72,3.00,3.36,,,,
+E85,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,37,1,,3,9.8,Walk in,4.2,3.63,1,3,4,4,4,3.8,4,3,4,1,4,5,4,2,2,5,4,1,5,2,1,4,4,4,3.40,3.33,3.37,,,,
+E86,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,56,1,,0.3,3,Walk in,NJ-16,NJ-16,0,4,4,4,4,4.0,2,3,5,4,2,3,5,5,3,5,4,5,4,4,2,4,4,4,3.88,3.67,3.77,,,,
+E87,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,37,1,,3.1,5.2,IJP,3.8,4.17,1,4,4,4,4,4.0,4,5,4,4,1,5,5,2,3,4,5,2,5,4,3,4,4,4,3.76,4.00,3.88,,,,
+E88,Female,Chennai ,RM4,PGDM/MBA_Mkt,NO,38,0,Better Prospects,5.9,15.9,Online,4.2,NA,2,4,4,3,5,4.0,5,4,4,4,2,4,4,3,4,4,4,4,4,4,4,4,4,4,3.88,4.00,3.94,YES,UA,,3
+E89,Female,NCR,RM5,PGDM/MBA_Mkt,YES,29,1,,7.5,36,Online,4.4,4.17,2,4,4,3,4,3.8,4,4,5,2,3,5,4,2,5,4,3,3,4,2,2,4,1,4,3.69,2.83,3.26,,,,
+E90,Female,Bangalore,RM1,BBA,NO,24,0,Better Prospects,0,2,Online,NJ-16,NJ-16,0,4,5,2,5,4.0,5,4,5,5,2,4,4,4,1,5,4,1,4,3,4,4,2,3,3.76,3.33,3.55,NO,NA,NO,2
+E91,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,23,0,Location,3.9,8.9,Reference,4.2,NA,1,4,4,3,4,3.8,4,4,5,3,5,4,4,1,2,5,5,4,4,2,3,5,1,4,3.81,3.17,3.49,NO,NA,NO,1
+E92,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,33,1,,3.5,9.6,Agency,4.3,3.65,1,4,4,5,4,4.3,5,4,4,2,4,4,5,2,4,4,4,2,4,4,2,5,3,5,3.84,3.83,3.84,,,,
+E93,Male,Chennai ,RM2,PGDM/MBA_Mkt,YES,29,0,Involuntary,2.9,4.8,Reference,3.8,4.17,0,4,3,5,5,4.3,4,4,4,4,4,4,4,5,2,4,3,3,4,4,3,4,3,4,3.90,3.67,3.78,NO,NA,NO,1
+E94,Male,Chennai,RM1,PGDM/MBA_Mkt,NO,25,0,Better Prospects,2.7,3.2,Reference,3.3,NA,0,4,4,5,1,3.5,4,2,5,3,4,3,4,1,4,4,1,5,4,3,2,5,2,5,3.38,3.50,3.44,NO,NA,NO,2
+E95,Male,NCR,RM4,PGDM/MBA_Mkt,NO,25,1,,6.4,19.9,Walk in,4.6,4.83,2,4,5,1,4,3.5,2,4,4,4,4,4,4,4,5,4,5,1,5,5,2,4,5,2,3.68,3.83,3.75,,,,
+E96,Male,Chennai,RM5,PGDM/MBA_Mkt,YES,27,0,Location,7.4,36.9,Walk in,4.3,NA,2,2,5,3,3,3.3,5,3,4,4,5,4,5,2,2,4,3,1,4,3,3,4,4,4,3.43,3.67,3.55,YES,A,,3
+E97,Male,Mumbai,RM4,PGDM/MBA_Mkt,NO,25,1,,7.5,21.7,Online,4.3,3.93,1,2,5,3,5,3.8,3,5,4,2,2,4,4,4,3,5,1,2,4,2,3,3,4,4,3.40,3.33,3.37,,,,
+E98,Female,Chennai,RM1,PGDM/MBA_Mkt,YES,28,1,,0,2,Online,NJ-16,NJ-16,0,2,4,4,4,3.5,5,5,5,4,3,4,4,1,2,5,4,3,4,2,1,5,3,3,3.68,3.00,3.34,,,,
+E99,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,27,0,Involuntary,2.7,5.6,Agency,2.6,NA,0,4,4,4,4,4.0,5,4,5,4,2,4,4,4,4,4,2,1,4,3,4,3,3,5,3.71,3.67,3.69,NO,NA,NO,1
+E100,Male,NCR,RM2,PGDM/MBA_Mkt,NO,23,0,Involuntary,2,4.8,Campus,4.0,NA,0,4,4,3,5,4.0,5,2,4,4,4,3,5,2,3,4,3,3,4,4,2,4,5,4,3.65,3.83,3.74,NO,NA,NO,1
+E101,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,30,0,Location,3.4,5.2,Walk in,4.1,NA,1,4,4,4,2,3.5,1,3,5,1,2,3,4,3,4,5,1,3,4,4,5,5,5,5,3.09,4.67,3.88,YES,A,,2
+E102,Female,Chennai ,RM4,PGDM/MBA_Mkt,NO,29,1,,2.3,22.6,Online,4.4,3.93,1,3,4,4,4,3.8,2,3,5,4,3,4,4,2,4,4,4,1,4,5,3,4,4,5,3.46,4.17,3.81,,,,
+E103,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,32,0,Involuntary,5.7,10,Reference,4.4,NA,2,3,5,4,3,3.8,1,2,5,3,5,4,4,4,2,5,2,3,4,4,2,5,4,5,3.46,4.00,3.73,YES,UA,NO,1
+E104,Male,NCR,RM5,PGDM/MBA_Mkt,YES,25,1,,4.6,31.9,Reference,4.2,3.31,1,5,4,1,3,3.3,3,5,5,4,2,4,4,4,4,4,3,2,5,5,3,5,5,3,3.54,4.33,3.94,,,,
+E105,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,0,Better Prospects,0,0,Reference,NJ-16,NJ-16,0,4,3,4,2,3.3,5,3,5,3,1,1,4,4,4,4,1,1,5,4,5,4,4,4,3.07,4.33,3.70,YES,A,,3
+E106,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,25,0,Location,1.6,4.9,IJP,NJ-15,NA,0,4,5,4,3,4.0,2,4,4,2,5,5,4,3,4,4,3,1,4,2,1,4,4,5,3.59,3.33,3.46,NO,NA,NO,2
+E107,Male,NCR,RM2,PGDM/MBA_Mkt,NO,24,0,Better Prospects,2.7,5.2,Campus,4.1,NA,0,4,4,3,4,3.8,5,3,4,4,2,4,5,3,1,3,4,5,4,4,1,4,4,2,3.63,3.17,3.40,NO,NA,NO,1
+E108,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,25,1,,4.9,10.2,IJP,4.2,3.63,1,3,4,4,3,3.5,5,3,4,4,2,5,4,4,4,4,4,2,4,3,3,4,4,4,3.68,3.67,3.67,,,,
+E109,Female,Chennai ,RM2,PGDM/MBA_Mkt,NO,22,1,,0,6.3,Agency,NJ-16,NJ-16,0,4,5,4,4,4.1,4,4,5,4,3,4,4,4,3,4,2,1,4,3,3,5,4,5,3.68,4.00,3.84,,,,
+E110,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,26,0,Involuntary,2.9,4.9,Online,4.1,NA,0,4,4,2,5,3.8,3,4,4,4,4,3,5,4,4,4,1,3,4,4,2,5,5,5,3.63,4.17,3.90,NO,NA,NO,1
+E111,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,23,1,,3.8,3.1,Reference,4.2,3.80,0,5,4,2,5,3.9,5,5,4,4,5,3,5,4,3,5,4,1,4,5,5,4,4,4,3.98,4.33,4.15,,,,
+E112,Female,Bangalore,RM1,BBA,YES,27,0,Better Prospects,0,1,Reference,NJ-15,NA,0,3,5,4,5,4.2,5,3,4,4,2,4,4,3,2,4,3,4,4,2,3,4,5,4,3.70,3.67,3.68,NO,NA,NO,1
+E113,Female,Mumbai,RM5,PGDM/MBA_Mkt,YES,27,1,,0.9,35.2,Reference,NJ-16,NJ-16,0,4,4,4,4,4.0,5,4,4,4,3,2,4,4,4,5,5,2,4,4,2,3,1,4,3.88,3.00,3.44,,,,
+E114,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,27,0,Better Prospects,1.1,5.7,Online,NJ-15,NA,0,4,4,2,4,3.5,5,2,4,3,3,3,4,4,5,5,4,1,5,5,1,3,5,5,3.56,4.00,3.78,NO,NA,NO,2
+E115,Female,NCR,RM2,PGDM/MBA_Mkt,YES,29,1,,2.4,5.7,Agency,4.2,4.17,0,2,4,2,5,3.3,4,5,4,4,1,4,4,4,3,5,3,2,4,2,5,4,4,4,3.49,3.83,3.66,,,,
+E116,Female,Chennai,RM3,PGDM/MBA_Mkt,NO,28,0,Better Prospects,0,13.7,IJP,NJ-16,NJ-16,0,4,5,2,4,3.8,5,3,4,3,5,1,4,2,4,3,2,1,5,5,4,3,2,3,3.28,3.67,3.47,NO,NA,NO,2
+E117,Female,Bangalore,RM1,BBA,YES,24,0,Personal,0.7,2,Reference,NJ-16,NJ-16,0,3,5,4,4,4.0,2,4,4,1,2,2,4,5,2,3,2,4,4,2,2,4,2,4,3.24,3.00,3.12,NO,NA,NO,2
+E118,Male,Bangalore,RM1,BBA,NO,23,0,Personal,0.6,2.7,Online,NJ-16,NJ-16,0,4,4,4,4,4.0,1,2,4,4,4,4,4,3,5,5,3,1,5,2,1,5,4,1,3.53,3.00,3.26,NO,NA,NO,1
+E119,Male,Mumbai,RM2,PGDM/MBA_Mkt,YES,33,0,Better Prospects,0,6.4,IJP,NJ-16,NJ-16,0,4,4,5,2,3.8,3,1,4,3,3,2,5,3,3,5,1,5,4,4,3,5,3,3,3.34,3.67,3.50,NO,NA,NO,1
+E120,Male,Mumbai,RM4,PGDM/MBA_Mkt,YES,29,1,,0.5,25,Online,NJ-16,NJ-16,0,4,4,4,5,4.3,2,4,4,4,2,1,4,2,4,4,2,4,4,3,5,4,4,3,3.43,3.83,3.63,,,,
+E121,Male,NCR,RM1,PGDM/MBA_Mkt,NO,25,0,Better Prospects,1.2,3.2,IJP,NJ-15,NA,0,1,4,3,2,2.5,4,3,5,4,2,5,4,4,2,4,3,4,4,2,1,4,4,4,3.32,3.17,3.25,NO,NA,NO,1
+E122,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,25,1,,4,3.9,Online,4.3,3.57,1,5,5,4,5,4.8,2,5,5,4,2,2,4,2,1,3,4,1,4,4,4,5,2,4,3.46,3.75,3.60,,,,
+E123,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,27,0,Better Prospects,0.2,1.6,Reference,NJ-16,NJ-16,0,4,4,5,5,4.5,5,4,4,5,1,3,4,2,4,5,3,5,4,4,3,4,4,4,3.97,3.83,3.90,NO,NA,NO,1
+E124,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,25,0,Better Prospects,0.5,1.9,Online,NJ-16,NJ-16,0,3,4,4,5,4.0,5,3,4,4,4,4,5,2,4,5,4,3,4,2,4,4,2,3,3.94,3.11,3.53,NO,NA,NO,1
+E125,Male,Bangalore,RM1,BBA,YES,28,0,Personal,0.7,2.9,Online,NJ-16,NJ-16,0,2,4,4,5,3.8,5,2,5,4,2,2,3,2,4,5,3,4,4,2,5,4,4,3,3.51,3.67,3.59,NO,NA,NO,2
+E126,Female,Bangalore,RM4,PGDM/MBA_Mkt,YES,27,1,,3.8,19.6,Reference,4.1,4.58,0,4,4,5,4,4.3,2,4,5,4,2,4,5,5,5,4,5,5,5,5,4,3,5,5,4.19,4.50,4.35,,,,
+E127,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,23,0,Better Prospects,4.1,3.6,Campus,4.2,NA,1,3,4,3,2,3.0,4,2,4,2,4,4,4,2,5,3,4,4,4,2,3,4,3,5,3.35,3.50,3.43,NO,NA,NO,2
+E128,Female,NCR,RM1,PGDM/MBA_Mkt,NO,30,0,Better Prospects,1.2,3.1,Reference,NJ-15,NA,0,3,4,4,3,3.5,3,3,4,3,2,2,4,4,4,4,4,4,4,1,2,4,1,4,3.44,2.68,3.06,NO,NA,NO,2
+E129,Female,NCR,RM3,PGDM/MBA_Mkt,YES,29,0,Better Prospects,2.3,9.9,Reference,3.8,NA,0,4,5,5,2,4.0,2,1,4,4,2,4,4,5,5,4,4,4,4,4,3,5,4,4,3.71,4.05,3.88,YES,UA,,4
+E130,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,32,0,Better Prospects,1.9,5.5,Walk in,NJ-15,NA,0,1,5,4,3,3.3,1,2,4,5,2,3,5,3,4,4,4,3,5,2,4,4,2,4,3.31,3.50,3.40,NO,NA,NO,1
+E131,Male,Bangalore,RM5,PGDM/MBA_Mkt,YES,25,1,,6.7,37.1,Online,4.3,3.31,3,5,4,2,3,3.5,2,5,5,5,4,1,4,4,5,4,3,4,5,5,2,4,4,4,3.74,4.00,3.87,,,,
+E132,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,24,0,Personal,2.8,2.8,Campus,3.8,NA,0,4,4,4,3,3.8,5,4,4,5,2,2,4,3,4,5,2,4,4,4,3,5,4,4,3.69,4.00,3.85,NO,NA,NO,2
+E133,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,25,0,Location,2.5,3.9,Reference,4.0,NA,0,2,4,3,4,3.3,4,3,5,3,2,1,4,2,3,4,5,4,4,1,5,5,4,4,3.31,3.83,3.57,NO,NA,NO,1
+E134,Female,Chennai ,RM2,PGDM/MBA_Mkt,NO,24,0,Better Prospects,1.6,3.6,Campus,NJ-15,NA,0,4,5,3,5,4.3,2,4,4,3,1,4,4,4,2,3,4,4,3,2,3,4,3,4,3.54,3.17,3.36,NO,NA,NO,2
+E135,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,25,0,Involuntary,1.7,12.2,Walk in,NJ-15,NA,0,3,4,2,2,2.8,5,4,5,4,3,2,4,1,2,3,3,4,5,3,2,5,2,2,3.16,3.17,3.16,NO,NA,NO,1
+E136,Male,Bangalore,RM1,BBA,NO,22,1,,0,1.6,Agency,NJ-16,NJ-16,0,2,3,4,2,2.8,2,2,4,3,3,5,4,3,2,5,1,3,3,5,5,5,4,2,2.99,4.00,3.49,,,,
+E137,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,26,1,,0.9,4.9,Reference,NJ-16,NJ-16,0,4,4,4,5,4.3,3,4,4,3,2,2,4,2,1,4,5,3,5,3,4,5,4,3,3.43,4.00,3.71,,,,
+E138,Male,Bangalore,RM1,BCOM,NO,23,1,,0,2,IJP,NJ-16,NJ-16,0,4,3,2,3,3.0,5,4,4,2,2,1,4,4,3,4,4,4,5,2,4,4,4,4,3.29,3.83,3.56,,,,
+E139,Female,Chennai,RM3,PGDM/MBA_Mkt,NO,27,1,,4.5,9,Reference,4.3,4.17,1,5,5,4,4,4.5,2,2,4,1,4,4,5,2,3,5,4,4,4,2,4,4,4,4,3.68,3.67,3.67,,,,
+E140,Male,Chennai,RM1,PGDM/MBA_Mkt,YES,27,0,Better Prospects,1.5,3.2,Reference,NJ-15,NA,0,2,5,3,3,3.3,2,2,4,5,3,2,3,4,2,3,1,5,5,2,3,4,3,4,3.07,3.50,3.29,NO,NA,NO,2
+E141,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,24,0,Location,0.3,0.3,IJP,NJ-16,NJ-16,0,4,5,4,4,4.3,5,4,4,4,4,2,5,1,3,3,3,5,4,3,3,4,3,2,3.78,3.17,3.47,NO,NA,NO,1
+E142,Female,NCR,RM4,PGDM/MBA_Mkt,YES,29,1,,4.5,24.2,IJP,4.2,3.65,2,4,4,4,4,4.0,4,4,5,2,1,3,5,5,4,4,3,5,5,3,4,5,4,4,3.82,4.17,4.00,,,,
+E143,Female,Bangalore,RM1,BBA,YES,36,1,,3,4,IJP,4.1,3.63,0,2,4,4,2,3.0,4,5,4,4,3,4,4,2,4,4,2,3,5,3,3,5,4,4,3.41,4.00,3.71,,,,
+E144,Male,Mumbai,RM5,PGDM/MBA_Mkt,YES,50,0,Better Prospects,2.6,34,IJP,4.2,NA,1,1,5,5,4,3.8,2,3,4,4,1,2,5,3,3,4,4,5,4,3,2,4,5,5,3.46,3.83,3.64,YES,UA,,4
+E145,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,31,0,Better Prospects,1.6,5.8,Reference,NJ-15,NA,0,4,4,4,4,4.0,3,4,4,2,4,1,4,1,3,4,1,4,4,3,2,4,5,4,3.24,3.67,3.45,NO,NA,NO,2
+E146,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,32,1,,0,11,Reference,NJ-16,NJ-16,0,1,5,4,2,3.0,5,2,5,4,2,4,4,4,4,4,3,5,4,4,1,5,5,2,3.59,3.50,3.54,,,,
+E147,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,37,1,,2.9,4.1,IJP,4.0,4.59,0,5,5,3,5,4.5,4,5,4,4,3,3,5,3,4,4,4,4,5,2,4,4,5,5,4.09,4.17,4.13,,,,
+E148,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,32,0,Personal,2.4,6.1,Campus,4.1,NA,0,4,4,4,4,4.0,5,4,5,4,1,3,4,3,4,4,4,4,4,1,2,4,5,3,3.82,3.17,3.50,NO,NA,NO,2
+E149,Female,Chennai,RM3,PGDM/MBA_Mkt,NO,38,1,,2.3,13.1,Reference,4.0,3.65,0,2,4,4,5,3.8,4,3,4,2,4,1,5,1,1,4,5,4,4,2,5,4,4,3,3.34,3.67,3.50,,,,
+E150,Male,Chennai,RM1,PGDM/MBA_Mkt,NO,24,0,Better Prospects,2.3,3.6,Agency,4.3,NA,0,3,5,5,4,4.3,2,3,4,4,2,5,5,2,5,4,2,2,4,5,4,4,5,4,3.60,4.33,3.97,NO,NA,NO,1
+E151,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,23,0,Location,2.9,5.7,Online,4.2,NA,0,2,5,4,5,4.0,4,2,4,4,5,2,4,1,3,3,1,3,5,2,2,5,4,3,3.29,3.50,3.40,NO,NA,NO,1
+E152,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,33,0,Better Prospects,4.3,10.5,IJP,4.4,NA,1,1,4,2,4,2.8,5,1,4,5,2,2,5,3,5,5,4,1,4,2,4,5,4,5,3.28,4.00,3.64,YES,UA,,3
+E153,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,29,0,Better Prospects,1.8,4.5,IJP,NJ-15,NA,0,3,5,4,4,4.0,4,3,4,3,2,2,5,2,4,5,2,2,3,4,3,4,4,5,3.41,3.83,3.62,NO,NA,NO,2
+E154,Male,NCR,RM5,PGDM/MBA_Mkt,YES,42,0,Location,6.7,28.9,Agency,4.4,NA,2,5,5,1,1,3.0,4,2,4,3,4,1,4,2,5,5,3,4,4,4,2,5,4,3,3.29,3.67,3.48,YES,A,,2
+E155,Female,NCR,RM1,PGDM/MBA_Mkt,YES,25,0,Job Environment ,0.8,3.9,IJP,NJ-16,NJ-16,0,1,5,4,3,3.3,1,4,5,3,2,3,4,2,2,5,2,2,3,2,2,5,5,4,3.01,3.50,3.26,NO,NA,NO,1
+E156,Male,NCR,RM4,PGDM/MBA_Mkt,YES,27,1,,0,23,Walk in,NJ-16,NJ-16,0,4,5,2,4,3.8,3,2,5,4,2,2,5,2,4,5,4,5,5,3,1,5,3,3,3.63,3.33,3.48,,,,
+E157,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,25,0,Job Environment ,1.2,4.3,Walk in,NJ-15,NA,0,3,5,3,2,3.3,2,2,4,1,1,1,4,1,4,5,2,2,5,2,3,4,5,5,2.66,4.00,3.33,NO,NA,NO,1
+E158,Female,Chennai,RM5,PGDM/MBA_Mkt,NO,28,1,,3.6,31.2,Reference,4.0,3.98,0,4,5,5,4,4.5,4,4,5,2,1,3,4,4,3,5,2,4,4,4,2,5,5,4,3.74,4.00,3.87,,,,
+E159,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,27,0,Better Prospects,2.6,3.1,Reference,3.8,NA,0,4,5,4,5,4.5,4,4,4,3,4,2,4,2,4,5,1,2,4,2,2,4,4,4,3.62,3.33,3.48,NO,NA,NO,3
+E160,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,23,0,Job Environment ,0,3.7,IJP,NJ-16,NJ-16,0,4,4,4,4,4.0,5,4,4,3,3,2,4,3,4,5,3,4,4,4,3,4,3,4,3.76,3.67,3.72,NO,NA,NO,2
+E161,Male,NCR,RM2,PGDM/MBA_Mkt,YES,30,0,Better Prospects,3.5,4.7,Reference,4.0,NA,0,2,5,4,4,3.8,5,2,4,2,3,1,4,1,5,5,2,3,5,2,1,5,2,5,3.28,3.25,3.26,NO,NA,NO,2
+E162,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,29,1,,2.9,12.4,Agency,4.1,4.22,0,4,4,4,4,4.0,4,4,5,3,4,3,4,4,2,5,4,2,4,4,4,4,3,5,3.76,4.00,3.88,,,,
+E163,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,32,1,,0.7,2.9,Reference,NJ-16,NJ-16,0,4,4,4,4,4.0,5,4,4,2,4,2,4,1,1,5,1,3,4,5,4,4,4,4,3.29,4.11,3.70,,,,
+E164,Male,Chennai,RM1,PGDM/MBA_Mkt,YES,25,0,Better Prospects,0.6,1.8,Online,NJ-16,NJ-16,0,3,5,4,4,4.0,4,3,4,1,4,2,3,3,3,4,4,3,4,3,2,4,4,1,3.41,3.00,3.21,NO,NA,NO,2
+E165,Female,Mumbai,RM2,PGDM/MBA_Mkt,NO,24,0,Location,4.3,5.2,Agency,4.2,NA,1,4,4,2,4,3.5,4,4,5,2,2,3,4,2,4,4,5,4,4,1,2,4,4,5,3.56,3.28,3.42,NO,NA,NO,2
+E166,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,25,0,Personal,3.9,12.5,Online,4.0,NA,0,2,5,3,4,3.5,5,4,4,2,3,4,4,3,4,4,1,2,4,5,2,4,1,3,3.38,3.17,3.27,NO,NA,NO,3
+E167,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,24,0,Better Prospects,0.8,2.5,Online,NJ-16,NJ-16,0,4,4,1,4,3.3,2,4,5,1,4,1,4,3,4,4,3,2,4,1,4,4,5,5,3.13,3.78,3.46,NO,NA,NO,3
+E168,Female,Chennai,RM1,PGDM/MBA_Mkt,NO,25,0,Transfer,0.8,2.6,Online,NJ-16,NJ-16,0,3,5,5,2,3.8,5,3,4,5,1,3,5,4,3,5,2,4,4,2,5,2,3,5,3.69,3.44,3.57,NO,NA,NO,1
+E169,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,22,1,,4.4,5.2,Walk in,4.2,4.17,1,4,4,5,5,4.5,3,4,4,2,5,1,4,1,4,3,2,1,5,3,4,4,5,4,3.32,4.11,3.72,,,,
+E170,Female,Mumbai,RM3,PGDM/MBA_Mkt,NO,26,0,Better Prospects,2.1,10.9,Online,3.7,NA,0,2,5,4,4,3.8,5,5,4,3,2,3,3,4,3,5,1,1,4,2,2,3,4,4,3.40,3.17,3.28,NO,NA,NO,3
+E171,Female,Chennai,RM1,BBA,YES,23,1,,1.7,2.6,IJP,NJ-15,4.70,0,3,4,5,5,4.3,4,1,4,5,5,4,5,4,4,3,5,3,5,5,2,4,4,4,4.01,3.92,3.97,,,,
+E172,Female,Bangalore,RM4,PGDM/MBA_Mkt,YES,27,1,,1.8,21.8,Reference,NJ-15,3.57,0,4,4,1,4,3.3,5,4,4,4,5,1,4,5,4,4,5,2,4,4,4,4,4,5,3.72,4.17,3.94,,,,
+E173,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,27,0,Better Prospects,3,4.2,Reference,4.0,NA,0,5,4,3,3,3.8,5,5,4,2,4,4,4,2,4,4,1,3,4,2,4,4,4,5,3.57,3.83,3.70,NO,NA,NO,3
+E174,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,27,1,,4.5,5.1,Online,4.4,4.17,1,4,4,4,4,4.0,3,4,4,4,4,5,4,3,5,5,4,2,5,2,4,4,4,4,3.94,3.83,3.89,,,,
+E175,Male,Mumbai,RM2,MBA(Tier 1) ,NO,25,0,Better Prospects,0,0,Campus,NJ-16,NJ-16,0,3,4,2,5,3.5,4,3,5,4,4,3,4,1,3,5,1,1,4,2,3,4,4,3,3.26,3.33,3.30,NO,NA,NO,3
+E176,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,24,0,Better Prospects,0,2.1,Walk in,NJ-16,NJ-16,0,3,4,1,5,3.3,4,3,4,2,5,2,4,3,4,5,3,3,4,4,2,4,4,4,3.43,3.67,3.55,NO,NA,NO,3
+E177,Female,NCR,RM1,PGDM/MBA_Mkt,NO,24,0,Better Prospects,2.3,4.9,Campus,4.0,NA,0,4,4,5,3,4.0,4,4,4,5,2,5,4,3,3,4,4,5,5,5,2,5,3,4,3.94,4.00,3.97,NO,NA,NO,4
+E178,Male,NCR,RM2,PGDM/MBA_Mkt,NO,24,0,Location,0.8,6.7,Online,NJ-16,NJ-16,0,4,4,5,5,4.5,4,4,4,1,5,4,4,3,2,4,4,2,5,3,3,5,3,5,3.74,4.00,3.87,NO,NA,NO,1
+E179,Female,Bangalore,RM4,PGDM/MBA_Mkt,NO,24,0,Better Prospects,3.3,19.8,Online,3.9,NA,0,4,4,4,5,4.3,5,4,4,5,4,2,4,2,1,4,2,4,4,3,3,4,4,4,3.66,3.67,3.66,YES,UA,,4
+E180,Male,Mumbai,RM4,PGDM/MBA_Mkt,NO,47,0,Better Prospects,2.8,21.5,Online,4.3,NA,1,2,4,3,2,2.8,5,3,5,5,4,3,4,4,5,4,5,2,4,4,4,5,4,4,3.69,4.17,3.93,YES,UA,,4
+E181,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,30,0,Better Prospects,0.3,6.1,Agency,NJ-16,NJ-16,0,3,5,3,4,3.8,1,2,4,4,4,1,4,2,2,4,1,3,4,2,1,4,4,4,2.99,3.17,3.08,NO,NA,NO,2
+E182,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,25,1,,4.2,12.5,Online,4.3,4.06,1,2,4,4,4,3.5,4,4,4,2,5,3,3,4,2,4,3,2,4,2,1,5,1,4,3.38,2.83,3.11,,,,
+E183,Male,Bangalore,RM5,PGDM/MBA_Mkt,NO,54,0,Personal,3.2,37.1,Online,4.1,NA,0,4,4,3,2,3.3,2,5,4,1,1,4,4,2,4,5,5,1,5,4,3,4,4,5,3.19,4.17,3.68,YES,UA,,4
+E184,Male,Mumbai,RM1,PGDM/MBA_Mkt,NO,27,0,Personal,1.7,4.2,IJP,NJ-15,NA,0,4,4,4,4,4.0,5,4,4,3,3,1,3,2,3,5,1,3,4,1,4,5,3,5,3.35,3.67,3.51,NO,NA,NO,3
+E185,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,25,0,Better Prospects,2.2,3,IJP,3.6,NA,0,2,4,4,1,2.8,4,2,4,4,3,5,5,3,1,5,3,1,5,1,3,3,1,5,3.16,3.00,3.08,NO,NA,NO,3
+E186,Female,Chennai ,RM2,PGDM/MBA_Mkt,NO,29,0,Location,1.6,5.4,Agency,NJ-15,NA,0,4,4,2,5,3.8,5,4,4,5,2,4,5,4,1,4,4,1,4,3,4,3,2,4,3.63,3.33,3.48,NO,NA,NO,3
+E187,Female,NCR,RM3,PGDM/MBA_Mkt,NO,23,0,Better Prospects,5.4,10.1,Reference,4.2,NA,1,4,4,3,4,3.8,4,4,5,3,5,4,4,1,2,4,5,4,4,2,3,5,4,4,3.75,3.67,3.71,YES,UA,,4
+E188,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,33,1,,0.9,3.6,Online,NJ-16,NJ-16,0,4,4,5,4,4.3,5,4,5,2,4,4,4,2,4,3,4,2,4,4,2,3,5,1,3.78,3.17,3.47,,,,
+E189,Female,Mumbai,RM3,PGDM/MBA_Mkt,NO,29,1,,5,8,Walk in,4.4,3.65,2,4,5,5,5,4.8,4,4,3,4,4,4,4,5,2,5,3,3,4,4,3,5,2,5,4.04,3.83,3.94,,,,
+E190,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,25,0,Better Prospects,0.1,2.8,Reference,NJ-16,NJ-16,0,4,5,5,1,3.8,4,2,5,3,4,3,5,1,4,5,1,5,4,3,2,4,3,4,3.57,3.33,3.45,NO,NA,NO,2
+E191,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,25,1,,1.9,4.5,IJP,NJ-15,3.56,0,4,5,5,4,4.5,2,4,5,4,4,4,5,3,5,4,2,1,4,3,5,4,4,4,3.85,4.00,3.93,,,,
+E192,Male,Mumbai,RM4,PGDM/MBA_Mkt,NO,27,1,,3.1,23.9,Reference,3.9,3.57,0,2,4,3,3,3.0,5,3,4,4,5,4,4,2,2,4,3,1,4,3,3,4,2,5,3.29,3.50,3.40,,,,
+E193,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,25,0,Better Prospects,0.5,3.6,Reference,NJ-16,NJ-16,0,2,4,3,5,3.5,3,5,5,2,2,4,5,4,3,4,1,2,4,2,3,5,3,3,3.38,3.33,3.36,NO,NA,NO,2
+E194,Male,Chennai,RM1,PGDM/MBA_Mkt,NO,28,0,Better Prospects,0.3,3.8,Campus,NJ-16,NJ-16,0,2,4,4,4,3.5,5,5,5,4,3,4,5,1,2,4,4,3,4,2,1,5,2,3,3.68,2.83,3.25,NO,NA,NO,2
+E195,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,0,Involuntary,0,4,IJP,NJ-16,NJ-16,0,4,4,4,4,4.0,5,4,4,4,2,4,5,4,4,4,2,1,5,3,4,5,1,4,3.71,3.67,3.69,NO,NA,NO,2
+E196,Female,NCR,RM1,PGDM/MBA_Mkt,NO,23,0,Better Prospects,2.7,3.9,Campus,4.0,NA,0,4,4,3,5,4.0,5,2,4,4,4,3,5,2,3,5,3,3,4,4,2,3,3,5,3.71,3.50,3.60,NO,NA,NO,3
+E197,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,30,0,Better Prospects,0,6,Reference,NJ-16,NJ-16,0,4,4,4,2,3.5,1,3,5,1,2,3,4,3,4,5,1,3,4,4,5,5,3,3,3.09,4.00,3.54,NO,NA,NO,2
+E198,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,29,1,,0,12,Online,NJ-16,NJ-16,0,3,4,4,4,3.8,2,3,3,4,3,4,4,2,4,5,4,1,4,5,3,3,5,1,3.40,3.50,3.45,,,,
+E199,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,32,0,Better Prospects,0.7,2.9,Online,NJ-16,NJ-16,0,3,5,4,3,3.8,1,2,4,3,5,4,5,4,2,4,2,3,5,4,2,5,4,4,3.40,4.00,3.70,NO,NA,NO,3
+E200,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,25,1,,0.6,3.6,IJP,NJ-16,NJ-16,0,4,5,5,5,4.8,3,5,4,4,2,4,5,4,4,3,1,2,5,4,5,4,4,2,3.81,4.00,3.90,,,,
+E201,Female,NCR,RM2,PGDM/MBA_Mkt,NO,24,0,Higher Education,1.2,4.9,Walk in,NJ-15,NA,0,4,5,4,2,3.8,5,3,4,3,1,1,4,4,4,4,1,1,5,4,5,5,4,5,3.16,4.67,3.91,NO,NA,NO,1
+E202,Male,Chennai,RM1,BBA,YES,25,1,,0.2,2.9,Reference,NJ-16,NJ-16,0,4,4,4,3,3.8,2,4,4,2,5,5,4,3,4,5,3,1,4,2,1,3,5,1,3.57,2.67,3.12,,,,
+E203,Male,Bangalore,RM5,PGDM/MBA_Mkt,NO,24,0,Higher Education,0.5,39,IJP,NJ-16,NJ-16,0,3,3,3,4,3.3,5,3,5,4,2,4,3,1,1,5,2,5,5,4,1,4,1,2,3.31,2.83,3.07,NO,NA,NO,2
+E204,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,25,0,Better Prospects,1.3,3.9,Campus,NJ-15,NA,0,3,3,3,3,3.0,5,4,4,4,4,4,4,3,4,5,3,2,4,3,3,5,3,4,3.59,3.67,3.63,NO,NA,NO,2
+E205,Male,Mumbai,RM4,PGDM/MBA_Mkt,NO,22,1,,3,21.6,Reference,4.0,4.00,0,4,5,4,4,4.3,4,4,5,4,3,4,5,4,3,4,2,1,5,3,3,5,4,5,3.78,4.17,3.97,,,,
+E206,Female,Mumbai,RM2,MBA(Tier 1) ,YES,26,0,Higher Education,0,0,Online,NJ-16,NJ-16,0,4,4,2,5,3.8,3,4,5,4,4,3,4,4,4,4,1,3,4,4,2,5,4,5,3.63,4.00,3.82,NO,NA,NO,2
+E207,Female,NCR,RM3,PGDM/MBA_Mkt,NO,23,0,Better Prospects,2.3,11.2,Reference,4.1,NA,0,2,4,5,4,3.8,3,4,4,2,4,3,4,1,2,4,5,3,4,1,3,5,4,5,3.40,3.67,3.53,YES,UA,,3
+E208,Female,Mumbai,RM2,PGDM/MBA_Mkt,NO,27,0,Better Prospects,1.7,6.2,Walk in,NJ-15,NA,0,4,4,1,3,3.0,2,2,4,2,3,5,4,2,3,4,3,5,4,3,3,4,5,4,3.18,3.83,3.50,NO,NA,NO,2
+E209,Female,Mumbai,RM3,PGDM/MBA_Mkt,YES,27,1,,2.2,10.5,IJP,4.0,3.65,0,4,4,4,4,4.0,3,4,4,3,2,3,4,2,2,3,2,4,4,2,4,3,5,5,3.29,3.83,3.56,,,,
+E210,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,27,0,Better Prospects,0.9,2.9,Reference,NJ-16,NJ-16,0,3,4,3,4,3.4,2,2,4,2,4,2,4,4,4,5,3,2,4,4,5,5,4,2,3.24,4.00,3.62,NO,NA,NO,2
+E211,Female,Chennai,RM1,PGDM/MBA_Mkt,NO,29,0,Better Prospects,0.1,1.7,IJP,NJ-16,NJ-16,0,3,5,1,2,2.7,4,1,5,4,5,2,4,2,2,4,2,3,4,2,2,5,4,4,3.02,3.50,3.26,NO,NA,NO,3
+E212,Male,NCR,RM2,PGDM/MBA_Mkt,NO,29,0,Better Prospects,0.5,5.9,Agency,NJ-16,NJ-16,0,3,4,1,3,2.8,2,3,4,2,2,1,5,2,2,5,3,2,4,1,1,4,5,2,2.75,2.83,2.79,NO,NA,NO,1
+E213,Female,Bangalore,RM1,BCOM,NO,25,0,Location,0.3,2,IJP,NJ-16,NJ-16,0,3,5,3,4,3.8,4,3,5,5,5,1,4,2,2,3,2,2,4,5,4,4,5,1,3.34,3.83,3.59,NO,NA,NO,3
+E214,Male,Mumbai,RM1,PGDM/MBA_Mkt,NO,24,0,Better Prospects,2.7,5,Online,4.2,NA,0,3,4,4,4,3.8,4,2,4,5,4,1,4,1,5,3,2,4,5,2,1,4,5,5,3.40,3.67,3.53,NO,NA,NO,2
+E215,Male,Bangalore,RM4,PGDM/MBA_Mkt,NO,29,1,,1.9,21,Campus,NJ-15,3.89,0,4,5,4,4,4.3,1,4,4,4,3,4,5,4,5,4,4,2,4,2,3,4,5,5,3.84,3.83,3.84,,,,
+E216,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,28,0,Better Prospects,3.1,4,Agency,4.2,NA,0,4,4,2,5,3.8,5,4,4,4,4,4,4,4,4,4,5,2,3,4,4,4,5,1,3.93,3.50,3.71,YES,A,,3
+E217,Female,NCR,RM3,PGDM/MBA_Mkt,NO,34,0,Higher Education,2.7,10.6,Reference,3.9,NA,0,2,4,2,2,2.5,5,3,4,4,5,3,5,4,4,4,2,1,3,2,2,4,3,5,3.32,3.17,3.25,NO,NA,NO,3
+E218,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,23,1,,2.6,4,Online,4.0,4.07,0,4,5,4,5,4.5,1,4,4,4,4,1,4,5,5,4,2,1,4,4,4,4,2,5,3.62,3.83,3.73,,,,
+E219,Male,Mumbai,RM5,PGDM/MBA_Mkt,NO,24,1,,2,32.7,Walk in,4.1,4.17,0,4,4,4,4,4.0,4,4,4,4,4,5,4,5,4,4,2,4,3,4,1,5,4,4,4.00,3.50,3.75,,,,
+E220,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,27,1,,2.4,4.3,Walk in,4.2,3.98,0,5,5,2,4,4.0,4,5,5,4,4,2,4,4,4,4,4,3,5,4,4,4,4,5,3.94,4.33,4.14,,,,
+E221,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,0,Better Prospects,3,3.7,IJP,3.2,NA,0,5,4,2,4,3.8,5,5,3,4,3,4,4,3,4,4,3,3,5,3,2,3,4,5,3.75,3.67,3.71,NO,NA,NO,2
+E222,Female,Bangalore,RM3,PGDM/MBA_Mkt,NO,22,1,,3.1,12.7,Reference,3.8,4.50,0,4,4,5,5,4.5,4,4,5,5,4,5,4,5,4,3,5,4,5,4,5,3,4,5,4.38,4.33,4.36,,,,
+E223,Female,Mumbai,RM1,PGDM/MBA_Mkt,NO,32,0,Personal,2.5,4.9,Online,3.9,NA,0,2,4,4,1,2.8,4,3,5,3,4,3,4,4,4,4,4,4,4,3,3,5,1,4,3.51,3.33,3.42,NO,NA,NO,4
+E224,Female,NCR,RM2,PGDM/MBA_Mkt,NO,28,1,,2.8,5.1,Online,4.1,3.56,0,3,4,4,5,4.0,1,3,4,4,4,4,5,3,5,5,4,4,4,4,1,4,4,4,3.88,3.50,3.69,,,,
+E225,Female,NCR,RM3,PGDM/MBA_Mkt,YES,35,0,Better Prospects,3.2,13.2,Reference,3.8,NA,0,3,4,2,3,3.0,5,4,5,4,4,1,4,4,2,4,3,2,5,4,1,5,2,2,3.35,3.17,3.26,NO,NA,NO,4
+E226,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,34,1,,1.5,3.1,Agency,NJ-15,3.57,0,4,4,4,4,4.0,5,4,5,4,4,1,4,3,5,3,4,3,5,4,4,4,4,4,3.82,4.17,4.00,,,,
+E227,Female,NCR,RM4,PGDM/MBA_Mkt,YES,31,1,,1.9,20.6,Reference,NJ-15,4.00,0,4,4,4,5,4.3,3,4,4,3,2,2,4,2,1,5,5,3,4,3,4,5,2,4,3.49,3.67,3.58,,,,
+E228,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,28,0,Personal,1.1,6,Reference,NJ-15,NA,0,4,5,2,3,3.5,5,4,4,2,2,1,4,4,3,5,4,4,5,2,4,3,5,4,3.50,3.83,3.67,NO,NA,NO,2
+E229,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,30,0,Better Prospects,1,2.6,Walk in,NJ-15,NA,0,5,4,4,4,4.3,2,2,5,1,4,4,4,2,3,5,4,4,5,2,4,3,3,5,3.60,3.67,3.63,NO,NA,NO,3
+E230,Male,Mumbai,RM2,MBA(Tier 1) ,NO,24,0,Better Prospects,1.4,1.4,Walk in,NJ-15,NA,0,2,4,3,3,3.0,2,2,4,5,3,2,4,4,2,5,1,5,4,2,3,4,2,4,3.18,3.17,3.17,NO,NA,NO,2
+E231,Male,Chennai,RM5,PGDM/MBA_Mkt,NO,23,1,,3.4,31.8,Online,4.1,3.98,0,4,4,4,4,4.0,5,4,5,4,4,2,5,1,3,5,3,5,4,3,3,4,4,5,3.88,3.83,3.86,,,,
+E232,Female,Mumbai,RM1,PGDM/MBA_Mkt,YES,29,0,Job Environment ,2.5,4.1,Online,4.0,NA,0,4,5,4,4,4.3,4,4,5,2,1,3,4,5,4,5,3,5,5,3,4,4,4,3,3.90,3.83,3.87,NO,NA,NO,1
+E233,Female,Mumbai,RM3,PGDM/MBA_Mkt,YES,25,0,Location,2.8,12.5,Agency,4.3,NA,0,2,4,4,2,3.0,4,5,4,4,3,4,4,2,4,5,2,3,5,3,3,4,4,4,3.47,3.83,3.65,YES,UA,,3
+E234,Male,Mumbai,RM1,PGDM/MBA_Mkt,NO,25,0,Involuntary,2.4,4.4,Campus,4.3,NA,0,1,5,5,4,3.8,2,3,5,4,1,2,5,3,3,5,4,5,4,3,2,4,4,5,3.57,3.67,3.62,NO,NA,NO,3
+E235,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,27,0,Higher Education,3.1,10.6,Walk in,3.9,NA,0,4,4,4,4,4.0,3,4,5,2,4,1,5,1,3,4,1,4,5,3,2,4,1,4,3.35,3.17,3.26,NO,NA,NO,3
+E236,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,23,0,Higher Education,2.9,5.2,Online,4.3,NA,0,1,4,4,2,2.8,5,2,4,4,2,4,4,4,4,4,3,5,5,4,1,4,2,4,3.46,3.33,3.39,NO,NA,NO,3
+E237,Female,Bangalore,RM1,BBA,YES,30,0,Job Environment ,2.7,2.7,Reference,3.7,NA,0,5,4,3,5,4.3,4,5,4,4,3,1,5,1,4,3,2,4,5,2,4,4,1,4,3.60,3.33,3.47,NO,NA,NO,3
+E238,Male,NCR,RM1,PGDM/MBA_Mkt,YES,25,0,Higher Education,2,3.8,Reference,4.1,NA,0,4,4,4,4,4.0,5,4,5,4,1,3,5,3,4,4,4,4,5,1,2,4,1,5,3.88,3.00,3.44,NO,NA,NO,3
+E239,Male,Mumbai,RM2,PGDM/MBA_Mkt,NO,24,1,,3.4,6.2,Reference,3.4,3.56,0,2,4,4,5,3.8,4,3,4,2,4,1,4,1,1,3,5,4,5,2,5,3,4,4,3.22,3.83,3.53,,,,
+E240,Female,NCR,RM3,PGDM/MBA_Mkt,NO,24,0,Better Prospects,0,13.2,IJP,NJ-16,NJ-16,0,3,4,5,4,4.0,2,3,4,4,2,5,5,2,5,5,2,2,4,5,4,4,3,1,3.59,3.50,3.54,NO,NA,NO,4
+E241,Female,NCR,RM1,PGDM/MBA_Mkt,NO,25,1,,1.6,4.1,Campus,NJ-15,4.50,0,4,4,5,5,4.5,4,2,4,4,5,5,4,3,3,5,4,3,5,5,2,5,3,5,4.03,4.17,4.10,,,,
+E242,Female,Bangalore,RM5,PGDM/MBA_Mkt,YES,27,1,,2.7,28.8,IJP,4.2,4.61,0,4,3,5,4,4.0,5,1,4,4,2,5,5,3,5,5,4,1,5,5,4,4,2,5,3.76,4.17,3.97,,,,
+E243,Male,NCR,RM2,MBA(Tier 1) ,NO,23,0,Better Prospects,0,0,Agency,NJ-16,NJ-16,0,3,5,4,4,4.0,4,3,4,3,2,2,4,2,4,4,2,2,5,4,3,3,3,4,3.29,3.67,3.48,NO,NA,NO,2
+E244,Male,NCR,RM2,PGDM/MBA_Mkt,NO,24,0,Job Environment ,2.9,6,Online,4.2,3.61,0,4,5,4,2,3.8,4,2,4,3,4,1,4,2,3,4,5,4,5,2,2,5,4,4,3.46,3.67,3.56,YES,A,,2
+E245,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,24,0,Higher Education,3.8,3.8,Reference,3.4,NA,0,1,5,4,3,3.3,1,4,4,3,2,3,4,2,2,5,2,2,4,2,2,5,4,4,2.96,3.50,3.23,NO,NA,NO,3
+E246,Male,NCR,RM3,PGDM/MBA_Mkt,YES,30,0,Better Prospects,3.2,13.6,Reference,4.1,NA,0,4,4,2,4,3.5,3,2,4,4,2,2,4,2,4,5,4,5,5,3,1,5,4,4,3.44,3.67,3.55,YES,UA,,3
+E247,Male,NCR,RM1,PGDM/MBA_Mkt,NO,27,0,Higher Education,2.6,3,Reference,4.0,NA,0,3,5,2,5,3.8,4,4,4,1,4,5,4,1,5,5,2,2,4,2,1,5,4,1,3.51,2.83,3.17,NO,NA,NO,3
+E248,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,25,0,Better Prospects,3.1,5.7,Online,4.0,NA,0,3,5,4,2,3.5,3,3,4,5,2,3,4,3,2,3,2,3,4,4,2,5,4,4,3.21,3.83,3.52,NO,NA,NO,3
+E249,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,29,0,Absconding,2.5,4.9,Agency,4.0,NA,0,2,4,5,1,3.0,3,5,4,2,5,4,4,2,1,5,3,2,4,3,2,5,2,4,3.24,3.33,3.28,NO,NA,NO,2
+E250,Male,Bangalore,RM4,PGDM/MBA_Mkt,NO,25,1,,2.8,22.2,IJP,3.8,3.37,0,4,5,1,3,3.3,3,5,4,4,4,4,4,5,4,3,5,4,5,4,3,5,5,4,3.82,4.33,4.08,,,,
+E251,Male,NCR,RM1,BBA,NO,25,1,,3.2,3.8,Reference,4.1,3.65,0,5,4,5,4,4.5,4,4,3,4,4,1,4,5,4,4,4,4,5,4,4,5,2,4,3.97,4.00,3.99,,,,
+E252,Female,Mumbai,RM2,MBA(Tier 1) ,NO,28,1,,1.8,1.5,Agency,NJ-15,4.80,0,5,5,5,4,4.8,4,3,4,5,1,4,4,5,2,4,4,4,3,4,3,5,3,4,3.99,3.67,3.83,,,,
+E253,Female,Chennai,RM3,PGDM/MBA_Mkt,NO,23,0,Absconding,1.9,11.7,IJP,NJ-15,NA,0,5,4,5,1,3.8,4,3,4,4,3,4,3,5,2,4,4,4,4,4,4,5,3,4,3.71,4.00,3.86,NO,NA,NO,1
+E254,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,32,0,Better Prospects,1.1,2,Online,NJ-15,NA,0,5,5,3,2,3.8,1,4,4,4,4,3,4,3,4,4,4,4,5,5,4,5,3,4,3.61,4.33,3.97,NO,NA,NO,3
+E255,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,0,Involuntary,1,6,IJP,NJ-15,NA,0,5,4,4,3,4.0,5,4,4,4,1,1,4,3,3,4,4,4,4,3,4,5,2,4,3.59,3.67,3.63,NO,NA,NO,2
+E256,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,25,0,Better Prospects,1.4,5.9,Online,NJ-15,NA,0,5,4,2,1,3.0,3,5,5,4,4,2,4,4,4,5,3,3,5,4,5,5,3,4,3.57,4.33,3.95,YES,A,,3
+E257,Male,Mumbai,RM1,PGDM/MBA_Mkt,NO,27,1,,3.4,4.5,Reference,4.2,4.50,0,3,5,5,5,4.5,5,4,4,4,5,3,4,4,4,5,5,3,4,3,3,5,2,4,4.26,3.50,3.88,,,,
+E258,Male,Bangalore,RM3,PGDM/MBA_Mkt,YES,27,1,,2.5,9.8,Online,4.3,4.17,0,5,4,4,4,4.3,4,3,3,5,4,4,4,3,2,5,4,4,5,5,4,4,4,5,3.87,4.50,4.18,,,,
+E259,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,29,0,Higher Education,2.8,3,Online,4.2,NA,0,4,5,2,5,4.0,4,4,5,4,2,4,4,4,4,5,4,4,4,4,4,4,3,4,4.00,3.83,3.92,YES,A,,1
+E260,Male,Chennai,RM1,PGDM/MBA_Mkt,YES,29,1,,2.4,3,Reference,3.9,4.07,0,1,4,4,2,2.8,4,5,4,3,5,4,5,4,4,4,4,4,4,5,4,4,3,4,3.75,4.00,3.88,,,,
+E261,Female,Chennai,RM3,PGDM/MBA_Mkt,NO,25,0,Personal,3.1,11.5,Campus,3.8,NA,0,2,5,2,3,3.0,4,4,4,3,2,4,4,4,3,5,1,1,4,4,2,4,3,3,3.20,3.33,3.26,NO,NA,NO,4
+E262,Male,NCR,RM1,PGDM/MBA_Mkt,NO,24,0,Better Prospects,0.7,3.2,Reference,NJ-16,NJ-16,0,3,5,3,4,3.8,4,4,4,4,1,4,4,5,1,3,5,5,4,5,3,4,5,3,3.65,4.00,3.83,NO,NA,NO,1
+E263,Female,Mumbai,RM2,MBA(Tier 1) ,YES,28,1,,0,0,Reference,NJ-16,NJ-16,0,5,4,4,2,3.8,4,4,5,4,1,2,5,4,4,3,4,3,4,3,5,4,4,4,3.59,4.00,3.80,,,,4
+E264,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,24,1,,2.9,9.6,Walk in,4.0,3.65,0,5,4,4,3,4.0,4,3,4,3,4,5,4,4,3,5,5,5,4,5,3,4,4,4,4.08,4.00,4.04,,,,4
+E265,Female,Bangalore,RM4,PGDM/MBA_Mkt,YES,32,1,,0.9,21.8,Online,NJ-16,NJ-16,0,5,4,4,2,3.8,3,4,4,4,4,3,5,3,5,4,4,4,4,5,4,3,5,4,3.87,4.17,4.02,,,,2
+E266,Male,Chennai,RM1,PGDM/MBA_Mkt,NO,28,0,Better Prospects,0.2,3.2,Campus,NJ-16,NJ-16,0,5,4,4,1,3.5,3,4,5,3,3,2,5,4,4,4,3,3,5,4,3,4,4,5,3.58,4.17,3.87,NO,NA,NO,4
+E267,Male,Chennai,RM1,BCOM,NO,30,1,,1.6,1.8,Reference,NJ-15,3.61,0,4,4,4,3,3.8,4,4,4,4,3,4,4,4,4,4,3,2,4,4,2,5,4,4,3.69,3.83,3.76,,,,3
+E268,Male,NCR,RM3,PGDM/MBA_Mkt,NO,24,0,Personal,5.2,9.2,Campus,4.3,NA,2,4,4,4,3,3.8,4,4,4,4,1,2,4,2,1,5,4,4,4,4,1,3,4,4,3.38,3.33,3.36,NO,NA,NO,3
+E269,Male,Chennai,RM1,PGDM/MBA_Mkt,NO,22,1,,3,3,Walk in,4.0,3.87,0,5,4,4,5,4.5,4,4,4,4,4,2,5,2,3,5,4,4,4,5,4,5,4,5,3.97,4.50,4.24,,,,3
+E270,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,0,Better Prospects,2.5,6.7,Online,4.0,NA,0,4,4,5,4,4.3,1,3,4,4,4,2,4,4,4,4,2,4,4,2,5,3,4,4,3.58,3.67,3.63,NO,NA,NO,4
+E271,Male,NCR,RM5,PGDM/MBA_Mkt,YES,38,1,,4.2,27.9,Walk in,3.7,3.98,2,5,4,5,4,4.5,2,3,4,4,2,3,5,2,2,3,4,4,4,5,4,4,5,4,3.57,4.33,3.95,,,,2
+E272,Female,NCR,RM5,PGDM/MBA_Mkt,NO,29,1,,3.9,31.7,Reference,4.1,4.17,0,4,5,5,4,4.5,3,4,4,4,2,2,5,4,4,5,4,4,4,4,4,4,4,4,3.97,4.00,3.99,,,,2
+E273,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,26,1,,0,2,IJP,NJ-16,NJ-16,0,1,5,4,5,3.8,1,4,5,4,4,4,4,4,1,5,5,5,4,4,3,3,5,4,3.79,3.83,3.81,,,,2
+E274,Female,Bangalore,RM1,BBA,YES,35,1,,2.3,3.9,Online,4.1,3.87,0,5,4,5,1,3.8,2,4,4,4,3,3,5,4,4,5,5,5,4,4,3,5,1,4,3.93,3.50,3.71,,,,2
+E275,Male,Mumbai,RM2,PGDM/MBA_Mkt,NO,25,1,,3.2,5.1,Reference,4.2,3.98,0,5,4,5,5,4.8,4,5,4,3,4,2,4,3,2,4,4,4,5,5,4,5,5,4,3.93,4.67,4.30,,,,3
+E276,Female,Bangalore,RM3,PGDM/MBA_Mkt,YES,29,0,Better Prospects,3.8,12,IJP,3.6,NA,0,2,4,1,4,2.8,5,5,5,4,4,1,4,4,2,3,2,2,5,1,2,5,1,3,3.22,2.83,3.03,NO,NA,NO,2
+E277,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,28,0,Location,2.2,3.2,Online,3.8,NA,0,5,4,2,4,3.8,2,4,3,4,4,4,4,3,3,5,3,3,4,5,4,5,2,4,3.56,4.00,3.78,NO,NA,NO,3
+E278,Male,NCR,RM1,PGDM/MBA_Mkt,NO,28,0,Better Prospects,1.2,3.4,IJP,NJ-15,NA,0,4,4,2,4,3.5,3,5,4,5,4,3,4,4,1,5,4,4,4,5,1,4,2,4,3.72,3.33,3.52,NO,NA,NO,1
+E279,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,30,1,,4.2,3.1,IJP,4.1,3.61,1,4,5,3,5,4.3,4,5,3,4,4,4,4,4,1,4,4,4,4,4,5,4,4,4,3.90,4.17,4.03,,,,2
+E280,Female,Mumbai,RM3,PGDM/MBA_Mkt,NO,27,0,Better Prospects,1.9,9,Online,NJ-15,NA,0,5,4,4,5,4.5,2,5,5,4,4,4,4,4,4,4,2,2,4,5,3,4,3,4,3.91,3.83,3.87,NO,NA,NO,2
+E281,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,32,1,,1.1,2.7,Online,NJ-15,3.98,0,3,4,4,4,3.8,3,3,5,5,3,2,4,5,4,4,5,5,4,5,5,4,4,4,3.90,4.33,4.12,,,,2
+E282,Female,NCR,RM4,PGDM/MBA_Mkt,YES,39,1,,5.6,19.6,IJP,4.3,3.43,2,4,4,2,4,3.5,2,5,5,4,1,3,4,3,2,4,4,4,4,5,3,4,4,4,3.44,4.00,3.72,,,,3
+E283,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,24,0,Better Prospects,1.6,4,IJP,NJ-15,NA,0,3,4,4,5,4.0,1,1,4,4,4,4,4,4,3,4,2,1,4,3,5,4,2,4,3.31,3.67,3.49,NO,NA,NO,2
+E284,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,23,1,,1.7,5.1,IJP,NJ-15,3.56,0,2,4,4,5,3.8,3,5,4,5,2,4,4,2,4,4,4,4,4,4,1,4,4,4,3.72,3.50,3.61,,,,2
+E285,Female,Mumbai,RM5,PGDM/MBA_Mkt,NO,29,1,,6.9,34,IJP,4.3,3.98,1,2,4,5,5,4.0,3,1,4,4,1,1,4,4,4,5,4,2,5,2,2,5,2,4,3.33,3.33,3.33,,,,3
+E286,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,25,0,Better Prospects,0.3,3,Reference,NJ-16,NJ-16,0,1,5,3,5,3.5,5,2,5,3,4,4,5,4,1,3,3,4,4,4,3,5,4,4,3.56,4.00,3.78,NO,NA,NO,1
+E287,Female,Chennai ,RM2,PGDM/MBA_Mkt,NO,25,0,Personal,2.8,4.2,IJP,4.1,NA,0,5,4,2,5,4.0,4,1,5,4,4,3,5,4,5,5,3,3,5,4,4,5,1,4,3.86,3.83,3.85,NO,NA,NO,3
+E288,Female,NCR,RM1,PGDM/MBA_Mkt,YES,27,0,Location,0.7,3.6,Reference,NJ-16,NJ-16,0,1,4,4,3,3.0,4,4,4,4,4,5,4,3,2,4,4,4,4,4,3,3,3,4,3.59,3.50,3.54,NO,NA,NO,2
+E289,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,23,0,Higher Education,2.2,4.9,Online,3.7,NA,0,5,5,4,2,4.0,4,2,5,4,4,4,5,4,4,5,3,3,5,4,2,5,1,4,3.94,3.50,3.72,NO,NA,NO,3
+E290,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,30,1,,2.7,10.4,Reference,4.0,3.65,0,4,5,5,4,4.5,5,3,4,4,1,4,5,2,3,4,5,5,4,5,1,4,4,4,3.95,3.67,3.81,,,,3
+E291,Male,Mumbai,RM1,PGDM/MBA_Mkt,YES,25,1,,2.5,5,IJP,3.7,4.58,0,4,4,4,4,4.0,1,5,5,4,3,4,4,3,4,5,4,4,4,5,4,5,4,5,3.86,4.50,4.18,,,,2
+E292,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,1,,1.9,2.9,Walk in,NJ-15,3.86,0,4,3,5,4,4.0,5,5,5,4,4,3,4,3,4,3,4,4,4,4,2,4,3,4,4.00,3.50,3.75,,,,4
+E293,Female,NCR,RM3,PGDM/MBA_Mkt,YES,24,1,,4.2,12.3,IJP,4.2,NA,1,5,3,4,4,4.0,4,5,5,4,3,4,5,4,4,3,4,4,4,5,1,5,4,2,4.06,3.50,3.78,,,,4
+E294,Female,NCR,RM1,PGDM/MBA_Mkt,NO,25,0,Personal,3,3,Reference,3.5,NA,0,5,5,3,1,3.5,4,5,5,4,2,1,4,4,4,4,4,4,4,4,4,3,5,4,3.68,4.00,3.84,NO,NA,NO,2
+E295,Female,NCR,RM1,PGDM/MBA_Mkt,NO,27,1,,3,4.6,Reference,4.2,3.87,0,4,5,5,4,4.5,4,3,5,4,1,4,5,4,4,4,5,5,4,5,2,5,2,4,4.13,3.67,3.90,,,,3
+E296,Male,Mumbai,RM4,PGDM/MBA_Mkt,NO,24,1,,1.7,20.3,Reference,NJ-15,4.00,0,5,4,4,4,4.3,5,3,5,4,3,5,4,3,4,4,2,2,4,4,5,5,2,4,3.84,4.00,3.92,,,,2
+E297,Female,Chennai ,RM2,PGDM/MBA_Mkt,NO,24,1,,0,3.6,Online,NJ-16,NJ-16,0,5,5,5,4,4.8,5,4,4,4,5,4,5,3,3,4,5,5,5,5,2,5,2,4,4.38,3.83,4.11,,,,1
+E298,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,24,0,Personal,0.3,2.8,Online,NJ-16,NJ-16,0,5,4,4,2,3.8,4,4,5,4,2,2,4,5,5,4,4,4,4,5,2,3,1,4,3.89,3.17,3.53,NO,NA,NO,3
+E299,Female,Bangalore,RM3,PGDM/MBA_Mkt,NO,30,1,,4.2,10.9,Online,4.2,3.65,1,3,5,5,5,4.5,4,3,4,4,3,5,4,2,4,4,5,4,4,5,1,4,3,4,4.03,3.50,3.76,,,,
+E300,Male,Mumbai,RM1,PGDM/MBA_Mkt,NO,27,0,Better Prospects,2.3,4.5,Online,4.2,NA,0,5,5,3,3,4.0,5,4,4,4,4,2,4,3,3,4,1,1,4,4,3,4,1,4,3.45,3.33,3.39,NO,NA,NO,4
+E301,Female,NCR,RM1,PGDM/MBA_Mkt,NO,25,0,Absconding,1.6,4,Reference,NJ-15,NA,0,1,4,5,2,3.0,5,4,5,3,2,1,4,4,1,3,5,5,5,5,2,4,3,4,3.35,3.83,3.59,NO,NA,NO,1
+E302,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,29,0,Personal,1.8,5.4,IJP,NJ-15,NA,0,5,4,2,4,3.8,5,4,5,4,3,1,4,3,4,4,4,4,5,4,4,4,2,4,3.74,3.83,3.79,NO,NA,NO,4
+E303,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,25,0,Job Environment ,0.7,3.9,IJP,NJ-16,NJ-16,0,1,5,1,4,2.8,5,5,4,5,2,4,5,1,4,4,4,4,4,4,2,4,2,3,3.54,3.17,3.36,NO,NA,NO,4
+E304,Female,Chennai,RM3,PGDM/MBA_Mkt,NO,25,1,,0.2,13,Walk in,NJ-16,NJ-16,0,2,4,4,4,3.5,5,4,5,4,2,4,4,4,4,3,1,1,4,2,3,5,4,4,3.46,3.67,3.56,,,,2
+E305,Male,Chennai,RM1,PGDM/MBA_Mkt,NO,28,0,Location,1.6,3.9,IJP,NJ-15,NA,0,1,4,2,4,2.8,4,5,5,4,4,4,4,3,5,5,2,3,3,1,1,5,2,4,3.65,2.67,3.16,NO,NA,NO,4
+E306,Female,Chennai,RM1,PGDM/MBA_Mkt,NO,23,0,Absconding,3,3,Reference,4.1,NA,0,4,5,2,1,3.0,2,3,4,4,5,3,5,2,2,5,3,3,5,4,4,4,5,4,3.31,4.33,3.82,NO,NA,NO,3
+E307,Female,Chennai,RM3,PGDM/MBA_Mkt,NO,32,0,Higher Education,0,12.7,Reference,NJ-16,NJ-16,0,2,4,2,4,3.0,4,2,4,4,2,1,4,4,3,5,4,4,3,4,2,5,3,4,3.29,3.50,3.40,NO,NA,NO,3
+E308,Female,Mumbai,RM4,PGDM/MBA_Mkt,YES,24,0,Higher Education,2.3,19.7,Reference,3.9,NA,0,4,3,3,4,3.5,4,4,4,4,2,4,5,2,4,5,4,4,5,4,3,4,3,1,3.74,3.33,3.53,YES,UA,,3
+E309,Male,Bangalore,RM1,BBA,YES,25,0,Personal,0,2.9,Agency,NJ-16,NJ-16,0,5,3,3,4,3.8,4,1,4,5,5,4,4,5,3,5,4,4,5,4,1,5,2,3,3.90,3.33,3.62,NO,NA,NO,4
+E310,Female,NCR,RM2,MBA(Tier 1) ,NO,23,0,Better Prospects,0.3,0.3,Online,NJ-16,NJ-16,0,4,5,2,2,3.3,4,2,4,4,2,2,4,5,3,5,4,4,4,4,3,4,4,4,3.47,3.83,3.65,NO,NA,NO,2
+E311,Male,NCR,RM3,PGDM/MBA_Mkt,NO,27,0,Personal,0.4,13.4,Reference,NJ-16,NJ-16,0,5,5,4,5,4.8,1,3,4,4,2,2,4,1,4,5,3,3,5,5,1,5,1,5,3.50,3.67,3.58,NO,NA,NO,2
+E312,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,29,0,Personal,0.5,3,Campus,NJ-16,NJ-16,0,4,4,3,3,3.5,4,4,4,4,4,4,4,3,4,5,3,3,4,5,4,3,3,2,3.72,3.50,3.61,NO,NA,NO,2
+E313,Female,Chennai,RM1,PGDM/MBA_Mkt,NO,29,1,,0,2.9,Online,NJ-16,NJ-16,0,5,3,4,2,3.5,4,2,5,3,2,3,4,3,4,5,5,5,5,5,4,3,1,5,3.70,3.83,3.76,,,,2
+E314,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,25,0,Better Prospects,0.9,5.7,Online,NJ-16,NJ-16,0,4,4,4,4,4.0,4,5,4,4,2,4,4,2,4,5,4,2,5,3,2,5,4,5,3.77,4.00,3.89,NO,NA,NO,3
+E315,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,24,0,Personal,1.1,12.6,IJP,NJ-15,NA,0,3,4,3,3,3.2,4,5,4,4,4,5,5,2,5,4,2,2,4,5,1,3,2,4,3.65,3.17,3.41,NO,NA,NO,2
+E316,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,28,0,Higher Education,2.4,13.4,Walk in,4.1,NA,0,2,3,2,4,2.8,5,3,4,4,1,4,4,2,3,4,3,3,4,4,4,5,4,4,3.16,4.17,3.66,YES,UA,,3
+E317,Female,Mumbai,RM1,PGDM/MBA_Mkt,NO,24,1,,0,4.3,Walk in,NJ-16,NJ-16,0,5,4,4,4,4.3,3,4,4,4,4,4,4,4,4,3,5,5,4,5,4,4,2,3,4.07,3.67,3.87,,,,1
+E318,Female,NCR,RM1,PGDM/MBA_Mkt,NO,32,0,Location,0.7,3.1,IJP,NJ-16,NJ-16,0,3,4,3,2,2.9,2,1,5,4,3,4,4,4,5,4,4,4,5,4,1,4,1,2,3.45,2.83,3.14,NO,NA,NO,2
+E319,Female,NCR,RM1,PGDM/MBA_Mkt,NO,28,0,Personal,0.6,3.7,Online,NJ-16,NJ-16,0,5,5,2,4,4.0,4,3,4,4,3,4,4,3,2,5,4,4,4,4,4,4,3,4,3.78,3.83,3.81,NO,NA,NO,2
+E320,Male,NCR,RM3,PGDM/MBA_Mkt,NO,30,0,Personal,0,13,IJP,NJ-16,NJ-16,0,5,3,2,4,3.5,4,3,4,4,3,3,5,5,5,3,4,4,4,4,2,5,2,5,3.79,3.67,3.73,NO,NA,NO,2
+E321,Female,Bangalore,RM4,PGDM/MBA_Mkt,NO,26,1,,0.5,24.3,Reference,NJ-16,NJ-16,0,5,5,3,4,4.3,4,4,4,3,5,5,4,2,5,5,4,4,4,5,3,5,2,3,4.15,3.67,3.91,,,,3
+E322,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,25,0,Better Prospects,0.3,3.3,Campus,NJ-16,NJ-16,0,1,5,4,1,2.8,4,3,4,4,4,4,4,4,4,4,4,4,5,4,4,4,4,5,3.51,4.33,3.92,NO,NA,NO,2
+E323,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,34,0,Better Prospects,0,10.7,Reference,NJ-16,NJ-16,0,2,5,5,4,4.0,1,4,4,4,2,2,4,3,4,4,3,3,4,4,4,3,1,1,3.41,2.83,3.12,NO,NA,NO,2
+E324,Female,Bangalore,RM5,PGDM/MBA_Mkt,YES,54,0,Higher Education,2.7,36.1,IJP,4.3,NA,1,1,4,2,3,2.5,4,2,3,4,1,1,4,3,3,4,2,2,3,4,4,5,2,4,2.68,3.67,3.17,NO,NA,NO,3
+E325,Male,Chennai ,RM2,PGDM/MBA_Mkt,YES,30,0,Involuntary,0,4.8,IJP,NJ-16,NJ-16,0,3,5,3,4,3.8,4,1,5,4,4,4,5,4,2,4,4,4,4,5,1,3,1,5,3.71,3.17,3.44,NO,NA,NO,1
+E326,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,27,0,Personal,1.2,4.2,IJP,NJ-15,NA,0,5,4,2,3,3.5,4,2,4,4,4,4,4,4,4,4,5,5,3,5,1,5,4,4,3.81,3.67,3.74,NO,NA,NO,3
+E327,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,26,0,Involuntary,3,4.1,Reference,4.1,NA,0,2,4,5,2,3.3,2,3,5,5,4,4,4,4,5,5,3,3,5,1,4,4,2,5,3.66,3.50,3.58,NO,NA,NO,2
+E328,Male,NCR,RM3,PGDM/MBA_Mkt,YES,29,1,,4.5,11.43,Reference,4.6,NA,1,5,3,5,4,4.3,5,2,4,5,4,4,4,4,3,5,5,5,5,5,3,5,3,5,4.13,4.33,4.23,,,,3
+E329,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,30,0,Better Prospects,1.6,2.7,Online,NJ-15,NA,0,5,4,3,4,4.0,3,5,4,5,1,1,4,4,5,5,5,3,4,5,2,3,3,5,3.78,3.67,3.73,NO,NA,NO,3
+E330,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,29,1,,3.5,3.9,IJP,3.0,3.86,0,4,5,4,4,4.3,2,4,4,3,3,3,5,4,1,3,4,3,4,3,4,4,4,5,3.58,4.00,3.79,,,,2
+E331,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,29,0,Better Prospects,3.7,12.5,Walk in,3.8,NA,0,3,4,1,4,3.0,4,4,4,4,4,4,4,4,5,4,4,4,4,2,4,5,5,4,3.73,4.00,3.86,YES,UA,,4
+E332,Male,Bangalore,RM1,BBA,NO,28,1,,0.2,2.5,Reference,NJ-16,NJ-16,0,5,4,5,4,4.5,3,4,3,4,3,3,3,5,2,4,4,4,5,4,4,5,1,4,3.75,3.75,3.75,,,,4
+E333,Female,Chennai ,RM4,PGDM/MBA_Mkt,YES,31,1,,3.7,21.6,Reference,4.5,3.93,1,5,5,5,4,4.8,4,4,4,4,3,3,2,1,2,4,3,2,4,4,3,5,2,5,3.51,3.83,3.67,,,,2
+E334,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,34,0,Involuntary,2.8,12.6,Reference,3.9,NA,0,5,5,3,4,4.3,4,5,4,4,4,4,1,2,1,4,4,3,4,4,1,5,4,4,3.54,3.61,3.58,YES,UA,,3
+E335,Male,NCR,RM1,PGDM/MBA_Mkt,NO,28,0,Involuntary,0.4,3.2,Reference,NJ-16,NJ-16,0,5,4,3,3,3.8,2,2,4,3,4,4,2,4,2,3,4,5,4,4,4,4,2,3,3.44,3.50,3.47,NO,NA,NO,2
+E336,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,26,1,,2.7,4.1,IJP,4.0,4.67,0,4,4,5,4,4.3,4,3,4,5,4,4,3,4,3,4,4,4,4,5,4,3,4,4,3.97,3.94,3.96,,,,1
+E337,Male,Bangalore,RM3,PGDM/MBA_Mkt,NO,24,0,Higher Education,3.8,10.9,Reference,4.0,NA,0,3,4,2,3,3.0,4,5,4,3,4,4,3,3,4,4,3,4,4,4,2,5,3,5,3.53,3.83,3.68,YES,UA,,3
+E338,Male,Chennai,RM1,BCOM,NO,25,1,,0,0,IJP,NJ-16,NJ-16,0,2,5,4,1,3.0,4,4,3,4,1,1,2,2,2,4,4,4,4,5,4,5,2,3,2.94,3.78,3.36,,,,
+E339,Male,Mumbai,RM1,PGDM/MBA_Mkt,NO,23,1,,3,4.2,Agency,3.6,4.59,0,3,4,5,1,3.3,1,2,3,2,2,4,4,3,4,5,4,4,4,4,3,4,3,3,3.19,3.44,3.32,,,,
+E340,Male,NCR,RM3,PGDM/MBA_Mkt,NO,23,0,Better Prospects,1.1,11.5,Reference,NJ-15,NA,0,3,4,2,3,3.0,4,3,4,4,1,4,5,2,3,4,4,4,5,4,4,4,2,4,3.31,3.78,3.55,NO,NA,NO,4
+E341,Male,Chennai,RM1,BCOM,NO,24,0,Better Prospects,1.2,1.2,Online,NJ-15,NA,0,2,4,1,4,2.8,4,4,5,4,4,5,5,3,4,4,4,4,4,3,3,4,3,2,3.73,3.17,3.45,NO,NA,NO,1
+E342,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,22,0,Personal,0.6,6.2,Reference,NJ-16,NJ-16,0,4,4,4,4,4.0,4,2,4,4,3,2,4,4,3,4,4,2,5,1,1,4,3,4,3.49,2.92,3.20,NO,NA,NO,4
+E343,Female,Mumbai,RM3,PGDM/MBA_Mkt,NO,27,1,,0,13.7,Online,NJ-16,NJ-16,0,2,4,4,4,3.5,3,1,1,4,2,5,2,3,2,4,4,4,4,4,4,4,4,3,3.12,3.83,3.47,,,,4
+E344,Male,NCR,RM1,PGDM/MBA_Mkt,YES,28,0,Better Prospects,1.3,3.3,Online,NJ-15,NA,0,5,4,5,5,4.8,2,5,5,5,3,5,1,3,5,5,2,1,4,3,4,4,4,4,3.81,3.83,3.82,NO,NA,NO,4
+E345,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,23,1,,3.9,9.9,Reference,4.0,3.63,0,5,4,1,4,3.5,4,2,4,4,4,4,3,3,3,4,2,5,5,5,4,4,2,4,3.50,4.00,3.75,,,,3
+E346,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,23,1,,0.6,4.2,Reference,NJ-16,NJ-16,0,5,4,5,4,4.5,4,2,5,4,4,4,3,2,3,4,2,5,4,4,4,5,4,5,3.75,4.33,4.04,,,,3
+E347,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,26,0,Job Environment ,5.4,10.3,Agency,4.3,NA,1,2,4,5,3,3.5,4,3,4,4,3,3,2,2,1,4,4,4,4,4,3,4,4,4,3.30,3.83,3.57,YES,UA,,3
+E348,Female,Chennai,RM1,PGDM/MBA_Mkt,YES,28,0,Personal,0.7,3.9,IJP,NJ-16,NJ-16,0,4,5,3,2,3.5,4,4,3,4,3,2,4,3,4,4,4,2,5,5,2,3,4,1,3.38,3.33,3.36,NO,NA,NO,4
+E349,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,24,0,Better Prospects,2.5,4.9,Online,4.1,NA,0,3,5,2,3,3.3,4,5,5,4,5,4,1,4,2,4,4,1,5,2,1,3,1,4,3.49,2.67,3.08,NO,NA,NO,2
+E350,Female,Mumbai,RM4,PGDM/MBA_Mkt,NO,23,0,Personal,0,24.6,Walk in,NJ-16,NJ-16,0,2,5,2,5,3.5,4,2,5,4,5,5,3,4,5,4,3,3,4,4,3,5,4,3,3.76,3.83,3.80,NO,NA,NO,2
+E351,Female,Mumbai,RM1,PGDM/MBA_Mkt,NO,33,1,,3,4.6,IJP,4.0,4.57,0,5,5,5,5,5.0,4,3,4,5,4,4,4,5,3,4,4,4,4,5,4,4,3,4,4.29,4.00,4.15,,,,2
+E352,Female,Bangalore,RM3,PGDM/MBA_Mkt,NO,29,1,,6,9.5,Online,4.5,3.65,3,2,4,5,5,4.0,3,3,4,4,4,5,1,4,2,4,4,2,4,5,4,5,4,5,3.53,4.50,4.01,,,,3
+E353,Female,NCR,RM3,PGDM/MBA_Mkt,NO,25,0,Personal,2.8,10.7,Agency,3.2,NA,0,5,5,5,5,5.0,4,1,5,5,5,1,3,4,5,5,4,5,4,2,4,4,3,5,4.24,3.67,3.95,NO,NA,NO,2
+E354,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,25,0,Involuntary,1.6,5.1,Reference,NJ-15,NA,0,4,4,2,3,3.3,3,5,4,4,4,4,3,4,5,4,4,4,5,3,5,5,2,4,3.74,4.00,3.87,NO,NA,NO,3
+E355,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,27,1,,4.1,12.4,IJP,4.3,3.54,1,2,4,5,3,3.5,1,2,4,4,4,5,1,2,1,4,3,3,4,4,5,3,4,4,2.99,4.00,3.50,,,,2
+E356,Female,NCR,RM2,PGDM/MBA_Mkt,NO,25,1,,3.8,4.1,Reference,4.0,3.85,0,5,4,4,4,4.3,4,4,4,4,4,2,3,4,1,4,3,3,5,3,4,3,5,4,3.64,4.00,3.82,,,,2
+E357,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,28,1,,4.9,11.5,Agency,4.2,4.17,1,2,4,2,3,2.8,3,3,4,3,4,2,3,3,3,3,4,4,4,4,5,4,3,5,3.14,4.17,3.65,,,,2
+E358,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,27,0,Job Environment ,3.2,2.8,Online,3.6,NA,0,3,4,3,3,3.3,4,2,4,4,4,5,2,3,3,4,4,4,4,5,4,4,4,4,3.52,4.17,3.85,YES,A,,2
+E359,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,23,0,Involuntary,2.9,3.1,Agency,3.9,NA,0,5,4,5,2,4.0,4,2,4,4,5,3,2,4,2,4,5,5,4,5,5,4,2,4,3.80,4.00,3.90,NO,NA,NO,2
+E360,Male,NCR,RM3,PGDM/MBA_Mkt,NO,30,1,,5.6,12.4,Reference,4.6,3.28,1,2,4,3,1,2.5,5,4,4,5,4,4,5,3,4,4,3,3,4,4,4,4,3,5,3.54,4.00,3.77,,,,3
+E361,Male,NCR,RM2,PGDM/MBA_Mkt,YES,29,1,,4,5.7,Reference,4.2,3.98,2,2,5,5,5,4.3,5,1,5,4,5,4,4,2,3,4,4,4,4,4,5,4,3,5,3.94,4.17,4.05,,,,
+E362,Male,Bangalore,RM4,PGDM/MBA_Mkt,YES,32,1,,2.5,21.5,Reference,3.6,3.37,0,5,4,3,4,4.0,4,4,4,4,1,4,3,4,4,4,5,3,4,5,2,4,5,3,3.76,3.83,3.80,,,,
+E363,Female,Mumbai,RM3,PGDM/MBA_Mkt,YES,25,1,,2.9,13.6,IJP,4.4,4.17,0,4,3,4,2,3.3,4,2,4,4,5,2,3,5,1,4,2,5,4,5,5,4,2,4,3.33,4.00,3.66,,,,
+E364,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,1,,2.5,3.1,Reference,3.7,4.17,0,4,5,2,4,3.8,3,2,4,4,4,2,5,2,5,4,4,4,4,4,4,4,1,4,3.63,3.50,3.57,,,,
+E365,Female,Mumbai,RM1,PGDM/MBA_Mkt,YES,25,1,,2.2,4.9,IJP,4.3,3.65,0,2,5,5,4,4.0,2,4,4,4,2,3,2,5,4,4,3,4,4,4,5,4,4,4,3.55,4.17,3.86,,,,
+E366,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,24,1,,3,12.7,Online,4.1,3.65,0,3,4,4,2,3.3,3,2,4,4,2,4,1,2,2,4,4,4,5,4,4,3,4,5,3.03,4.17,3.60,,,,
+E367,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,25,1,,1.6,4.2,Walk in,NJ-15,3.59,0,5,5,3,4,4.3,5,2,4,4,4,1,1,2,1,4,4,4,4,2,4,4,4,5,3.33,3.83,3.58,,,,
+E368,Male,NCR,RM5,PGDM/MBA_Mkt,NO,22,1,,3.8,29,Online,4.5,4.17,1,4,5,2,4,3.8,5,2,4,4,3,3,3,4,3,4,4,3,4,5,2,5,5,5,3.57,4.33,3.95,,,,
+E369,Female,Bangalore,RM4,PGDM/MBA_Mkt,YES,26,1,,4.9,24.3,Online,4.3,3.57,1,5,4,4,4,4.3,5,4,5,3,4,3,2,3,5,3,1,3,4,2,1,4,5,5,3.66,3.50,3.58,,,,
+E370,Male,Mumbai,RM4,PGDM/MBA_Mkt,NO,23,1,,2.9,23.6,Campus,3.9,3.93,0,4,4,2,2,3.0,5,2,4,4,4,3,4,2,1,4,5,4,5,5,4,3,4,4,3.35,4.17,3.76,,,,
+E371,Male,NCR,RM3,PGDM/MBA_Mkt,YES,27,1,,0,13.2,Reference,NJ-16,NJ-16,0,2,4,1,4,2.8,3,2,3,4,2,2,3,4,4,4,3,4,5,4,4,5,5,2,3.00,4.11,3.56,,,,
+E372,Female,Mumbai,RM3,PGDM/MBA_Mkt,YES,27,1,,3.9,11.4,IJP,4.1,3.28,0,4,5,1,2,3.0,3,1,5,4,4,4,2,4,3,2,1,2,5,4,2,5,2,4,2.96,3.61,3.29,,,,
+E373,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,4.5,5.8,Walk in,4.3,4.17,1,5,5,4,5,4.8,4,3,4,2,2,3,2,2,4,2,3,4,4,4,4,5,5,4,3.46,4.39,3.92,,,,
+E374,Male,Bangalore,RM3,PGDM/MBA_Mkt,YES,29,1,,5.5,14.9,Reference,4.3,4.17,1,4,4,4,3,3.8,3,3,5,3,4,3,4,2,5,3,3,3,5,3,4,5,4,5,3.55,4.39,3.97,,,,
+E375,Female,Mumbai,RM1,PGDM/MBA_Mkt,NO,24,1,,4.3,4.3,Online,4.3,4.50,1,4,5,5,3,4.3,3,2,5,4,1,5,2,3,4,5,5,3,4,4,5,5,3,4,3.73,4.22,3.98,,,,
+E376,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,23,1,,0,3.9,Walk in,NJ-16,NJ-16,0,1,5,2,3,2.8,2,2,4,5,3,5,4,2,3,5,2,4,5,4,5,5,2,4,3.26,4.22,3.74,,,,
+E377,Male,Mumbai,RM1,PGDM/MBA_Mkt,NO,29,1,,1.7,5.2,Online,NJ-15,3.61,0,3,5,4,4,4.0,1,4,4,4,1,4,1,1,2,4,3,5,4,5,5,5,4,5,3.19,4.62,3.90,,,,
+E378,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,25,1,,6.3,9.9,Reference,4.2,3.28,2,2,5,2,1,2.5,3,4,4,5,4,5,4,4,3,5,4,2,4,4,2,5,2,3,3.54,3.39,3.46,,,,
+E379,Male,Chennai ,RM2,PGDM/MBA_Mkt,YES,27,1,,2.9,2.6,Online,4.0,3.56,0,4,4,4,2,3.5,4,4,5,3,2,1,3,2,4,3,2,4,4,4,5,5,1,5,3.21,4.00,3.60,,,,
+E380,Male,NCR,RM4,PGDM/MBA_Mkt,NO,23,1,,3.8,19.7,Campus,4.2,3.37,1,4,5,3,2,3.5,2,1,5,4,4,4,4,2,5,4,4,5,4,5,4,5,5,5,3.63,4.67,4.15,,,,
+E381,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,30,1,,1.9,3.9,Reference,NJ-15,4.50,0,5,5,5,3,4.5,4,3,5,4,4,5,3,4,3,5,5,2,4,4,5,5,3,5,4.08,4.33,4.21,,,,
+E382,Female,NCR,RM2,PGDM/MBA_Mkt,YES,25,1,,1.2,4.2,Agency,NJ-15,3.56,0,5,5,1,2,3.3,4,1,4,4,4,1,2,1,5,4,2,5,4,4,4,5,2,5,3.17,3.94,3.56,,,,
+E383,Female,Mumbai,RM1,PGDM/MBA_Mkt,NO,24,1,,0.9,4.3,IJP,NJ-16,NJ-16,0,4,5,4,3,4.0,2,4,5,4,3,3,4,2,3,4,1,2,4,4,4,5,3,4,3.37,3.94,3.66,,,,
+E384,Male,NCR,RM3,PGDM/MBA_Mkt,YES,26,1,,7,12.2,IJP,4.4,3.65,2,5,4,4,2,3.8,4,2,5,4,4,5,4,3,4,4,1,2,4,4,4,5,4,4,3.51,4.11,3.81,,,,
+E385,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,27,1,,0,13.6,Agency,NJ-16,NJ-16,0,4,4,4,1,3.3,4,3,5,3,4,2,1,5,5,3,3,4,5,4,5,4,4,4,3.43,4.33,3.88,,,,
+E386,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,1.8,4.9,Reference,NJ-15,3.61,0,4,4,4,2,3.5,4,1,4,5,4,3,3,3,4,5,2,3,4,3,4,4,3,4,3.38,3.67,3.52,,,,
+E387,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,24,1,,2.8,13.5,Walk in,4.0,3.65,0,5,5,2,2,3.5,2,4,5,3,4,4,3,2,4,3,4,2,3,4,4,4,3,4,3.38,3.67,3.52,,,,
+E388,Female,NCR,RM1,PGDM/MBA_Mkt,NO,23,1,,0.7,3.7,Walk in,NJ-16,NJ-16,0,2,5,4,1,3.0,4,2,5,5,4,2,2,2,4,5,3,4,3,4,4,4,4,2,3.29,3.44,3.37,,,,
+E389,Female,Bangalore,RM1,BCOM,YES,33,1,,0.6,2.5,Walk in,NJ-16,NJ-16,0,5,4,2,5,4.0,4,5,4,5,3,3,5,2,3,5,2,4,4,4,5,4,4,5,3.76,4.39,4.08,,,,
+E390,Female,Mumbai,RM2,PGDM/MBA_Mkt,YES,25,1,,0.2,5.2,Reference,NJ-16,NJ-16,0,3,5,5,2,3.8,5,2,5,4,3,2,3,3,3,4,2,2,3,2,3,4,4,3,3.33,3.17,3.25,,,,
+E391,Female,Chennai,RM1,PGDM/MBA_Mkt,YES,27,0,Better Prospects,1.3,3.6,Walk in,NJ-15,NA,0,3,4,3,1,2.8,3,2,4,3,4,2,3,3,2,3,4,2,5,3,1,4,1,3,2.87,2.89,2.88,NO,NA,NO,4
+E392,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,25,1,,0.9,3.8,Walk in,NJ-16,NJ-16,0,4,5,5,1,3.8,3,4,5,4,4,4,2,3,3,4,2,3,5,5,2,3,5,4,3.51,4.03,3.77,,,,1
+E393,Male,Bangalore,RM3,PGDM/MBA_Mkt,YES,28,1,,0.1,14,Reference,NJ-16,NJ-16,0,5,5,2,4,4.0,3,2,4,5,5,5,1,3,2,5,4,2,5,5,1,4,3,2,3.59,3.38,3.49,,,,4
+E394,Male,Bangalore,RM4,PGDM/MBA_Mkt,NO,23,1,,0.3,25,Reference,NJ-16,NJ-16,0,5,4,1,2,3.0,4,2,4,4,5,2,3,3,2,4,1,1,4,4,4,5,5,2,2.94,4.02,3.48,,,,4
+E395,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,30,1,,2.7,14.8,Reference,4.0,3.65,0,3,4,4,4,3.8,1,1,4,3,5,2,4,4,1,3,2,4,5,5,2,3,4,4,3.10,3.88,3.49,,,,4
+E396,Male,Chennai,RM1,BBA,YES,32,1,,0.3,1,Campus,NJ-16,NJ-16,0,4,4,4,4,4.0,2,1,4,3,3,5,5,2,4,3,3,2,5,3,4,5,3,3,3.35,3.83,3.59,,,,3
+E397,Male,Chennai,RM1,BCOM,NO,24,1,,0.3,1,IJP,NJ-16,NJ-16,0,4,4,4,2,3.5,3,4,4,5,5,2,3,1,2,5,4,2,5,4,3,3,2,2,3.32,3.18,3.25,,,,3
+E398,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,25,1,,2.7,2.9,Walk in,4.0,3.98,0,4,4,2,4,3.5,3,3,4,4,4,2,2,2,5,4,3,4,5,5,2,4,4,4,3.38,3.98,3.68,,,,3
+E399,Male,NCR,RM3,PGDM/MBA_Mkt,NO,24,1,,0.5,10.9,Walk in,NJ-16,NJ-16,0,4,4,4,1,3.3,2,3,4,4,5,4,1,5,4,4,2,1,5,4,1,4,4,4,3.25,3.72,3.49,,,,4
+E400,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,2.9,2.9,Campus,4.2,4.17,0,5,4,3,5,4.3,3,4,4,4,4,2,2,2,2,4,4,2,5,4,3,3,3,4,3.39,3.69,3.54,,,,2
+E401,Female,NCR,RM1,PGDM/MBA_Mkt,YES,31,1,,2.5,5.2,Reference,4.0,3.94,0,5,4,2,5,4.0,2,4,4,4,4,2,3,2,4,4,4,3,4,4,2,5,4,4,3.53,3.75,3.64,,,,2
+E402,Male,NCR,RM1,PGDM/MBA_Mkt,YES,32,1,,1.8,3.1,Agency,NJ-15,4.58,0,3,4,3,4,3.5,1,4,4,3,4,5,4,4,3,4,3,5,4,3,4,5,4,1,3.62,3.50,3.56,,,,2
+E403,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,1,,2.3,4.1,Reference,3.6,3.86,0,4,4,3,2,3.3,2,2,4,4,2,1,1,2,2,4,3,3,5,5,2,5,5,4,2.72,4.25,3.49,,,,3
+E404,Male,NCR,RM4,PGDM/MBA_Mkt,NO,23,1,,1.6,23.5,Campus,NJ-15,3.89,0,2,4,5,1,3.0,2,3,4,2,5,4,3,2,2,2,3,2,5,3,4,5,2,4,2.88,3.83,3.36,,,,2
+E405,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,29,1,,1.8,2.8,Campus,NJ-15,3.63,0,5,4,4,3,4.0,1,4,4,4,3,3,1,3,1,4,2,2,4,5,2,4,1,4,3.06,3.25,3.15,,,,3
+E406,Female,NCR,RM1,PGDM/MBA_Mkt,YES,25,1,,0.7,3.6,Online,NJ-16,NJ-16,0,4,4,3,4,3.8,5,1,4,3,5,3,2,2,3,3,5,2,5,5,2,4,3,2,3.34,3.42,3.38,,,,2
+E407,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,25,1,,0.2,12.4,Agency,NJ-16,NJ-16,0,5,4,4,5,4.5,2,5,5,5,5,4,3,4,2,5,3,3,5,4,4,4,4,5,4.03,4.32,4.17,,,,2
+E408,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,1.6,5.9,Agency,NJ-15,4.72,0,4,4,3,4,3.8,3,2,4,3,4,4,4,5,2,4,4,3,5,3,1,4,4,3,3.57,3.33,3.45,,,,2
+E409,Female,NCR,RM3,PGDM/MBA_Mkt,YES,23,1,,3,14.1,Campus,4.2,4.17,0,5,4,4,2,3.8,1,5,4,3,3,4,4,4,3,3,2,3,5,4,1,4,4,4,3.40,3.67,3.53,,,,2
+E410,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,30,1,,0,4.1,Online,NJ-16,NJ-16,0,4,4,4,4,4.0,4,5,4,4,2,2,1,2,1,4,1,3,5,5,3,4,3,1,3.12,3.50,3.31,,,,2
+E411,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,25,1,,2.3,2.3,Campus,4.3,4.59,0,4,5,4,4,4.3,2,4,4,4,3,4,4,5,4,4,4,3,4,4,2,4,4,4,3.90,3.67,3.78,,,,3
+E412,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,1,,2.2,3.9,Walk in,4.0,3.56,0,2,4,2,4,3.0,4,4,4,3,4,4,4,5,4,3,4,4,4,3,3,5,3,4,3.65,3.67,3.66,,,,
+E413,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,24,1,,1.2,13.7,Walk in,NJ-15,3.94,0,5,4,4,4,4.3,4,4,4,3,4,1,3,3,2,3,5,2,5,3,2,5,4,4,3.49,3.83,3.66,,,,
+E414,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,25,1,,1.9,3.7,Campus,NJ-15,4.50,0,3,4,3,5,3.8,2,5,3,5,4,4,4,4,2,5,4,1,4,5,1,5,4,5,3.57,3.92,3.75,,,,
+E415,Male,Chennai,RM5,PGDM/MBA_Mkt,YES,27,0,Location,1.6,31.7,Online,NJ-15,NA,0,5,4,2,4,3.8,4,2,4,3,1,2,2,3,2,3,2,2,5,4,3,3,4,4,2.87,3.83,3.35,NO,NA,NO,2
+E416,Female,Chennai ,RM4,PGDM/MBA_Mkt,YES,24,1,,0.3,20.5,Online,NJ-16,NJ-16,0,5,4,2,4,3.8,1,5,5,4,5,5,5,1,4,4,1,5,4,4,5,5,5,4,3.75,4.50,4.13,,,,
+E417,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,1,,0.7,3.2,Campus,NJ-16,NJ-16,0,5,5,3,4,4.3,5,4,5,2,3,5,2,2,5,2,2,2,5,4,2,4,3,3,3.54,3.45,3.50,,,,
+E418,Male,Bangalore,RM1,BBA,NO,24,1,,0,0,Walk in,NJ-16,NJ-16,0,1,4,4,1,2.5,5,4,4,4,5,4,3,3,4,4,3,2,4,4,4,5,4,2,3.38,3.83,3.61,,,,
+E419,Male,NCR,RM3,PGDM/MBA_Mkt,YES,30,1,,0.9,10.5,Walk in,NJ-16,NJ-16,0,2,4,5,4,3.8,4,4,4,3,4,4,5,2,2,3,2,4,4,3,5,4,3,3,3.51,3.67,3.59,,,,
+E420,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,27,1,,1.9,4.5,Walk in,NJ-15,3.86,0,1,3,2,3,2.3,2,5,4,4,4,4,4,3,2,4,1,2,4,4,2,5,2,4,2.96,3.50,3.23,,,,
+E421,Male,Chennai ,RM2,PGDM/MBA_Mkt,YES,25,0,Location,0,2.9,Walk in,NJ-16,NJ-16,0,3,4,2,4,3.3,1,1,4,3,4,5,2,4,3,3,1,2,5,2,3,3,1,3,2.90,2.83,2.87,NO,NA,NO,1
+E422,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,29,1,,0,5.2,Online,NJ-16,NJ-16,0,5,5,2,3,3.8,3,3,5,4,4,2,1,2,4,4,1,3,5,4,4,5,5,1,3.22,4.00,3.61,,,,
+E423,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,25,1,,1.2,12.5,IJP,NJ-15,3.14,0,2,5,2,2,2.8,5,5,5,4,4,5,3,2,4,4,2,2,3,5,2,5,2,5,3.46,3.67,3.56,,,,
+E424,Male,NCR,RM1,PGDM/MBA_Mkt,YES,25,1,,0,3.1,Reference,NJ-16,NJ-16,0,5,5,5,4,4.8,5,2,4,2,4,3,3,2,3,2,3,4,4,5,4,5,2,4,3.57,4.00,3.79,,,,
+E425,Female,NCR,RM3,PGDM/MBA_Mkt,YES,28,1,,1.7,13.2,Campus,NJ-15,3.91,0,5,4,3,4,4.0,3,5,4,5,4,4,2,4,2,5,3,2,4,3,2,3,4,4,3.65,3.33,3.49,,,,
+E426,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,23,1,,0.5,2.9,Reference,NJ-16,NJ-16,0,4,4,4,4,4.0,2,4,4,5,3,3,4,2,2,5,4,4,4,3,2,2,3,4,3.59,3.00,3.30,,,,
+E427,Female,NCR,RM1,PGDM/MBA_Mkt,YES,27,0,Better Prospects,3.1,3.9,Agency,4.1,NA,0,3,4,1,4,3.0,4,4,4,5,3,5,3,3,3,5,1,2,5,4,1,4,1,4,3.35,3.17,3.26,NO,NA,NO,3
+E428,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,24,1,,3,3.6,Agency,4.1,3.98,0,3,4,4,2,3.3,3,4,4,3,4,4,1,3,3,3,4,4,4,4,4,4,1,4,3.31,3.50,3.40,,,,2
+E429,Female,Mumbai,RM1,PGDM/MBA_Mkt,YES,25,1,,2.8,4.2,Campus,4.3,3.54,0,2,4,4,2,3.0,4,4,4,2,4,4,2,4,4,2,4,5,5,3,3,4,2,5,3.41,3.67,3.54,,,,1
+E430,Male,Chennai ,RM4,PGDM/MBA_Mkt,YES,27,1,,1.1,24.1,Online,NJ-15,4.00,0,3,5,3,3,3.5,4,5,5,4,4,4,1,2,1,4,3,3,4,3,1,4,4,5,3.38,3.50,3.44,,,,2
+E431,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,1.4,3.6,Campus,NJ-15,3.61,0,2,4,2,2,2.5,2,2,4,2,1,4,4,2,1,2,3,1,5,5,4,4,2,5,2.38,4.08,3.23,,,,2
+E432,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,29,1,,2.9,14.2,Walk in,4.2,4.17,0,4,3,1,4,3.0,4,3,4,4,2,5,5,4,4,4,2,3,5,3,4,5,4,4,3.47,4.17,3.82,,,,3
+E433,Male,NCR,RM3,PGDM/MBA_Mkt,YES,29,1,,3.4,10.4,Walk in,4.1,3.63,0,2,5,2,2,2.8,4,2,5,4,3,2,3,1,4,4,5,1,4,4,4,5,5,5,3.04,4.50,3.77,,,,2
+E434,Male,Chennai,RM1,BBA,YES,25,1,,0,0,Walk in,NJ-16,NJ-16,0,4,4,3,5,4.0,4,4,4,4,1,5,2,1,3,4,2,2,4,2,4,4,2,3,3.24,3.17,3.20,,,,1
+E435,Male,NCR,RM1,PGDM/MBA_Mkt,NO,24,1,,2.9,3.9,Campus,3.1,3.65,0,4,4,4,5,4.3,1,2,4,3,2,4,4,3,4,3,3,3,4,4,3,5,3,4,3.37,3.83,3.60,,,,4
+E436,Female,Bangalore,RM3,PGDM/MBA_Mkt,YES,28,1,,0.4,14.2,Online,NJ-16,NJ-16,0,1,5,3,4,3.1,4,3,5,4,4,4,5,2,3,4,5,2,4,3,4,4,2,3,3.57,3.33,3.45,,,,1
+E437,Male,Mumbai,RM2,PGDM/MBA_Mkt,NO,24,1,,4,5.9,Online,4.3,3.56,1,5,4,2,4,3.8,3,5,5,5,5,1,4,4,2,5,4,3,4,4,3,5,4,4,3.75,4.00,3.88,,,,2
+E438,Female,Chennai ,RM2,PGDM/MBA_Mkt,YES,32,1,,4.1,2.9,Online,4.4,3.57,2,5,4,1,4,3.4,4,2,5,4,2,5,4,4,3,4,2,4,4,3,1,4,3,4,3.53,3.17,3.35,,,,4
+E439,Male,Chennai,RM1,PGDM/MBA_Mkt,YES,28,0,Location,1.9,3.2,Walk in,NJ-15,NA,0,1,5,5,4,3.7,3,1,4,3,3,4,2,3,2,3,1,2,4,4,4,5,4,4,2.90,4.17,3.53,NO,NA,NO,2
+E440,Female,NCR,RM3,PGDM/MBA_Mkt,YES,30,1,,2.8,12.5,IJP,4.1,3.96,0,4,4,3,4,3.8,2,5,4,4,4,4,1,3,5,4,4,2,4,4,4,3,4,3,3.57,3.67,3.62,,,,3
+E441,Male,Mumbai,RM4,PGDM/MBA_Mkt,NO,24,1,,1.6,23.5,Campus,NJ-15,3.57,0,4,4,4,4,4.0,4,2,5,4,2,1,3,3,3,4,3,2,4,2,4,3,2,3,3.29,3.00,3.15,,,,3
+E442,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,29,1,,0.9,3.7,Online,NJ-16,NJ-16,0,5,4,4,4,4.3,4,2,4,4,3,3,3,2,3,4,2,4,4,5,4,5,4,5,3.49,4.42,3.95,,,,2
+E443,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,25,1,,0.3,3.9,Walk in,NJ-16,NJ-16,0,4,5,5,3,4.3,4,3,4,3,2,3,2,2,1,3,4,2,4,5,3,3,4,4,3.14,3.78,3.46,,,,2
+E444,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,23,1,,1.6,4.2,Campus,NJ-15,3.56,0,4,5,4,3,4.0,4,4,4,5,1,4,4,3,4,5,3,3,4,5,2,5,4,5,3.76,4.17,3.97,,,,2
+E445,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,30,1,,2.4,13.2,Online,4.0,3.65,0,1,4,5,4,3.5,2,4,5,4,3,2,1,4,2,4,1,3,4,3,1,4,1,3,3.09,2.67,2.88,,,,4
+E446,Female,Mumbai,RM1,PGDM/MBA_Mkt,YES,25,1,,2.9,4.2,Agency,3.8,3.98,0,5,4,5,4,4.5,2,3,5,4,3,3,3,4,5,4,2,4,5,2,3,4,4,3,3.79,3.50,3.65,,,,4
+E447,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,1,,3.5,4.7,Online,4.0,3.57,0,5,4,4,4,4.3,3,2,4,4,5,1,4,5,3,4,1,2,5,4,4,4,3,5,3.49,4.17,3.83,,,,3
+E448,Female,Mumbai,RM3,PGDM/MBA_Mkt,YES,24,1,,4.3,14.2,Campus,4.15,NA,1,3,4,3,3,3.3,2,4,5,5,4,4,1,4,2,5,4,2,4,2,4,5,4,5,3.37,4.00,3.68,,,,4
+E449,Female,NCR,RM1,PGDM/MBA_Mkt,YES,27,0,Higher Education,4.4,4.4,Agency,4.3,NA,1,5,5,5,2,4.3,4,5,5,3,4,4,3,4,5,3,5,4,4,4,2,5,2,5,4.13,3.67,3.90,YES,A,,2
+E450,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,25,1,,4.5,10.1,Online,4.3,3.65,1,2,4,3,1,2.5,2,2,5,3,4,3,3,4,5,3,3,1,4,4,5,5,3,4,2.97,4.17,3.57,,,,1
+E451,Female,Chennai ,RM2,PGDM/MBA_Mkt,YES,29,1,,0,3.9,IJP,NJ-16,NJ-16,0,2,4,5,5,4.0,5,5,5,4,5,1,1,2,1,4,2,1,4,4,2,3,2,2,3.29,2.75,3.02,,,,3
+E452,Female,Bangalore,RM4,PGDM/MBA_Mkt,YES,32,1,,0.8,20.7,IJP,NJ-16,NJ-16,0,5,4,4,4,4.3,5,4,5,4,1,2,3,4,1,4,4,3,4,3,4,5,4,4,3.60,4.00,3.80,,,,4
+E453,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,24,1,,0.3,3.2,Agency,NJ-16,NJ-16,0,4,4,4,2,3.5,4,3,4,3,5,4,3,3,3,3,5,2,4,4,3,3,2,2,3.50,3.00,3.25,,,,3
+E454,Male,NCR,RM2,PGDM/MBA_Mkt,NO,25,1,,4.6,5.9,Agency,4.3,3.91,1,4,4,2,4,3.5,4,4,4,2,4,2,2,3,3,2,4,4,4,5,2,5,2,5,3.26,3.75,3.51,,,,1
+E455,Male,Chennai,RM1,PGDM/MBA_Mkt,YES,29,1,,1.9,3.2,Walk in,NJ-15,3.94,0,2,4,5,4,3.8,4,5,4,5,4,5,2,4,2,5,4,4,4,4,4,4,2,4,3.89,3.67,3.78,,,,2
+E456,Female,Mumbai,RM3,PGDM/MBA_Mkt,NO,24,1,,5.7,10.9,Reference,3.8,3.28,1,3,5,2,2,3.0,4,4,5,5,4,2,3,1,1,4,2,3,5,3,1,5,5,1,3.09,3.33,3.21,,,,1
+E457,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,28,1,,4.9,6.2,Online,4.4,3.76,1,5,5,3,4,4.3,4,4,4,3,5,4,1,3,3,3,1,3,4,4,3,3,5,5,3.49,4.00,3.74,,,,1
+E458,Male,Chennai,RM1,BBA,NO,24,1,,0,0,Campus,NJ-16,NJ-16,0,4,4,2,4,3.5,4,4,4,3,5,1,4,2,4,3,3,3,5,4,5,4,4,4,3.38,4.33,3.86,,,,2
+E459,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,28,1,,2.3,12.3,Walk in,3.7,3.65,0,5,4,4,4,4.3,4,3,4,4,4,2,2,4,5,4,3,2,4,4,3,5,4,5,3.66,4.17,3.91,,,,3
+E460,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,28,1,,1.7,10.8,Walk in,NJ-15,3.59,0,4,4,2,2,3.0,3,4,4,3,4,4,4,2,2,3,2,2,5,3,4,5,5,4,3.06,4.27,3.66,,,,2
+E461,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,4.5,6.8,Reference,4.2,3.57,1,2,5,1,4,3.0,3,4,4,4,5,2,3,1,1,4,4,3,4,5,3,5,4,5,3.12,4.33,3.73,,,,1
+E462,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,24,1,,0,14,Reference,NJ-16,NJ-16,0,4,4,5,4,4.3,4,4,4,5,5,1,3,5,4,5,1,4,4,4,2,5,4,4,3.84,3.83,3.84,,,,1
+E463,Female,Mumbai,RM3,PGDM/MBA_Mkt,NO,25,1,,2.3,12.5,IJP,3.9,4.22,0,5,3,4,5,4.3,4,4,4,2,5,3,1,2,1,2,3,4,4,4,1,4,4,5,3.31,3.67,3.49,,,,2
+E464,Male,Mumbai,RM2,PGDM/MBA_Mkt,YES,25,1,,4.3,7.9,Agency,4.2,3.84,1,4,4,4,3,3.8,4,4,4,4,5,2,3,2,3,4,4,5,4,4,4,3,4,5,3.69,4.00,3.85,,,,3
+E465,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,27,1,,2.9,4.6,Campus,4.0,3.56,0,4,3,1,3,2.8,3,2,4,4,5,1,2,4,4,4,1,4,4,5,5,5,4,5,3.04,4.58,3.81,,,,1
+E466,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,23,1,,3.9,10.9,Reference,4.2,4.06,0,1,5,2,3,2.8,2,2,4,4,3,5,3,2,2,4,3,4,4,2,4,5,5,5,3.04,4.17,3.61,,,,1
+E467,Female,NCR,RM1,PGDM/MBA_Mkt,NO,25,1,,2.1,3.7,IJP,3.8,3.94,0,3,5,4,4,4.0,1,4,4,3,2,2,3,4,4,3,3,4,4,3,4,4,4,4,3.40,3.83,3.62,,,,2
+E468,Female,Bangalore,RM4,PGDM/MBA_Mkt,YES,24,1,,4.2,17.5,Reference,4.2,4.00,2,4,5,2,1,3.0,5,3,5,3,4,4,1,4,1,3,1,2,5,4,3,4,5,4,3.00,4.17,3.58,,,,1
+E469,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,5.4,7.2,Reference,4.2,3.87,1,3,4,1,5,3.3,4,4,5,4,4,3,4,4,4,4,3,4,4,4,5,4,1,4,3.72,3.67,3.69,,,,3
+E470,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,25,1,,5,9,Reference,4.2,4.17,1,3,4,4,2,3.3,2,1,4,3,4,1,3,3,2,3,3,3,4,3,4,4,3,4,2.84,3.67,3.25,,,,2
+E471,Male,Mumbai,RM1,PGDM/MBA_Mkt,YES,29,1,,0,4.2,Campus,NJ-16,NJ-16,0,3,5,4,3,3.8,4,3,4,4,4,4,5,4,5,4,2,3,4,2,5,4,3,2,3.81,3.33,3.57,,,,1
+E472,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,25,1,,2.3,4.3,Walk in,4.0,3.98,0,4,4,4,5,4.3,4,1,5,5,1,2,5,3,3,5,2,4,5,5,4,4,2,5,3.54,4.12,3.83,,,,1
+E473,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,28,1,,2.2,5.3,Campus,3.7,3.57,0,4,5,3,4,4.0,2,4,5,4,4,3,5,4,1,4,3,1,5,5,4,4,3,4,3.53,4.08,3.81,,,,1
+E474,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,23,1,,2.7,12.6,Agency,3.9,3.65,0,4,5,4,5,4.5,4,2,4,4,4,5,3,4,1,4,1,3,4,3,4,5,4,4,3.62,4.00,3.81,,,,2
+E475,Female,NCR,RM1,PGDM/MBA_Mkt,YES,25,1,,0.8,3.1,IJP,NJ-16,NJ-16,0,1,4,4,4,3.3,4,3,4,4,4,1,3,4,4,4,4,2,4,3,5,4,4,4,3.37,4.00,3.68,,,,2
+E476,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,29,1,,3.7,4.2,Campus,4.1,4.17,0,5,4,4,5,4.5,4,1,4,4,2,1,3,3,4,4,2,4,3,4,4,3,3,4,3.44,3.50,3.47,,,,2
+E477,Male,Bangalore,RM4,PGDM/MBA_Mkt,YES,25,1,,4.8,18.2,Online,4.4,3.43,2,4,5,1,2,3.0,2,4,4,2,5,4,5,2,4,4,4,2,5,5,2,3,4,4,3.35,3.83,3.59,,,,1
+E478,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,32,1,Better Prospects,3,3,Agency,4.2,3.98,0,5,5,4,5,4.8,4,2,5,5,3,3,2,2,4,5,3,1,3,4,4,5,4,4,3.69,4.00,3.85,,,,1
+E479,Female,Bangalore,RM3,PGDM/MBA_Mkt,NO,28,1,,2.8,14.3,IJP,4.2,4.17,0,4,4,4,5,4.3,4,5,4,5,2,1,5,2,3,5,3,5,5,5,5,4,4,5,3.78,4.58,4.18,,,,1
+E480,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,25,1,,2.4,2.7,Agency,4.2,3.94,0,3,5,3,4,3.8,5,2,5,5,4,3,3,3,3,5,1,2,5,2,3,5,4,5,3.51,4.00,3.76,,,,1
+E481,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,30,1,,4.3,5.3,Reference,4.3,4.07,1,3,5,4,4,4.0,3,2,4,5,4,3,3,3,4,5,3,2,4,4,4,4,1,4,3.59,3.50,3.54,,,,1
+E482,Female,Mumbai,RM3,PGDM/MBA_Mkt,NO,27,1,,4.5,10,Walk in,4.3,4.17,1,4,5,4,4,4.3,3,4,5,3,4,1,2,3,3,3,2,4,5,4,2,5,5,4,3.45,4.17,3.81,,,,2
+E483,Female,Mumbai,RM2,PGDM/MBA_Mkt,NO,26,1,,5.7,6.2,Walk in,4.1,3.57,1,4,5,2,5,4.0,3,2,4,4,4,3,1,3,2,4,3,2,4,4,1,3,3,3,3.24,3.00,3.12,,,,2
+E484,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,30,1,,2.3,5.2,Walk in,3.8,3.56,0,2,5,2,2,2.8,4,2,4,5,1,2,3,3,2,5,3,4,5,3,4,3,5,3,2.99,3.90,3.44,,,,2
+E485,Female,Chennai ,RM2,PGDM/MBA_Mkt,NO,28,1,,1.7,4.9,Online,NJ-15,3.85,0,4,5,4,5,4.5,1,1,4,4,2,1,4,4,1,4,1,4,5,3,2,4,4,4,3.15,3.67,3.41,,,,4
+E486,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,24,1,,0,2.1,Online,NJ-16,NJ-16,0,4,5,4,4,4.3,5,2,4,5,1,1,5,2,4,5,4,4,4,4,4,4,3,3,3.69,3.67,3.68,,,,1
+E487,Female,Bangalore,RM4,PGDM/MBA_Mkt,NO,22,1,,2.3,21.6,Campus,4.2,3.93,0,5,4,2,4,3.8,2,5,4,5,1,5,3,1,2,5,3,3,4,3,3,4,2,3,3.34,3.17,3.25,,,,2
+E488,Female,Mumbai,RM1,PGDM/MBA_Mkt,NO,28,1,,3.9,5.2,IJP,3.8,3.61,0,5,5,2,4,4.0,3,4,4,4,4,2,2,2,5,4,5,4,4,4,2,4,4,4,3.65,3.67,3.66,,,,1
+E489,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,28,1,,5,12.1,Walk in,4.0,3.65,1,4,4,2,5,3.8,4,3,5,4,3,1,1,5,4,4,5,3,5,5,2,4,3,5,3.51,3.92,3.72,,,,2
+E490,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,28,1,,2.7,5.3,Reference,4.0,3.56,0,2,4,4,1,2.8,5,4,4,2,1,3,2,2,2,2,5,4,4,4,2,4,2,5,2.93,3.50,3.21,,,,1
+E491,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,26,1,,1.7,5.8,Campus,NJ-15,3.61,0,3,5,4,5,4.3,5,4,4,3,2,1,3,2,4,3,3,4,4,4,5,4,1,4,3.49,3.67,3.58,,,,2
+E492,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,29,1,,3.9,10.7,IJP,3.8,3.48,0,4,4,3,5,4.0,5,5,4,4,4,4,5,4,5,4,3,4,4,5,2,4,1,4,4.20,3.28,3.74,,,,1
+E493,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,26,1,,2.9,6.4,Campus,4.1,4.17,0,4,5,4,4,4.3,4,4,5,4,4,2,4,2,2,4,3,3,5,4,1,4,4,4,3.67,3.67,3.67,,,,4
+E494,Male,NCR,RM3,PGDM/MBA_Mkt,NO,25,1,,2.9,13.4,Reference,4.4,3.98,0,2,4,3,5,3.5,5,4,4,5,4,1,3,2,2,5,3,2,4,2,3,3,2,5,3.38,3.11,3.25,,,,2
+E495,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,23,1,,2.6,14.9,Reference,4.0,3.65,0,5,5,4,5,4.8,4,3,5,4,4,2,4,3,1,4,2,2,3,5,2,4,2,4,3.61,3.39,3.50,,,,2
+E496,Female,Bangalore,RM4,PGDM/MBA_Mkt,NO,24,1,,3.7,23.7,Agency,4.1,4.72,0,4,4,5,5,4.5,4,3,4,5,4,4,2,4,4,4,5,2,4,5,4,5,4,5,3.97,4.42,4.19,,,,1
+E497,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,31,1,,3.3,6.3,IJP,4.1,3.56,0,2,5,4,3,3.5,4,4,4,2,4,4,4,4,2,2,3,3,3,5,4,4,3,4,3.38,3.83,3.61,,,,1
+E498,Female,Mumbai,RM2,PGDM/MBA_Mkt,YES,30,1,,2.9,5.9,Reference,4.0,3.56,0,4,4,4,4,4.0,4,4,4,5,2,1,3,3,2,5,3,3,5,5,4,3,4,4,3.41,4.11,3.76,,,,3
+E499,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,30,1,,5.6,12.7,Agency,4.3,4.17,1,4,4,4,2,3.5,4,4,4,3,2,4,3,1,4,2,2,3,5,3,4,5,4,4,3.15,4.20,3.67,,,,
+E500,Male,NCR,RM2,PGDM/MBA_Mkt,NO,34,1,,3.7,6.3,Walk in,4.1,3.57,0,3,4,3,4,3.5,5,1,4,4,4,4,4,2,5,2,1,3,4,4,1,5,2,5,3.32,3.42,3.37,,,,
+E501,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,34,1,,7.7,13,Campus,4.5,3.65,1,3,4,4,4,3.8,4,5,4,5,5,1,4,4,4,4,3,3,3,5,4,5,4,4,3.78,4.08,3.93,,,,
+E502,Male,Bangalore,RM1,BBA,YES,28,1,,0.2,1.7,Agency,NJ-16,NJ-16,0,4,4,4,4,4.0,5,3,5,4,2,5,4,2,3,3,4,4,4,4,4,5,4,3,3.76,4.00,3.88,,,,
+E503,Male,Mumbai,RM3,MBA(Tier 1) ,YES,32,1,,0,9,IJP,NJ-16,NJ-16,0,3,4,4,4,3.8,1,5,5,3,3,4,4,5,2,4,5,2,5,5,4,5,4,3,3.63,4.26,3.94,,,,
+E504,Male,Mumbai,RM2,PGDM/MBA_Mkt,YES,31,1,,4.3,5.7,Reference,4.3,3.86,1,5,4,4,5,4.5,5,4,4,4,4,4,3,2,4,4,3,1,4,5,2,5,1,4,3.79,3.36,3.58,,,,
+E505,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,30,1,,2.8,5.3,IJP,4.1,3.98,0,4,4,4,5,4.3,4,3,5,4,2,1,4,4,2,2,2,2,4,4,5,5,4,4,3.31,4.14,3.72,,,,
+E506,Female,NCR,RM1,PGDM/MBA_Mkt,YES,36,1,,0,3.2,Agency,NJ-16,NJ-16,0,4,4,3,4,3.8,4,2,4,4,3,3,3,2,1,4,1,5,4,4,1,5,3,3,3.22,3.31,3.26,,,,
+E507,Male,Mumbai,RM4,PGDM/MBA_Mkt,YES,29,1,,4.2,19.6,IJP,4.6,3.89,2,4,4,3,5,4.0,1,4,4,3,2,3,4,4,3,4,2,2,3,2,5,5,5,4,3.27,4.00,3.64,,,,
+E508,Female,Chennai ,RM2,PGDM/MBA_Mkt,NO,32,1,,3.1,4.9,Agency,4.0,4.17,0,4,5,4,4,4.3,5,4,4,5,1,4,4,3,3,4,3,2,4,3,4,5,4,4,3.72,4.00,3.86,,,,
+E509,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,34,1,,3.1,12.7,Reference,4.1,4.67,0,5,4,4,5,4.5,5,3,5,4,3,5,4,3,2,3,5,4,4,5,3,5,4,1,4.03,3.61,3.82,,,,
+E510,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,28,1,,4.1,6.2,Campus,4.3,3.56,1,2,4,4,4,3.5,1,4,4,4,3,3,5,3,3,4,1,2,4,4,1,5,1,4,3.21,3.07,3.14,,,,
+E511,Male,NCR,RM3,PGDM/MBA_Mkt,YES,46,1,,3.8,10.3,Walk in,4.1,4.06,0,5,4,2,5,4.0,4,4,4,4,5,1,3,3,4,3,3,2,5,5,3,5,3,4,3.53,4.17,3.85,,,,
+E512,Male,NCR,RM2,PGDM/MBA_Mkt,NO,27,1,,4.5,7.2,Online,4.4,3.86,1,3,4,3,2,3.0,4,5,5,5,4,4,4,4,4,5,1,3,3,4,2,5,4,4,3.68,3.58,3.63,,,,
+E513,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,38,1,,0.6,2.5,Reference,NJ-16,NJ-16,0,5,4,2,4,3.8,5,5,4,2,4,2,4,2,3,4,2,2,5,4,3,4,2,4,3.40,3.61,3.50,,,,
+E514,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,37,1,,0.8,3.5,Reference,NJ-16,NJ-16,0,5,4,2,4,3.8,4,4,5,3,4,3,4,2,3,4,4,4,4,2,3,4,4,4,3.69,3.50,3.60,,,,
+E515,Male,Chennai ,RM2,PGDM/MBA_Mkt,YES,30,1,,3.7,4.9,Online,4.1,3.98,0,5,4,3,4,4.0,4,3,4,4,5,1,4,1,5,1,3,3,5,5,1,4,1,4,3.41,3.19,3.30,,,,
+E516,Male,NCR,RM3,PGDM/MBA_Mkt,YES,35,1,,4.9,14.7,Agency,4.1,4.12,1,1,5,4,1,2.8,3,3,4,4,1,2,3,4,5,3,3,1,4,2,4,4,4,4,2.93,3.67,3.30,,,,
+E517,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,31,1,,2.1,6.2,Walk in,3.7,3.56,0,2,5,5,4,4.0,5,4,4,3,5,4,5,4,4,4,4,2,5,2,3,4,2,3,4.00,3.17,3.58,,,,
+E518,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,43,1,,5.5,13.7,Campus,4.1,4.61,1,5,5,2,4,4.0,5,4,4,2,4,5,4,4,4,4,4,4,4,5,2,4,5,2,4.00,3.67,3.83,,,,
+E519,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,34,1,,1.7,6.7,Agency,NJ-15,4.66,0,4,4,5,4,4.3,5,2,4,5,4,5,4,5,5,4,4,2,3,4,5,4,3,4,4.11,3.81,3.96,,,,
+E520,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,32,1,,1.7,2.8,Walk in,NJ-15,3.94,0,5,4,2,3,3.5,5,5,4,5,4,2,3,5,4,5,4,5,5,4,5,3,1,5,4.00,3.78,3.89,,,,
+E521,Female,NCR,RM2,PGDM/MBA_Mkt,NO,26,1,,1.9,4.6,Campus,NJ-15,3.87,0,2,4,5,2,3.3,5,4,4,3,3,5,4,4,4,4,3,2,4,4,3,4,1,4,3.60,3.33,3.47,,,,
+E522,Female,NCR,RM2,PGDM/MBA_Mkt,YES,38,1,,1.4,5.2,IJP,NJ-15,3.94,0,5,4,5,4,4.5,5,4,5,5,4,5,5,3,4,2,4,4,5,2,3,5,4,4,4.26,3.83,4.05,,,,
+E523,Female,Mumbai,RM3,PGDM/MBA_Mkt,YES,33,0,Location,2.8,12.5,Agency,4.3,NA,0,2,4,4,2,3.0,4,5,4,4,3,4,4,2,4,5,2,3,5,3,3,4,4,4,3.47,3.83,3.65,YES,UA,,2
+E524,Male,Mumbai,RM1,PGDM/MBA_Mkt,NO,32,0,Involuntary,2.4,4.4,Campus,4.3,NA,0,1,5,5,4,3.8,2,3,5,4,1,2,5,3,3,5,4,5,4,3,2,4,4,5,3.57,3.67,3.62,NO,NA,NO,1
+E525,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,28,0,Higher Education,3.1,10.6,Walk in,3.9,NA,0,4,4,4,4,4.0,3,4,5,2,4,1,5,1,3,4,1,4,5,3,2,4,1,4,3.35,3.17,3.26,NO,NA,NO,4
+E526,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,29,0,Higher Education,2.9,5.2,Online,4.3,NA,0,1,4,4,2,2.8,5,2,4,4,2,4,4,4,4,4,3,5,5,4,1,4,2,4,3.46,3.33,3.39,NO,NA,NO,2
+E527,Female,Bangalore,RM1,BBA,YES,24,0,Job Environment ,2.7,2.7,Reference,3.7,NA,0,5,4,3,5,4.3,4,5,4,4,3,1,5,1,4,3,2,4,5,2,4,4,1,4,3.60,3.33,3.47,NO,NA,NO,1
+E528,Male,NCR,RM1,PGDM/MBA_Mkt,YES,30,0,Higher Education,2,3.8,Reference,4.1,NA,0,4,4,4,4,4.0,5,4,5,4,1,3,5,3,4,4,4,4,5,1,2,4,1,5,3.88,3.00,3.44,NO,NA,NO,4
+E529,Male,Mumbai,RM2,PGDM/MBA_Mkt,YES,28,1,,3.4,6.2,Reference,3.4,3.56,0,2,4,4,5,3.8,4,3,4,2,4,1,4,1,1,3,5,4,5,2,5,3,4,4,3.22,3.83,3.53,,,,1
+E530,Female,NCR,RM3,PGDM/MBA_Mkt,NO,27,0,Better Prospects,0,13.2,IJP,NJ-16,NJ-16,0,3,4,5,4,4.0,2,3,4,4,2,5,5,2,5,5,2,2,4,5,4,4,3,1,3.59,3.50,3.54,NO,NA,NO,1
+E531,Female,NCR,RM1,PGDM/MBA_Mkt,NO,29,1,,1.6,4.1,Campus,NJ-15,4.50,0,4,4,5,5,4.5,4,2,4,4,5,5,4,3,3,5,4,3,5,5,2,5,3,5,4.03,4.17,4.10,,,,4
+E532,Female,Bangalore,RM5,PGDM/MBA_Mkt,YES,35,1,,2.7,28.8,IJP,4.2,4.61,0,4,3,5,4,4.0,5,1,4,4,2,5,5,3,5,5,4,1,5,5,4,4,2,5,3.76,4.17,3.97,,,,2
+E533,Male,NCR,RM2,MBA(Tier 1) ,NO,24,0,Better Prospects,0,0,Agency,NJ-16,NJ-16,0,3,5,4,4,4.0,4,3,4,3,2,2,4,2,4,4,2,2,5,4,3,3,3,4,3.29,3.67,3.48,NO,NA,NO,4
+E534,Male,NCR,RM2,PGDM/MBA_Mkt,YES,32,0,Job Environment ,2.9,6,Online,4.2,NA,0,4,5,4,2,3.8,4,2,4,3,4,1,4,2,3,4,5,4,5,2,2,5,4,4,3.46,3.67,3.56,NO,NA,NO,4
+E535,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,32,0,Higher Education,3.8,3.8,Reference,3.4,NA,0,1,5,4,3,3.3,1,4,4,3,2,3,4,2,2,5,2,2,4,2,2,5,4,4,2.96,3.50,3.23,NO,NA,NO,1
+E536,Male,NCR,RM3,PGDM/MBA_Mkt,YES,29,0,Better Prospects,3.2,13.6,Reference,4.1,NA,0,4,4,2,4,3.5,3,2,4,4,2,2,4,2,4,5,4,5,5,3,1,5,4,4,3.44,3.67,3.55,YES,UA,,2
+E537,Male,NCR,RM1,PGDM/MBA_Mkt,NO,27,0,Higher Education,2.6,3,Reference,4.0,NA,0,3,5,2,5,3.8,4,4,4,1,4,5,4,1,5,5,2,2,4,2,1,5,4,1,3.51,2.83,3.17,NO,NA,NO,1
+E538,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,26,0,Better Prospects,3.1,5.7,Online,4.0,NA,0,3,5,4,2,3.5,3,3,4,5,2,3,4,3,2,3,2,3,4,4,2,5,4,4,3.21,3.83,3.52,NO,NA,NO,1
+E539,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,27,0,Absconding,2.5,4.9,Agency,4.0,NA,0,2,4,5,1,3.0,3,5,4,2,5,4,4,2,1,5,3,2,4,3,2,5,2,4,3.24,3.33,3.28,NO,NA,NO,3
+E540,Male,Bangalore,RM4,PGDM/MBA_Mkt,NO,26,1,,2.8,22.2,IJP,3.8,3.37,0,4,5,1,3,3.3,3,5,4,4,4,4,4,5,4,3,5,4,5,4,3,5,5,4,3.82,4.33,4.08,,,,3
+E541,Male,NCR,RM1,BBA,NO,25,1,,3.2,3.8,Reference,4.1,3.65,0,5,4,5,4,4.5,4,4,3,4,4,1,4,5,4,4,4,4,5,4,4,5,2,4,3.97,4.00,3.99,,,,4
+E542,Female,Mumbai,RM2,MBA(Tier 1) ,NO,26,1,,1.8,1.5,Agency,NJ-15,4.80,0,5,5,5,4,4.8,4,3,4,5,1,4,4,5,2,4,4,4,3,4,3,5,3,4,3.99,3.67,3.83,,,,4
+E543,Female,Chennai,RM3,PGDM/MBA_Mkt,NO,25,0,Absconding,1.9,11.7,IJP,NJ-15,NA,0,5,4,5,1,3.8,4,3,4,4,3,4,3,5,2,4,4,4,4,4,4,5,3,4,3.71,4.00,3.86,NO,NA,NO,4
+E544,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,25,0,Better Prospects,1.1,2,Online,NJ-15,NA,0,5,5,3,2,3.8,1,4,4,4,4,3,4,3,4,4,4,4,5,5,4,5,3,4,3.61,4.33,3.97,NO,NA,NO,4
+E545,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,26,0,Involuntary,1,6,IJP,NJ-15,NA,0,5,4,4,3,4.0,5,4,4,4,1,1,4,3,3,4,4,4,4,3,4,5,2,4,3.59,3.67,3.63,NO,NA,NO,4
+E546,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,25,0,Better Prospects,1.4,5.9,Online,NJ-15,NA,0,5,4,2,1,3.0,3,5,5,4,4,2,4,4,4,5,3,3,5,4,5,5,3,4,3.57,4.33,3.95,NO,NA,NO,2
+E547,Male,Mumbai,RM1,PGDM/MBA_Mkt,NO,25,1,,3.4,4.5,Reference,4.2,4.50,0,3,5,5,5,4.5,5,4,4,4,5,3,4,4,4,5,5,3,4,3,3,5,2,4,4.26,3.50,3.88,,,,3
+E548,Male,Bangalore,RM3,PGDM/MBA_Mkt,YES,34,1,,2.5,9.8,Online,4.3,4.17,0,5,4,4,4,4.3,4,3,3,5,4,4,4,3,2,5,4,4,5,5,4,4,4,5,3.87,4.50,4.18,,,,3
+E549,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,28,0,Higher Education,2.8,3,Online,4.2,NA,0,4,5,2,5,4.0,4,4,5,4,2,4,4,4,4,5,4,4,4,4,4,4,3,4,4.00,3.83,3.92,NO,NA,NO,2
+E550,Male,Chennai,RM1,PGDM/MBA_Mkt,YES,30,1,,2.4,3,Reference,3.9,4.07,0,1,4,4,2,2.8,4,5,4,3,5,4,5,4,4,4,4,4,4,5,4,4,3,4,3.75,4.00,3.88,,,,3
+E551,Female,Chennai,RM3,PGDM/MBA_Mkt,NO,29,0,Personal,3.1,11.5,Campus,3.8,NA,0,2,5,2,3,3.0,4,4,4,3,2,4,4,4,3,5,1,1,4,4,2,4,3,3,3.20,3.33,3.26,NO,NA,NO,3
+E552,Male,NCR,RM1,PGDM/MBA_Mkt,YES,27,0,Better Prospects,0.7,3.2,Reference,NJ-16,NJ-16,0,3,5,3,4,3.8,4,4,4,4,1,4,4,5,1,3,5,5,4,5,3,4,5,3,3.65,4.00,3.83,NO,NA,NO,3
+E553,Female,Mumbai,RM2,MBA(Tier 1) ,YES,38,1,,0,0,Reference,NJ-16,NJ-16,0,5,4,4,2,3.8,4,4,5,4,1,2,5,4,4,3,4,3,4,3,5,4,4,4,3.59,4.00,3.80,,,,5
+E554,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,23,1,,2.9,9.6,Walk in,4.0,3.65,0,5,4,4,3,4.0,4,3,4,3,4,5,4,4,3,5,5,5,4,5,3,4,4,4,4.08,4.00,4.04,,,,4
+E555,Female,Bangalore,RM4,PGDM/MBA_Mkt,YES,26,1,,0.9,21.8,Online,NJ-16,NJ-16,0,5,4,4,2,3.8,3,4,4,4,4,3,5,3,5,4,4,4,4,5,4,3,5,4,3.87,4.17,4.02,,,,4
+E556,Male,Chennai,RM1,PGDM/MBA_Mkt,NO,25,0,Better Prospects,0.2,3.2,Campus,NJ-16,NJ-16,0,5,4,4,1,3.5,3,4,5,3,3,2,5,4,4,4,3,3,5,4,3,4,4,5,3.58,4.17,3.87,NO,NA,NO,4
+E557,Male,Chennai,RM1,BCOM,NO,24,1,,1.6,1.8,Reference,NJ-15,3.61,0,4,4,4,3,3.8,4,4,4,4,3,4,4,4,4,4,3,2,4,4,2,5,4,4,3.69,3.83,3.76,,,,1
+E558,Male,NCR,RM3,PGDM/MBA_Mkt,NO,24,0,Personal,5.2,9.2,Campus,4.3,NA,2,4,4,4,3,3.8,4,4,4,4,1,2,4,2,1,5,4,4,4,4,1,3,4,4,3.38,3.33,3.36,NO,NA,NO,2
+E559,Male,Chennai,RM1,PGDM/MBA_Mkt,NO,22,1,,3,3,Walk in,4.0,3.87,0,5,4,4,5,4.5,4,4,4,4,4,2,5,2,3,5,4,4,4,5,4,5,4,5,3.97,4.50,4.24,,,,2
+E560,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,0,Better Prospects,2.5,6.7,Online,4.0,NA,0,4,4,5,4,4.3,1,3,4,4,4,2,4,4,4,4,2,4,4,2,5,3,4,4,3.58,3.67,3.63,NO,NA,NO,3
+E561,Male,NCR,RM5,PGDM/MBA_Mkt,YES,38,1,,4.2,27.9,Walk in,3.7,3.98,2,5,4,5,4,4.5,2,3,4,4,2,3,5,2,2,3,4,4,4,5,4,4,5,4,3.57,4.33,3.95,,,,2
+E562,Female,NCR,RM5,PGDM/MBA_Mkt,NO,29,1,,3.9,31.7,Reference,4.1,4.17,0,4,5,5,4,4.5,3,4,4,4,2,2,5,4,4,5,4,4,4,4,4,4,4,4,3.97,4.00,3.99,,,,4
+E563,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,26,1,,0,2,IJP,NJ-16,NJ-16,0,1,5,4,5,3.8,1,4,5,4,4,4,4,4,1,5,5,5,4,4,3,3,5,4,3.79,3.83,3.81,,,,1
+E564,Female,Bangalore,RM1,BBA,YES,35,1,,2.3,3.9,Online,4.1,3.87,0,5,4,5,1,3.8,2,4,4,4,3,3,5,4,4,5,5,5,4,4,3,5,1,4,3.93,3.50,3.71,,,,3
+E565,Male,Mumbai,RM2,PGDM/MBA_Mkt,NO,25,1,,3.2,5.1,Reference,4.2,3.98,0,5,4,5,5,4.8,4,5,4,3,4,2,4,3,2,4,4,4,5,5,4,5,5,4,3.93,4.67,4.30,,,,1
+E566,Female,Bangalore,RM3,PGDM/MBA_Mkt,YES,29,0,Better Prospects,3.8,12,IJP,3.6,NA,0,2,4,1,4,2.8,5,5,5,4,4,1,4,4,2,3,2,2,5,1,2,5,1,3,3.22,2.83,3.03,NO,NA,NO,5
+E567,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,28,0,Location,2.2,3.2,Online,3.8,NA,0,5,4,2,4,3.8,2,4,3,4,4,4,4,3,3,5,3,3,4,5,4,5,2,4,3.56,4.00,3.78,NO,NA,NO,1
+E568,Male,NCR,RM1,PGDM/MBA_Mkt,NO,28,0,Better Prospects,1.2,3.4,IJP,NJ-15,NA,0,4,4,2,4,3.5,3,5,4,5,4,3,4,4,1,5,4,4,4,5,1,4,2,4,3.72,3.33,3.52,NO,NA,NO,1
+E569,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,30,1,,4.2,3.1,IJP,4.1,3.61,1,4,5,3,5,4.3,4,5,3,4,4,4,4,4,1,4,4,4,4,4,5,4,4,4,3.90,4.17,4.03,,,,3
+E570,Female,Mumbai,RM3,PGDM/MBA_Mkt,NO,27,0,Better Prospects,1.9,9,Online,NJ-15,NA,0,5,4,4,5,4.5,2,5,5,4,4,4,4,4,4,4,2,2,4,5,3,4,3,4,3.91,3.83,3.87,NO,NA,NO,2
+E571,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,32,1,,1.1,2.7,Online,NJ-15,3.98,0,3,4,4,4,3.8,3,3,5,5,3,2,4,5,4,4,5,5,4,5,5,4,4,4,3.90,4.33,4.12,,,,2
+E572,Female,NCR,RM4,PGDM/MBA_Mkt,YES,39,1,,5.6,19.6,IJP,4.3,3.43,2,4,4,2,4,3.5,2,5,5,4,1,3,4,3,2,4,4,4,4,5,3,4,4,4,3.44,4.00,3.72,,,,2
+E573,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,26,0,Better Prospects,1.6,4,IJP,NJ-15,NA,0,3,4,4,5,4.0,1,1,4,4,4,4,4,4,3,4,2,1,4,3,5,4,2,4,3.31,3.67,3.49,NO,NA,NO,5
+E574,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,28,1,,1.7,5.1,IJP,NJ-15,3.56,0,2,4,4,5,3.8,3,5,4,5,2,4,4,2,4,4,4,4,4,4,1,4,4,4,3.72,3.50,3.61,,,,3
+E575,Female,Mumbai,RM5,PGDM/MBA_Mkt,NO,25,1,,6.9,34,IJP,4.3,3.98,1,2,4,5,5,4.0,3,1,4,4,1,1,4,4,4,5,4,2,5,2,2,5,2,4,3.33,3.33,3.33,,,,3
+E576,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,24,0,Better Prospects,0.3,3,Reference,NJ-16,NJ-16,0,1,5,3,5,3.5,5,2,5,3,4,4,5,4,1,3,3,4,4,4,3,5,4,4,3.56,4.00,3.78,NO,NA,NO,2
+E577,Female,Chennai ,RM2,PGDM/MBA_Mkt,NO,24,0,Personal,2.8,4.2,IJP,4.1,NA,0,5,4,2,5,4.0,4,1,5,4,4,3,5,4,5,5,3,3,5,4,4,5,1,4,3.86,3.83,3.85,NO,NA,NO,4
+E578,Female,NCR,RM1,PGDM/MBA_Mkt,YES,28,0,Location,0.7,3.6,Reference,NJ-16,NJ-16,0,1,4,4,3,3.0,4,4,4,4,4,5,4,3,2,4,4,4,4,4,3,3,3,4,3.59,3.50,3.54,NO,NA,NO,1
+E579,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,29,0,Higher Education,2.2,4.9,Online,3.7,NA,0,5,5,4,2,4.0,4,2,5,4,4,4,5,4,4,5,3,3,5,4,2,5,1,4,3.94,3.50,3.72,NO,NA,NO,3
+E580,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,23,1,,2.7,10.4,Reference,4.0,3.65,0,4,5,5,4,4.5,5,3,4,4,1,4,5,2,3,4,5,5,4,5,1,4,4,4,3.95,3.67,3.81,,,,4
+E581,Male,Mumbai,RM1,PGDM/MBA_Mkt,YES,33,1,,2.5,5,IJP,3.7,4.58,0,4,4,4,4,4.0,1,5,5,4,3,4,4,3,4,5,4,4,4,5,4,5,4,5,3.86,4.50,4.18,,,,2
+E582,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,31,1,,1.9,2.9,Walk in,NJ-15,3.86,0,4,3,5,4,4.0,5,5,5,4,4,3,4,3,4,3,4,4,4,4,2,4,3,4,4.00,3.50,3.75,,,,4
+E583,Female,NCR,RM3,PGDM/MBA_Mkt,YES,27,1,,4.2,12.3,IJP,4.2,NA,1,5,3,4,4,4.0,4,5,5,4,3,4,5,4,4,3,4,4,4,5,1,5,4,2,4.06,3.50,3.78,,,,1
+E584,Female,NCR,RM1,PGDM/MBA_Mkt,NO,26,0,Personal,3,3,Reference,3.5,NA,0,5,5,3,1,3.5,4,5,5,4,2,1,4,4,4,4,4,4,4,4,4,3,5,4,3.68,4.00,3.84,NO,NA,NO,3
+E585,Female,NCR,RM1,PGDM/MBA_Mkt,NO,32,1,,3,4.6,Reference,4.2,3.87,0,4,5,5,4,4.5,4,3,5,4,1,4,5,4,4,4,5,5,4,5,2,5,2,4,4.13,3.67,3.90,,,,2
+E586,Male,Mumbai,RM4,PGDM/MBA_Mkt,NO,26,1,,1.7,20.3,Reference,NJ-15,4.00,0,5,4,4,4,4.3,5,3,5,4,3,5,4,3,4,4,2,2,4,4,5,5,2,4,3.84,4.00,3.92,,,,4
+E587,Female,Chennai ,RM2,PGDM/MBA_Mkt,NO,31,1,,0,3.6,Online,NJ-16,NJ-16,0,5,5,5,4,4.8,5,4,4,4,5,4,5,3,3,4,5,5,5,5,2,5,2,4,4.38,3.83,4.11,,,,1
+E588,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,25,0,Personal,0.3,2.8,Online,NJ-16,NJ-16,0,5,4,4,2,3.8,4,4,5,4,2,2,4,5,5,4,4,4,4,5,2,3,1,4,3.89,3.17,3.53,NO,NA,NO,2
+E589,Female,Bangalore,RM3,PGDM/MBA_Mkt,NO,24,1,,4.2,10.9,Online,4.2,3.65,1,3,5,5,5,4.5,4,3,4,4,3,5,4,2,4,4,5,4,4,5,1,4,3,4,4.03,3.50,3.76,,,,1
+E590,Male,Mumbai,RM1,PGDM/MBA_Mkt,NO,22,0,Better Prospects,2.3,4.5,Online,4.2,NA,0,5,5,3,3,4.0,5,4,4,4,4,2,4,3,3,4,1,1,4,4,3,4,1,4,3.45,3.33,3.39,NO,NA,NO,4
+E591,Female,NCR,RM1,PGDM/MBA_Mkt,NO,24,0,Absconding,1.6,4,Reference,NJ-15,NA,0,1,4,5,2,3.0,5,4,5,3,2,1,4,4,1,3,5,5,5,5,2,4,3,4,3.35,3.83,3.59,NO,NA,NO,2
+E592,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,21,0,Personal,1.8,5.4,IJP,NJ-15,NA,0,5,4,2,4,3.8,5,4,5,4,3,1,4,3,4,4,4,4,5,4,4,4,2,4,3.74,3.83,3.79,NO,NA,NO,3
+E593,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,24,0,Job Environment ,0.7,3.9,IJP,NJ-16,NJ-16,0,1,5,1,4,2.8,5,5,4,5,2,4,5,1,4,4,4,4,4,4,2,4,2,3,3.54,3.17,3.36,NO,NA,NO,5
+E594,Female,Chennai,RM3,PGDM/MBA_Mkt,NO,23,1,,0.2,13,Walk in,NJ-16,NJ-16,0,2,4,4,4,3.5,5,4,5,4,2,4,4,4,4,3,1,1,4,2,3,5,4,4,3.46,3.67,3.56,,,,4
+E595,Male,Chennai,RM1,PGDM/MBA_Mkt,NO,27,0,Location,1.6,3.9,IJP,NJ-15,NA,0,1,4,2,4,2.8,4,5,5,4,4,4,4,3,5,5,2,3,3,1,1,5,2,4,3.65,2.67,3.16,NO,NA,NO,2
+E596,Female,Chennai,RM1,PGDM/MBA_Mkt,NO,25,0,Absconding,3,3,Reference,4.1,NA,0,4,5,2,1,3.0,2,3,4,4,5,3,5,2,2,5,3,3,5,4,4,4,5,4,3.31,4.33,3.82,NO,NA,NO,3
+E597,Female,Chennai,RM3,PGDM/MBA_Mkt,NO,27,0,Higher Education,0,12.7,Reference,NJ-16,NJ-16,0,2,4,2,4,3.0,4,2,4,4,2,1,4,4,3,5,4,4,3,4,2,5,3,4,3.29,3.50,3.40,NO,NA,NO,3
+E598,Female,Mumbai,RM4,PGDM/MBA_Mkt,YES,33,0,Higher Education,2.3,19.7,Reference,3.9,NA,0,4,3,3,4,3.5,4,4,4,4,2,4,5,2,4,5,4,4,5,4,3,4,3,1,3.74,3.33,3.53,YES,UA,,2
+E599,Male,Bangalore,RM1,BBA,YES,24,0,Personal,0,2.9,Agency,NJ-16,NJ-16,0,5,3,3,4,3.8,4,1,4,5,5,4,4,5,3,5,4,4,5,4,1,5,2,3,3.90,3.33,3.62,NO,NA,NO,2
+E600,Female,NCR,RM2,MBA(Tier 1) ,NO,23,0,Better Prospects,0.3,0.3,Online,NJ-16,NJ-16,0,4,5,2,2,3.3,4,2,4,4,2,2,4,5,3,5,4,4,4,4,3,4,4,4,3.47,3.83,3.65,NO,NA,NO,1
+E601,Male,NCR,RM3,PGDM/MBA_Mkt,NO,29,0,Personal,0.4,13.4,Reference,NJ-16,NJ-16,0,5,5,4,5,4.8,1,3,4,4,2,2,4,1,4,5,3,3,5,5,1,5,1,5,3.50,3.67,3.58,NO,NA,NO,4
+E602,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,28,0,Personal,0.5,3,Campus,NJ-16,NJ-16,0,4,4,3,3,3.5,4,4,4,4,4,4,4,3,4,5,3,3,4,5,4,3,3,2,3.72,3.50,3.61,NO,NA,NO,2
+E603,Female,Chennai,RM1,PGDM/MBA_Mkt,NO,27,1,,0,2.9,Online,NJ-16,NJ-16,0,5,3,4,2,3.5,4,2,5,3,2,3,4,3,4,5,5,5,5,5,4,3,1,5,3.70,3.83,3.76,,,,4
+E604,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,31,0,Better Prospects,0.9,5.7,Online,NJ-16,NJ-16,0,4,4,4,4,4.0,4,5,4,4,2,4,4,2,4,5,4,2,5,3,2,5,4,5,3.77,4.00,3.89,NO,NA,NO,3
+E605,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,31,0,Personal,1.1,12.6,IJP,NJ-15,NA,0,3,4,3,3,3.2,4,5,4,4,4,5,5,2,5,4,2,2,4,5,1,3,2,4,3.65,3.17,3.41,NO,NA,NO,2
+E606,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,33,0,Higher Education,2.4,13.4,Walk in,4.1,NA,0,2,3,2,4,2.8,5,3,4,4,1,4,4,2,3,4,3,3,4,4,4,5,4,4,3.16,4.17,3.66,YES,UA,,2
+E607,Female,Mumbai,RM1,PGDM/MBA_Mkt,NO,22,1,,0,4.3,Walk in,NJ-16,NJ-16,0,5,4,4,4,4.3,3,4,4,4,4,4,4,4,4,3,5,5,4,5,4,4,2,3,4.07,3.67,3.87,,,,1
+E608,Female,NCR,RM1,PGDM/MBA_Mkt,NO,23,0,Location,0.7,3.1,IJP,NJ-16,NJ-16,0,3,4,3,2,2.9,2,1,5,4,3,4,4,4,5,4,4,4,5,4,1,4,1,2,3.45,2.83,3.14,NO,NA,NO,1
+E609,Female,NCR,RM1,PGDM/MBA_Mkt,NO,26,0,Personal,0.6,3.7,Online,NJ-16,NJ-16,0,5,5,2,4,4.0,4,3,4,4,3,4,4,3,2,5,4,4,4,4,4,4,3,4,3.78,3.83,3.81,NO,NA,NO,2
+E610,Male,NCR,RM3,PGDM/MBA_Mkt,NO,24,0,Personal,0,13,IJP,NJ-16,NJ-16,0,5,3,2,4,3.5,4,3,4,4,3,3,5,5,5,3,4,4,4,4,2,5,2,5,3.79,3.67,3.73,NO,NA,NO,2
+E611,Female,Bangalore,RM4,PGDM/MBA_Mkt,NO,26,1,,0.5,24.3,Reference,NJ-16,NJ-16,0,5,5,3,4,4.3,4,4,4,3,5,5,4,2,5,5,4,4,4,5,3,5,2,3,4.15,3.67,3.91,,,,4
+E612,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,25,0,Better Prospects,0.3,3.3,Campus,NJ-16,NJ-16,0,1,5,4,1,2.8,4,3,4,4,4,4,4,4,4,4,4,4,5,4,4,4,4,5,3.51,4.33,3.92,NO,NA,NO,4
+E613,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,34,0,Better Prospects,0,10.7,Reference,NJ-16,NJ-16,0,2,5,5,4,4.0,1,4,4,4,2,2,4,3,4,4,3,3,4,4,4,3,1,1,3.41,2.83,3.12,NO,NA,NO,4
+E614,Female,Bangalore,RM5,PGDM/MBA_Mkt,YES,62,0,Higher Education,2.7,36.1,IJP,4.3,NA,1,1,4,2,3,2.5,4,2,3,4,1,1,4,3,3,4,2,2,3,4,4,5,2,4,2.68,3.67,3.17,NO,NA,NO,5
+E615,Male,Chennai ,RM2,PGDM/MBA_Mkt,YES,30,0,Involuntary,0,4.8,IJP,NJ-16,NJ-16,0,3,5,3,4,3.8,4,1,5,4,4,4,5,4,2,4,4,4,4,5,1,3,1,5,3.71,3.17,3.44,NO,NA,NO,4
+E616,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,27,0,Personal,1.2,4.2,IJP,NJ-15,NA,0,5,4,2,3,3.5,4,2,4,4,4,4,4,4,4,4,5,5,3,5,1,5,4,4,3.81,3.67,3.74,NO,NA,NO,2
+E617,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,26,0,Involuntary,3,4.1,Reference,4.1,NA,0,2,4,5,2,3.3,2,3,5,5,4,4,4,4,5,5,3,3,5,1,4,4,2,5,3.66,3.50,3.58,NO,NA,NO,3
+E618,Male,NCR,RM3,PGDM/MBA_Mkt,YES,29,1,,4.5,11.43,Reference,4.6,NA,1,5,3,5,4,4.3,5,2,4,5,4,4,4,4,3,5,5,5,5,5,3,5,3,5,4.13,4.33,4.23,,,,3
+E619,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,30,0,Better Prospects,1.6,2.7,Online,NJ-15,NA,0,5,4,3,4,4.0,3,5,4,5,1,1,4,4,5,5,5,3,4,5,2,3,3,5,3.78,3.67,3.73,NO,NA,NO,1
+E620,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,29,1,,3.5,3.9,IJP,3.0,3.86,0,4,5,4,4,4.3,2,4,4,3,3,3,5,4,1,3,4,3,4,3,4,4,4,5,3.58,4.00,3.79,,,,5
+E621,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,29,0,Better Prospects,3.7,12.5,Walk in,3.8,NA,0,3,4,1,4,3.0,4,4,4,4,4,4,4,4,5,4,4,4,4,2,4,5,5,4,3.73,4.00,3.86,YES,UA,,2
+E622,Male,Bangalore,RM1,BBA,NO,28,1,,0.2,2.5,Reference,NJ-16,NJ-16,0,5,4,5,4,4.5,3,4,3,4,3,3,3,5,2,4,4,4,5,4,4,5,1,4,3.75,3.75,3.75,,,,4
+E623,Female,Chennai ,RM4,PGDM/MBA_Mkt,YES,31,1,,3.7,21.6,Reference,4.5,3.93,1,5,5,5,4,4.8,4,4,4,4,3,3,2,1,2,4,3,2,4,4,3,5,2,5,3.51,3.83,3.67,,,,1
+E624,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,34,0,Involuntary,2.8,12.6,Reference,3.9,NA,0,5,5,3,4,4.3,4,5,4,4,4,4,1,2,1,4,4,3,4,4,1,5,4,4,3.54,3.61,3.58,YES,UA,,3
+E625,Male,NCR,RM1,PGDM/MBA_Mkt,NO,28,0,Involuntary,0.4,3.2,Reference,NJ-16,NJ-16,0,5,4,3,3,3.8,2,2,4,3,4,4,2,4,2,3,4,5,4,4,4,4,2,3,3.44,3.50,3.47,NO,NA,NO,5
+E626,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,26,1,,2.7,4.1,IJP,4.0,4.67,0,4,4,5,4,4.3,4,3,4,5,4,4,3,4,3,4,4,4,4,5,4,3,4,4,3.97,3.94,3.96,,,,3
+E627,Male,Bangalore,RM3,PGDM/MBA_Mkt,NO,24,0,Higher Education,3.8,10.9,Reference,4.0,NA,0,3,4,2,3,3.0,4,5,4,3,4,4,3,3,4,4,3,4,4,4,2,5,3,5,3.53,3.83,3.68,YES,UA,,4
+E628,Male,Chennai,RM1,BCOM,NO,25,1,,0,0,IJP,NJ-16,NJ-16,0,2,5,4,1,3.0,4,4,3,4,1,1,2,2,2,4,4,4,4,5,4,5,2,3,2.94,3.78,3.36,,,,3
+E629,Male,Mumbai,RM1,PGDM/MBA_Mkt,NO,23,1,,3,4.2,Agency,3.6,4.59,0,3,4,5,2,3.5,1,2,3,2,2,4,4,3,4,5,4,4,4,4,3,4,3,3,3.26,3.44,3.35,,,,2
+E630,Male,NCR,RM3,PGDM/MBA_Mkt,NO,23,0,Better Prospects,1.1,11.5,Reference,NJ-15,NA,0,3,4,2,3,3.0,4,3,4,4,1,4,5,2,3,4,4,4,5,4,4,4,2,4,3.31,3.78,3.55,NO,NA,NO,4
+E631,Male,Chennai,RM1,BCOM,NO,24,0,Better Prospects,1.2,1.2,Online,NJ-15,NA,0,2,4,1,4,2.8,4,4,5,4,4,5,5,3,4,4,4,4,4,3,3,4,3,2,3.73,3.17,3.45,NO,NA,NO,2
+E632,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,22,0,Personal,0.6,6.2,Reference,NJ-16,NJ-16,0,4,4,4,4,4.0,4,2,4,4,3,2,4,4,3,4,4,2,5,1,1,4,3,4,3.49,2.92,3.20,NO,NA,NO,3
+E633,Female,Mumbai,RM3,PGDM/MBA_Mkt,NO,27,1,,0,13.7,Online,NJ-16,NJ-16,0,2,4,4,4,3.5,3,1,1,4,2,5,2,3,2,4,4,4,4,4,4,4,4,3,3.12,3.83,3.47,,,,2
+E634,Male,NCR,RM1,PGDM/MBA_Mkt,YES,30,0,Better Prospects,1.3,3.3,Online,NJ-15,NA,0,5,4,5,5,4.8,2,5,5,5,3,5,1,3,5,5,2,1,4,3,4,4,4,4,3.81,3.83,3.82,NO,NA,NO,4
+E635,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,23,1,,3.9,9.9,Reference,4.0,3.63,0,5,4,1,4,3.5,4,2,4,4,4,4,3,3,3,4,2,5,5,5,4,4,2,4,3.50,4.00,3.75,,,,2
+E636,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,23,1,,0.6,4.2,Reference,NJ-16,NJ-16,0,5,4,5,4,4.5,4,2,5,4,4,4,3,2,3,4,2,5,4,4,4,5,4,5,3.75,4.33,4.04,,,,1
+E637,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,26,0,Job Environment ,5.4,10.3,Agency,4.3,NA,1,2,4,5,3,3.5,4,3,4,4,3,3,2,2,1,4,4,4,4,4,3,4,4,4,3.30,3.83,3.57,YES,UA,,4
+E638,Female,Chennai,RM1,PGDM/MBA_Mkt,YES,28,0,Personal,0.7,3.9,IJP,NJ-16,NJ-16,0,4,5,3,2,3.5,4,4,3,4,3,2,4,3,4,4,4,2,5,5,2,3,4,1,3.38,3.33,3.36,NO,NA,NO,2
+E639,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,24,0,Better Prospects,2.5,4.9,Online,4.1,NA,0,3,5,2,3,3.3,4,5,5,4,5,4,1,4,2,4,4,1,5,2,1,3,1,4,3.49,2.67,3.08,NO,NA,NO,3
+E640,Female,Mumbai,RM4,PGDM/MBA_Mkt,NO,23,0,Personal,0,24.6,Walk in,NJ-16,NJ-16,0,2,5,2,5,3.5,4,2,5,4,5,5,3,4,5,4,3,3,4,4,3,5,4,3,3.76,3.83,3.80,NO,NA,NO,1
+E641,Female,Mumbai,RM1,PGDM/MBA_Mkt,NO,33,1,,3,4.6,IJP,4.0,4.57,0,5,5,5,5,5.0,4,3,4,5,4,4,4,5,3,4,4,4,4,5,4,4,3,4,4.29,4.00,4.15,,,,3
+E642,Female,Bangalore,RM3,PGDM/MBA_Mkt,NO,29,1,,6,9.5,Online,4.5,3.65,3,2,4,5,5,4.0,3,3,4,4,4,5,1,4,2,4,4,2,4,5,4,5,4,5,3.53,4.50,4.01,,,,1
+E643,Female,NCR,RM3,PGDM/MBA_Mkt,NO,25,0,Personal,2.8,10.7,Agency,3.2,NA,0,5,5,5,5,5.0,4,1,5,5,5,1,3,4,5,5,4,5,4,2,4,4,3,5,4.24,3.67,3.95,NO,NA,NO,4
+E644,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,25,0,Involuntary,1.6,5.1,Reference,NJ-15,NA,0,4,4,2,3,3.3,3,5,4,4,4,4,3,4,5,4,4,4,5,3,5,5,2,4,3.74,4.00,3.87,NO,NA,NO,2
+E645,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,27,1,,4.1,12.4,IJP,4.3,3.54,1,2,4,5,3,3.5,1,2,4,4,4,5,1,2,1,4,3,3,4,4,5,3,4,4,2.99,4.00,3.50,,,,1
+E646,Female,NCR,RM2,PGDM/MBA_Mkt,NO,25,1,,3.8,4.1,Reference,4.0,3.85,0,5,4,4,4,4.3,4,4,4,4,4,2,3,4,1,4,3,3,5,3,4,3,5,4,3.64,4.00,3.82,,,,4
+E647,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,28,1,,4.9,11.5,Agency,4.2,4.17,1,2,4,2,3,2.8,3,3,4,3,4,2,3,3,3,3,4,4,4,4,5,4,3,5,3.14,4.17,3.65,,,,1
+E648,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,27,0,Job Environment ,3.2,2.8,Online,3.6,NA,0,3,4,3,3,3.3,4,2,4,4,4,5,2,3,3,4,4,4,4,5,4,4,4,4,3.52,4.17,3.85,YES,A,,4
+E649,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,23,0,Involuntary,2.9,3.1,Agency,3.9,NA,0,5,4,5,2,4.0,4,2,4,4,5,3,2,4,2,4,5,5,4,5,5,4,2,4,3.80,4.00,3.90,NO,NA,NO,2
+E650,Male,NCR,RM3,PGDM/MBA_Mkt,NO,30,1,,5.6,12.4,Reference,4.6,3.28,1,2,4,3,1,2.5,5,4,4,5,4,4,5,3,4,4,3,3,4,4,4,4,3,5,3.54,4.00,3.77,,,,4
+E651,Male,NCR,RM2,PGDM/MBA_Mkt,YES,29,1,,4,5.7,Reference,4.2,3.98,2,2,5,5,5,4.3,5,1,5,4,5,4,4,2,3,4,4,4,4,4,5,4,3,5,3.94,4.17,4.05,,,,4
+E652,Male,Bangalore,RM4,PGDM/MBA_Mkt,YES,32,1,,2.5,21.5,Reference,3.6,3.37,0,5,4,3,4,4.0,4,4,4,4,1,4,3,4,4,4,5,3,4,5,2,4,5,3,3.76,3.83,3.80,,,,4
+E653,Female,Mumbai,RM3,PGDM/MBA_Mkt,YES,25,1,,2.9,13.6,IJP,4.4,4.17,0,4,3,4,2,3.3,4,2,4,4,5,2,3,5,1,4,2,5,4,5,5,4,2,4,3.33,4.00,3.66,,,,1
+E654,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,1,,2.5,3.1,Reference,3.7,4.17,0,4,5,2,4,3.8,3,2,4,4,4,2,5,2,5,4,4,4,4,4,4,4,1,4,3.63,3.50,3.57,,,,1
+E655,Female,Mumbai,RM1,PGDM/MBA_Mkt,YES,25,1,,2.2,4.9,IJP,4.3,3.65,0,2,5,5,4,4.0,2,4,4,4,2,3,2,5,4,4,3,4,4,4,5,4,4,4,3.55,4.17,3.86,,,,4
+E656,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,24,1,,3,12.7,Online,4.1,3.65,0,3,4,4,2,3.3,3,2,4,4,2,4,1,2,2,4,4,4,5,4,4,3,4,5,3.03,4.17,3.60,,,,2
+E657,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,25,1,,1.6,4.2,Walk in,NJ-15,3.59,0,5,5,3,4,4.3,5,2,4,4,4,1,1,2,1,4,4,4,4,2,4,4,4,5,3.33,3.83,3.58,,,,4
+E658,Male,NCR,RM5,PGDM/MBA_Mkt,NO,22,1,,3.8,29,Online,4.5,4.17,1,4,5,2,4,3.8,5,2,4,4,3,3,3,4,3,4,4,3,4,5,2,5,5,5,3.57,4.33,3.95,,,,1
+E659,Female,Bangalore,RM4,PGDM/MBA_Mkt,YES,26,1,,4.9,24.3,Online,4.3,3.57,1,5,4,4,4,4.3,5,4,5,3,4,3,2,3,5,3,1,3,4,2,1,4,5,5,3.66,3.50,3.58,,,,4
+E660,Male,Mumbai,RM4,PGDM/MBA_Mkt,NO,23,1,,2.9,23.6,Campus,3.9,3.93,0,4,4,2,2,3.0,5,2,4,4,4,3,4,2,1,4,5,4,5,5,4,3,4,4,3.35,4.17,3.76,,,,2
+E661,Male,NCR,RM3,PGDM/MBA_Mkt,YES,27,1,,0,13.2,Reference,NJ-16,NJ-16,0,2,4,1,4,2.8,3,2,3,4,2,2,3,4,4,4,3,4,5,4,4,5,5,2,3.00,4.11,3.56,,,,4
+E662,Female,Mumbai,RM3,PGDM/MBA_Mkt,YES,27,1,,3.9,11.4,IJP,4.1,3.28,0,4,5,1,2,3.0,3,1,5,4,4,4,2,4,3,2,1,2,5,4,2,5,2,4,2.96,3.61,3.29,,,,3
+E663,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,4.5,5.8,Walk in,4.3,4.17,1,5,5,4,5,4.8,4,3,4,2,2,3,2,2,4,2,3,4,4,4,4,5,5,4,3.46,4.39,3.92,,,,1
+E664,Male,Bangalore,RM3,PGDM/MBA_Mkt,YES,29,1,,5.5,14.9,Reference,4.3,4.17,1,4,4,4,3,3.8,3,3,5,3,4,3,4,2,5,3,3,3,5,3,4,5,4,5,3.55,4.39,3.97,,,,4
+E665,Female,Mumbai,RM1,PGDM/MBA_Mkt,NO,24,1,,4.3,4.3,Online,4.3,4.50,1,4,5,5,3,4.3,3,2,5,4,1,5,2,3,4,5,5,3,4,4,5,5,3,4,3.73,4.22,3.98,,,,3
+E666,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,23,1,,0,3.9,Walk in,NJ-16,NJ-16,0,1,5,2,3,2.8,2,2,4,5,3,5,4,2,3,5,2,4,5,4,5,5,2,4,3.26,4.22,3.74,,,,2
+E667,Male,Mumbai,RM1,PGDM/MBA_Mkt,NO,29,1,,1.7,5.2,Online,NJ-15,3.61,0,3,5,4,4,4.0,1,4,4,4,1,4,1,1,2,4,3,5,4,5,5,5,4,5,3.19,4.62,3.90,,,,1
+E668,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,25,1,,6.3,9.9,Reference,4.2,3.28,2,2,5,2,1,2.5,3,4,4,5,4,5,4,4,3,5,4,2,4,4,2,5,2,3,3.54,3.39,3.46,,,,3
+E669,Male,Chennai ,RM2,PGDM/MBA_Mkt,YES,27,1,,2.9,2.6,Online,4.0,3.56,0,4,4,4,2,3.5,4,4,5,3,2,1,3,2,4,3,2,4,4,4,5,5,1,5,3.21,4.00,3.60,,,,4
+E670,Male,NCR,RM4,PGDM/MBA_Mkt,NO,23,1,,3.8,19.7,Campus,4.2,3.37,1,4,5,3,2,3.5,2,1,5,4,4,4,4,2,5,4,4,5,4,5,4,5,5,5,3.63,4.67,4.15,,,,5
+E671,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,30,1,,1.9,3.9,Reference,NJ-15,4.50,0,5,5,5,3,4.5,4,3,5,4,4,5,3,4,3,5,5,2,4,4,5,5,3,5,4.08,4.33,4.21,,,,
+E672,Female,NCR,RM2,PGDM/MBA_Mkt,YES,25,1,,1.2,4.2,Agency,NJ-15,3.56,0,5,5,1,2,3.3,4,1,4,4,4,1,2,1,5,4,2,5,4,4,4,5,2,5,3.17,3.94,3.56,,,,
+E673,Female,Mumbai,RM1,PGDM/MBA_Mkt,NO,24,1,,0.9,4.3,IJP,NJ-16,NJ-16,0,4,5,4,3,4.0,2,4,5,4,3,3,4,2,3,4,1,2,4,4,4,5,3,4,3.37,3.94,3.66,,,,
+E674,Male,NCR,RM3,PGDM/MBA_Mkt,YES,26,1,,7,12.2,IJP,4.4,3.65,2,5,4,4,2,3.8,4,2,5,4,4,5,4,3,4,4,1,2,4,4,4,5,4,4,3.51,4.11,3.81,,,,
+E675,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,27,1,,0,13.6,Agency,NJ-16,NJ-16,0,4,4,4,1,3.3,4,3,5,3,4,2,1,5,5,3,3,4,5,4,5,4,4,4,3.43,4.33,3.88,,,,
+E676,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,1.8,4.9,Reference,NJ-15,3.61,0,4,4,4,2,3.5,4,1,4,5,4,3,3,3,4,5,2,3,4,3,4,4,3,4,3.38,3.67,3.52,,,,
+E677,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,24,1,,2.8,13.5,Walk in,4.0,3.65,0,5,5,2,2,3.5,2,4,5,3,4,4,3,2,4,3,4,2,3,4,4,4,3,4,3.38,3.67,3.52,,,,
+E678,Female,NCR,RM1,PGDM/MBA_Mkt,NO,23,1,,0.7,3.7,Walk in,NJ-16,NJ-16,0,2,5,4,1,3.0,4,2,5,5,4,2,2,2,4,5,3,4,3,4,4,4,4,2,3.29,3.44,3.37,,,,
+E679,Female,Bangalore,RM1,BCOM,YES,33,1,,0.6,2.5,Walk in,NJ-16,NJ-16,0,5,4,2,5,4.0,4,5,4,5,3,3,5,2,3,5,2,4,4,4,5,4,4,5,3.76,4.39,4.08,,,,
+E680,Female,Mumbai,RM2,PGDM/MBA_Mkt,YES,25,1,,0.2,5.2,Reference,NJ-16,NJ-16,0,3,5,5,2,3.8,5,2,5,4,3,2,3,3,3,4,2,2,3,2,3,4,4,3,3.33,3.17,3.25,,,,
+E681,Female,Chennai,RM1,PGDM/MBA_Mkt,YES,27,0,Better Prospects,1.3,3.6,Walk in,NJ-15,NA,0,3,4,3,1,2.8,3,2,4,3,4,2,3,3,2,3,4,2,5,3,1,4,1,3,2.87,2.89,2.88,NO,NA,NO,4
+E682,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,25,1,,0.9,3.8,Walk in,NJ-16,NJ-16,0,4,5,5,1,3.8,3,4,5,4,4,4,2,3,3,4,2,3,5,5,2,3,5,4,3.51,4.03,3.77,,,,5
+E683,Male,Bangalore,RM3,PGDM/MBA_Mkt,YES,28,1,,0.1,14,Reference,NJ-16,NJ-16,0,5,5,2,4,4.0,3,2,4,5,5,5,1,3,2,5,4,2,5,5,1,4,3,2,3.59,3.38,3.49,,,,2
+E684,Male,Bangalore,RM4,PGDM/MBA_Mkt,NO,23,1,,0.3,25,Reference,NJ-16,NJ-16,0,5,4,1,2,3.0,4,2,4,4,5,2,3,3,2,4,1,1,4,4,4,5,5,2,2.94,4.02,3.48,,,,4
+E685,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,30,1,,2.7,14.8,Reference,4.0,3.65,0,3,4,4,4,3.8,1,1,4,3,5,2,4,4,1,3,2,4,5,5,2,3,4,4,3.10,3.88,3.49,,,,2
+E686,Male,Chennai,RM1,BBA,YES,32,1,,0.3,1,Campus,NJ-16,NJ-16,0,4,4,4,4,4.0,2,1,4,3,3,5,5,2,4,3,3,2,5,3,4,5,3,3,3.35,3.83,3.59,,,,3
+E687,Male,Chennai,RM1,BCOM,NO,24,1,,0.3,1,IJP,NJ-16,NJ-16,0,4,4,4,2,3.5,3,4,4,5,5,2,3,1,2,5,4,2,5,4,3,3,2,2,3.32,3.18,3.25,,,,5
+E688,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,25,1,,2.7,2.9,Walk in,4.0,3.98,0,4,4,2,4,3.5,3,3,4,4,4,2,2,2,5,4,3,4,5,5,2,4,4,4,3.38,3.98,3.68,,,,5
+E689,Male,NCR,RM3,PGDM/MBA_Mkt,NO,24,1,,0.5,10.9,Walk in,NJ-16,NJ-16,0,4,4,4,1,3.3,2,3,4,4,5,4,1,5,4,4,2,1,5,4,1,4,4,4,3.25,3.72,3.49,,,,3
+E690,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,2.9,2.9,Campus,4.2,4.17,0,5,4,3,5,4.3,3,4,4,4,4,2,2,2,2,4,4,2,5,4,3,3,3,4,3.39,3.69,3.54,,,,4
+E691,Female,NCR,RM1,PGDM/MBA_Mkt,YES,31,1,,2.5,5.2,Reference,4.0,3.94,0,5,4,2,5,4.0,2,4,4,4,4,2,3,2,4,4,4,3,4,4,2,5,4,4,3.53,3.75,3.64,,,,2
+E692,Male,NCR,RM1,PGDM/MBA_Mkt,YES,32,1,,1.8,3.1,Agency,NJ-15,4.58,0,3,4,3,4,3.5,1,4,4,3,4,5,4,4,3,4,3,5,4,3,4,5,4,1,3.62,3.50,3.56,,,,4
+E693,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,1,,2.3,4.1,Reference,3.6,3.86,0,4,4,3,2,3.3,2,2,4,4,2,1,1,2,2,4,3,3,5,5,2,5,5,4,2.72,4.25,3.49,,,,4
+E694,Male,NCR,RM4,PGDM/MBA_Mkt,NO,23,1,,1.6,23.5,Campus,NJ-15,3.89,0,2,4,5,1,3.0,2,3,4,2,5,4,3,2,2,2,3,2,5,3,4,5,2,4,2.88,3.83,3.36,,,,4
+E695,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,29,1,,1.8,2.8,Campus,NJ-15,3.63,0,5,4,4,3,4.0,1,4,4,4,3,3,1,3,1,4,2,2,4,5,2,4,1,4,3.06,3.25,3.15,,,,2
+E696,Female,NCR,RM1,PGDM/MBA_Mkt,YES,25,1,,0.7,3.6,Online,NJ-16,NJ-16,0,4,4,3,4,3.8,5,1,4,3,5,3,2,2,3,3,5,2,5,5,2,4,3,2,3.34,3.42,3.38,,,,3
+E697,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,25,1,,0.2,12.4,Agency,NJ-16,NJ-16,0,5,4,4,5,4.5,2,5,5,5,5,4,3,4,2,5,3,3,5,4,4,4,4,5,4.03,4.32,4.17,,,,
+E698,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,1.6,5.9,Agency,NJ-15,4.72,0,4,4,3,4,3.8,3,2,4,3,4,4,4,5,2,4,4,3,5,3,1,4,4,3,3.57,3.33,3.45,,,,
+E699,Female,NCR,RM3,PGDM/MBA_Mkt,YES,23,1,,3,14.1,Campus,4.2,4.17,0,5,4,4,2,3.8,1,5,4,3,3,4,4,4,3,3,2,3,5,4,1,4,4,4,3.40,3.67,3.53,,,,
+E700,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,30,1,,0,4.1,Online,NJ-16,NJ-16,0,4,4,4,4,4.0,4,5,4,4,2,2,1,2,1,4,1,3,5,5,3,4,3,1,3.12,3.50,3.31,,,,
+E701,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,25,1,,2.3,2.3,Campus,4.3,4.59,0,4,5,4,4,4.3,2,4,4,4,3,4,4,5,4,4,4,3,4,4,2,4,4,4,3.90,3.67,3.78,,,,
+E702,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,1,,2.2,3.9,Walk in,4.0,3.56,0,2,4,2,4,3.0,4,4,4,3,4,4,4,5,4,3,4,4,4,3,3,5,3,4,3.65,3.67,3.66,,,,
+E703,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,24,1,,1.2,13.7,Walk in,NJ-15,3.94,0,5,4,4,4,4.3,4,4,4,3,4,1,3,3,2,3,5,2,5,3,2,5,4,4,3.49,3.83,3.66,,,,
+E704,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,25,1,,1.9,3.7,Campus,NJ-15,4.50,0,3,4,3,5,3.8,2,5,3,5,4,4,4,4,2,5,4,1,4,5,1,5,4,5,3.57,3.92,3.75,,,,
+E705,Male,Chennai,RM5,PGDM/MBA_Mkt,YES,27,0,Better Prospects,1.6,31.7,Online,NJ-15,NA,0,5,4,2,4,3.8,4,2,4,3,1,2,2,3,2,3,2,2,5,4,3,3,4,4,2.87,3.83,3.35,NO,NA,NO,4
+E706,Female,Chennai ,RM4,PGDM/MBA_Mkt,YES,24,1,,0.3,20.5,Online,NJ-16,NJ-16,0,5,4,2,4,3.8,1,5,5,4,5,5,5,1,4,4,1,5,4,4,5,5,5,4,3.75,4.50,4.13,,,,5
+E707,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,1,,0.7,3.2,Campus,NJ-16,NJ-16,0,5,5,3,4,4.3,5,4,5,2,3,5,2,2,5,2,2,2,5,4,2,4,3,3,3.54,3.45,3.50,,,,2
+E708,Male,Bangalore,RM1,BBA,YES,24,1,,0,0,Walk in,NJ-16,NJ-16,0,1,4,4,1,2.5,5,4,4,4,5,4,3,3,4,4,3,2,4,4,4,5,4,2,3.38,3.83,3.61,,,,4
+E709,Male,NCR,RM3,PGDM/MBA_Mkt,YES,30,1,,0.9,10.5,Walk in,NJ-16,NJ-16,0,2,4,5,4,3.8,4,4,4,3,4,4,5,2,2,3,2,4,4,3,5,4,3,3,3.51,3.67,3.59,,,,2
+E710,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,27,1,,1.9,4.5,Walk in,NJ-15,3.86,0,1,3,2,3,2.3,2,5,4,4,4,4,4,3,2,4,1,2,4,4,2,5,2,4,2.96,3.50,3.23,,,,3
+E711,Male,Chennai ,RM2,PGDM/MBA_Mkt,YES,25,0,Location,0,2.9,Walk in,NJ-16,NJ-16,0,3,4,1,4,3.0,1,1,4,3,4,5,2,4,2,3,1,2,5,2,3,3,1,3,2.76,2.83,2.80,NO,NA,NO,5
+E712,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,29,1,,0,5.2,Online,NJ-16,NJ-16,0,5,5,2,3,3.8,3,3,5,4,4,2,1,2,4,4,1,3,5,4,4,5,5,1,3.22,4.00,3.61,,,,5
+E713,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,25,1,,1.2,12.5,IJP,NJ-15,3.14,0,2,5,2,2,2.8,5,5,5,4,4,5,3,2,4,4,2,2,3,5,2,5,2,5,3.46,3.67,3.56,,,,3
+E714,Male,NCR,RM1,PGDM/MBA_Mkt,YES,25,1,,0,3.1,Reference,NJ-16,NJ-16,0,5,5,5,4,4.8,5,2,4,2,4,3,3,2,3,2,3,4,4,5,4,5,2,4,3.57,4.00,3.79,,,,4
+E715,Female,NCR,RM3,PGDM/MBA_Mkt,YES,28,1,,1.7,13.2,Campus,NJ-15,3.91,0,5,4,3,4,4.0,3,5,4,5,4,4,2,4,2,5,3,2,4,3,2,3,4,4,3.65,3.33,3.49,,,,2
+E716,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,23,1,,0.5,2.9,Reference,NJ-16,NJ-16,0,4,4,4,4,4.0,2,4,4,5,3,3,4,2,2,5,4,4,4,3,2,2,3,4,3.59,3.00,3.30,,,,4
+E717,Female,NCR,RM1,PGDM/MBA_Mkt,YES,32,0,Better Prospects,3.1,3.9,Agency,4.1,NA,0,3,4,1,4,3.0,4,4,4,5,3,5,3,3,3,5,1,2,5,4,1,4,1,4,3.35,3.17,3.26,NO,NA,NO,4
+E718,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,24,1,,3,3.6,Agency,4.1,3.98,0,3,4,4,2,3.3,3,4,4,3,4,4,1,3,3,3,4,4,4,4,4,4,1,4,3.31,3.50,3.40,,,,4
+E719,Female,Mumbai,RM1,PGDM/MBA_Mkt,YES,25,1,,2.8,4.2,Campus,4.3,3.54,0,2,4,4,2,3.0,4,4,4,2,4,4,2,4,4,2,4,5,5,3,3,4,2,5,3.41,3.67,3.54,,,,2
+E720,Male,Chennai ,RM4,PGDM/MBA_Mkt,YES,27,1,,1.1,24.1,Online,NJ-15,4.00,0,3,5,3,3,3.5,4,5,5,4,4,4,1,2,1,4,3,3,4,3,1,4,4,5,3.38,3.50,3.44,,,,3
+E721,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,1.4,3.6,Campus,NJ-15,3.61,0,2,4,2,2,2.5,2,2,4,2,1,4,4,2,1,2,3,1,5,5,4,4,2,5,2.38,4.08,3.23,,,,
+E722,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,29,1,,2.9,14.2,Walk in,4.2,4.17,0,4,3,1,4,3.0,4,3,4,4,2,5,5,4,4,4,2,3,5,3,4,5,4,4,3.47,4.17,3.82,,,,
+E723,Male,NCR,RM3,PGDM/MBA_Mkt,YES,29,1,,3.4,10.4,Walk in,4.1,3.63,0,2,5,2,2,2.8,4,2,5,4,3,2,3,1,4,4,5,1,4,4,4,5,5,5,3.04,4.50,3.77,,,,
+E724,Male,Chennai,RM1,BBA,YES,25,1,,0,0,Walk in,NJ-16,NJ-16,0,4,4,3,5,4.0,4,4,4,4,1,5,2,1,3,4,2,2,4,2,4,4,2,3,3.24,3.17,3.20,,,,
+E725,Male,NCR,RM1,PGDM/MBA_Mkt,NO,24,1,,2.9,3.9,Campus,3.1,3.65,0,4,4,4,5,4.3,1,2,4,3,2,4,4,3,4,3,3,3,4,4,3,5,3,4,3.37,3.83,3.60,,,,
+E726,Female,Bangalore,RM3,PGDM/MBA_Mkt,YES,28,1,,0.4,14.2,Online,NJ-16,NJ-16,0,1,5,3,4,3.1,4,3,5,4,4,4,5,2,3,4,5,2,4,3,4,4,2,3,3.57,3.33,3.45,,,,
+E727,Male,Mumbai,RM2,PGDM/MBA_Mkt,NO,24,1,,4,5.9,Online,4.3,3.56,1,5,4,2,4,3.8,3,5,5,5,5,1,4,4,2,5,4,3,4,4,3,5,4,4,3.75,4.00,3.88,,,,
+E728,Female,Chennai ,RM2,PGDM/MBA_Mkt,YES,32,1,,4.1,2.9,Online,4.4,3.57,2,5,4,1,4,3.4,4,2,5,4,2,5,4,4,3,4,2,4,4,3,1,4,3,4,3.53,3.17,3.35,,,,
+E729,Male,Chennai,RM1,PGDM/MBA_Mkt,YES,28,0,Location,1.9,3.2,Walk in,NJ-15,NA,0,1,5,5,4,3.7,3,1,4,3,3,4,2,3,2,3,1,2,4,4,4,5,4,4,2.90,4.17,3.53,NO,NA,NO,1
+E730,Female,NCR,RM3,PGDM/MBA_Mkt,YES,30,1,,2.8,12.5,IJP,4.1,3.96,0,4,4,3,4,3.8,2,5,4,4,4,4,1,3,5,4,4,2,4,4,4,3,4,3,3.57,3.67,3.62,,,,
+E731,Male,Mumbai,RM4,PGDM/MBA_Mkt,NO,24,1,,1.6,23.5,Campus,NJ-15,3.57,0,4,4,4,4,4.0,4,2,5,4,2,1,3,3,3,4,3,2,4,2,4,3,2,3,3.29,3.00,3.15,,,,
+E732,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,29,1,,0.9,3.7,Online,NJ-16,NJ-16,0,5,4,4,4,4.3,4,2,4,4,3,3,3,2,3,4,2,4,4,5,4,5,4,5,3.49,4.42,3.95,,,,
+E733,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,25,1,,0.3,3.9,Walk in,NJ-16,NJ-16,0,4,5,5,3,4.3,4,3,4,3,2,3,2,2,1,3,4,2,4,5,3,3,4,4,3.14,3.78,3.46,,,,
+E734,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,23,1,,1.6,4.2,Campus,NJ-15,3.56,0,4,5,4,3,4.0,4,4,4,5,1,4,4,3,4,5,3,3,4,5,2,5,4,5,3.76,4.17,3.97,,,,
+E735,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,30,1,,2.4,13.2,Online,4.0,3.65,0,1,4,5,4,3.5,2,4,5,4,3,2,1,4,2,4,1,3,4,3,1,4,1,3,3.09,2.67,2.88,,,,
+E736,Female,Mumbai,RM1,PGDM/MBA_Mkt,YES,25,1,,2.9,4.2,Agency,3.8,3.98,0,5,4,5,4,4.5,2,3,5,4,3,3,3,4,5,4,2,4,5,2,3,4,4,3,3.79,3.50,3.65,,,,
+E737,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,1,,3.5,4.7,Online,4.0,3.57,0,5,4,4,4,4.3,3,2,4,4,5,1,4,5,3,4,1,2,5,4,4,4,3,5,3.49,4.17,3.83,,,,
+E738,Female,Mumbai,RM3,PGDM/MBA_Mkt,YES,24,1,,4.3,14.2,Campus,4.15,NA,1,3,4,3,3,3.3,2,4,5,5,4,4,1,4,2,5,4,2,4,2,4,5,4,5,3.37,4.00,3.68,,,,
+E739,Female,NCR,RM1,PGDM/MBA_Mkt,YES,27,1,,4.4,4.4,Agency,4.3,4.58,1,5,5,5,2,4.3,4,5,5,2,4,4,3,4,5,3,5,4,4,4,3,5,2,5,4.07,3.83,3.95,,,,
+E740,Male,Chennai,RM3,PGDM/MBA_Mkt,YES,25,1,,4.5,10.1,Online,4.3,3.65,1,2,4,3,1,2.5,2,2,5,3,4,3,3,4,5,3,3,1,4,4,5,5,3,4,2.97,4.17,3.57,,,,
+E741,Female,Chennai ,RM2,PGDM/MBA_Mkt,YES,29,1,,0,3.9,IJP,NJ-16,NJ-16,0,2,4,5,5,4.0,5,5,5,4,5,1,1,2,1,4,2,1,4,4,2,3,2,2,3.29,2.75,3.02,,,,
+E742,Female,Bangalore,RM4,PGDM/MBA_Mkt,YES,32,1,,0.8,20.7,IJP,NJ-16,NJ-16,0,5,4,4,4,4.3,5,4,5,4,1,2,3,4,1,4,4,3,4,3,4,5,4,4,3.60,4.00,3.80,,,,
+E743,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,24,1,,0.3,3.2,Agency,NJ-16,NJ-16,0,4,4,4,2,3.5,4,3,4,3,5,4,3,3,3,3,5,2,4,4,3,3,2,2,3.50,3.00,3.25,,,,
+E744,Male,NCR,RM2,PGDM/MBA_Mkt,NO,25,1,,4.6,5.9,Agency,4.3,3.91,1,4,4,2,4,3.5,4,4,4,2,4,2,2,3,3,2,4,4,4,5,2,5,2,5,3.26,3.75,3.51,,,,
+E745,Male,Chennai,RM1,PGDM/MBA_Mkt,YES,29,1,,1.9,3.2,Walk in,NJ-15,3.94,0,2,4,5,4,3.8,4,5,4,5,4,5,2,4,2,5,4,4,4,4,4,4,2,4,3.89,3.67,3.78,,,,
+E746,Female,Mumbai,RM3,PGDM/MBA_Mkt,NO,24,1,,5.7,10.9,Reference,3.8,3.28,1,3,5,2,2,3.0,4,4,5,5,4,2,3,1,1,4,2,3,5,3,1,5,5,1,3.09,3.33,3.21,,,,
+E747,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,28,1,,4.9,6.2,Online,4.4,3.76,1,5,5,3,4,4.3,4,4,4,3,5,4,1,3,3,3,1,3,4,4,3,3,5,5,3.49,4.00,3.74,,,,
+E748,Male,Chennai,RM1,BBA,NO,24,1,,0,0,Campus,NJ-16,NJ-16,0,4,4,2,4,3.5,4,4,4,3,5,1,4,2,4,3,3,3,5,4,5,4,4,4,3.38,4.33,3.86,,,,
+E749,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,28,1,,2.3,12.3,Walk in,3.7,3.65,0,5,4,4,4,4.3,4,3,4,4,4,2,2,4,5,4,3,2,4,4,3,5,4,5,3.66,4.17,3.91,,,,
+E750,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,28,1,,1.7,10.8,Walk in,NJ-15,3.59,0,4,4,2,2,3.0,3,4,4,3,4,4,4,2,2,3,2,2,5,3,4,5,5,4,3.06,4.27,3.66,,,,
+E751,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,4.5,6.8,Reference,4.2,3.57,1,2,5,1,4,3.0,3,4,4,4,5,2,3,1,1,4,4,3,4,5,3,5,4,5,3.12,4.33,3.73,,,,
+E752,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,24,1,,0,14,Reference,NJ-16,NJ-16,0,4,4,5,4,4.3,4,4,4,5,5,1,3,5,4,5,1,4,4,4,2,5,4,4,3.84,3.83,3.84,,,,
+E753,Female,Mumbai,RM3,PGDM/MBA_Mkt,NO,25,1,,2.3,12.5,IJP,3.9,4.22,0,5,3,4,5,4.3,4,4,4,2,5,3,1,2,1,2,3,4,4,4,1,4,4,5,3.31,3.67,3.49,,,,
+E754,Male,Mumbai,RM2,PGDM/MBA_Mkt,YES,25,1,,4.3,7.9,Agency,4.2,3.84,1,4,4,4,3,3.8,4,4,4,4,5,2,3,2,3,4,4,5,4,4,4,3,4,5,3.69,4.00,3.85,,,,
+E755,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,27,1,,2.9,4.6,Campus,4.0,3.56,0,4,3,1,3,2.8,3,2,4,4,5,1,2,4,4,4,1,4,4,5,5,5,4,5,3.04,4.58,3.81,,,,
+E756,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,23,1,,3.9,10.9,Reference,4.2,4.06,0,1,5,2,3,2.8,2,2,4,4,3,5,3,2,2,4,3,4,4,2,4,5,5,5,3.04,4.17,3.61,,,,
+E757,Female,NCR,RM1,PGDM/MBA_Mkt,NO,25,1,,2.1,3.7,IJP,3.8,3.94,0,3,5,4,4,4.0,1,4,4,3,2,2,3,4,4,3,3,4,4,3,4,4,4,4,3.40,3.83,3.62,,,,
+E758,Female,Bangalore,RM4,PGDM/MBA_Mkt,YES,24,1,,4.2,17.5,Reference,4.2,4.00,2,4,5,2,1,3.0,5,3,5,3,4,4,1,4,1,3,1,2,5,4,3,4,5,4,3.00,4.17,3.58,,,,
+E759,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,5.4,7.2,Reference,4.2,3.87,1,3,4,1,5,3.3,4,4,5,4,4,3,4,4,4,4,3,4,4,4,5,4,1,4,3.72,3.67,3.69,,,,
+E760,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,25,1,,5,9,Reference,4.2,4.17,1,3,4,4,2,3.3,2,1,4,3,4,1,3,3,2,3,3,3,4,3,4,4,3,4,2.84,3.67,3.25,,,,
+E761,Male,Mumbai,RM1,PGDM/MBA_Mkt,YES,29,1,,0,4.2,Campus,NJ-16,NJ-16,0,3,5,4,3,3.8,4,3,4,4,4,4,5,4,5,4,2,3,4,2,5,4,3,2,3.81,3.33,3.57,,,,
+E762,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,25,1,,2.3,4.3,Walk in,4.0,3.98,0,4,4,4,5,4.3,4,1,5,5,1,2,5,3,3,5,2,4,5,5,4,4,2,5,3.54,4.12,3.83,,,,
+E763,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,28,1,,2.2,5.3,Campus,3.7,3.57,0,4,5,3,4,4.0,2,4,5,4,4,3,5,4,1,4,3,1,5,5,4,4,3,4,3.53,4.08,3.81,,,,
+E764,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,23,1,,2.7,12.6,Agency,3.9,3.65,0,4,5,4,5,4.5,4,2,4,4,4,5,3,4,1,4,1,3,4,3,4,5,4,4,3.62,4.00,3.81,,,,
+E765,Female,NCR,RM1,PGDM/MBA_Mkt,YES,25,1,,0.8,3.1,IJP,NJ-16,NJ-16,0,1,4,4,4,3.3,4,3,4,4,4,1,3,4,4,4,4,2,4,3,5,4,4,4,3.37,4.00,3.68,,,,
+E766,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,29,1,,3.7,4.2,Campus,4.1,4.17,0,5,4,4,5,4.5,4,1,4,4,2,1,3,3,4,4,2,4,3,4,4,3,3,4,3.44,3.50,3.47,,,,
+E767,Male,Bangalore,RM4,PGDM/MBA_Mkt,YES,25,1,,4.8,18.2,Online,4.4,3.43,2,4,5,1,2,3.0,2,4,4,2,5,4,5,2,4,4,4,2,5,5,2,3,4,4,3.35,3.83,3.59,,,,
+E768,Female,Bangalore,RM1,PGDM/MBA_Mkt,YES,32,0,Better Prospects,3,3,Agency,4.2,NA,0,5,5,4,5,4.8,4,2,5,5,3,3,2,2,4,5,3,1,3,4,4,5,4,4,3.69,4.00,3.85,YES,A,,3
+E769,Female,Bangalore,RM3,PGDM/MBA_Mkt,NO,28,1,,2.8,14.3,IJP,4.2,4.17,0,4,4,4,5,4.3,4,5,4,5,2,1,5,2,3,5,3,5,5,5,5,4,4,5,3.78,4.58,4.18,,,,
+E770,Male,Bangalore,RM1,PGDM/MBA_Mkt,NO,25,1,,2.4,2.7,Agency,4.2,3.94,0,3,5,3,4,3.8,5,2,5,5,4,3,3,3,3,5,1,2,5,2,3,5,4,5,3.51,4.00,3.76,,,,
+E771,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,30,1,,4.3,5.3,Reference,4.3,4.07,1,3,5,4,4,4.0,3,2,4,5,4,3,3,3,4,5,3,2,4,4,4,4,1,4,3.59,3.50,3.54,,,,
+E772,Female,Mumbai,RM3,PGDM/MBA_Mkt,NO,27,1,,4.5,10,Walk in,4.3,4.17,1,4,5,4,4,4.3,3,4,5,3,4,1,2,3,3,3,2,4,5,4,2,5,5,4,3.45,4.17,3.81,,,,
+E773,Female,Mumbai,RM2,PGDM/MBA_Mkt,NO,26,1,,5.7,6.2,Walk in,4.1,3.57,1,4,5,2,5,4.0,3,2,4,4,4,3,1,3,2,4,3,2,4,4,1,3,3,3,3.24,3.00,3.12,,,,
+E774,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,30,1,,2.3,5.2,Walk in,3.8,3.56,0,2,5,2,2,2.8,4,2,4,5,1,2,3,3,2,5,3,4,5,3,4,3,5,3,2.99,3.90,3.44,,,,
+E775,Female,Chennai ,RM2,PGDM/MBA_Mkt,NO,28,1,,1.7,4.9,Online,NJ-15,3.85,0,4,5,4,5,4.5,1,1,4,4,2,1,4,4,1,4,1,4,5,3,2,4,4,4,3.15,3.67,3.41,,,,
+E776,Female,Bangalore,RM1,PGDM/MBA_Mkt,NO,24,1,,0,2.1,Online,NJ-16,NJ-16,0,4,5,4,4,4.3,5,2,4,5,1,1,5,2,4,5,4,4,4,4,4,4,3,3,3.69,3.67,3.68,,,,
+E777,Female,Bangalore,RM4,PGDM/MBA_Mkt,NO,22,1,,2.3,21.6,Campus,4.2,3.93,0,5,4,2,4,3.8,2,5,4,5,1,5,3,1,2,5,3,3,4,3,3,4,2,3,3.34,3.17,3.25,,,,
+E778,Female,Mumbai,RM1,PGDM/MBA_Mkt,NO,28,1,,3.9,5.2,IJP,3.8,3.61,0,5,5,2,4,4.0,3,4,4,4,4,2,2,2,5,4,5,4,4,4,2,4,4,4,3.65,3.67,3.66,,,,
+E779,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,28,1,,5,12.1,Walk in,4.0,3.65,1,4,4,2,5,3.8,4,3,5,4,3,1,1,5,4,4,5,3,5,5,2,4,3,5,3.51,3.92,3.72,,,,
+E780,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,24,1,,2.7,5.3,Reference,4.0,3.56,0,2,4,4,1,2.8,5,4,4,2,1,3,2,2,2,2,5,4,4,4,2,4,2,5,2.93,3.50,3.21,,,,
+E781,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,25,1,,1.7,5.8,Campus,NJ-15,3.61,0,3,5,4,5,4.3,5,4,4,3,2,1,3,2,4,3,3,4,4,4,5,4,1,4,3.49,3.67,3.58,,,,
+E782,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,27,1,,3.9,10.7,IJP,3.8,3.48,0,4,4,3,5,4.0,5,5,4,4,4,4,5,4,5,4,3,4,4,5,2,4,1,4,4.20,3.28,3.74,,,,
+E783,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,23,1,,2.9,6.4,Campus,4.1,4.17,0,4,5,4,4,4.3,4,4,5,4,4,2,4,2,2,4,3,3,5,4,1,4,4,4,3.67,3.67,3.67,,,,
+E784,Male,NCR,RM3,PGDM/MBA_Mkt,NO,27,1,,2.9,13.4,Reference,4.4,3.98,0,2,4,3,5,3.5,5,4,4,5,4,1,3,2,2,5,3,2,4,2,3,3,2,5,3.38,3.11,3.25,,,,
+E785,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,25,1,,2.6,14.9,Reference,4.0,3.65,0,5,5,4,5,4.8,4,3,5,4,4,2,4,3,1,4,2,2,3,5,2,4,2,4,3.61,3.39,3.50,,,,
+E786,Female,Bangalore,RM4,PGDM/MBA_Mkt,NO,27,1,,3.7,23.7,Agency,4.1,4.72,0,4,4,5,5,4.5,4,3,4,5,4,4,2,4,4,4,5,2,4,5,4,5,4,5,3.97,4.42,4.19,,,,
+E787,Female,Bangalore,RM2,PGDM/MBA_Mkt,YES,28,1,,3.3,6.3,IJP,4.1,3.56,0,2,5,4,3,3.5,4,4,4,2,4,4,4,4,2,2,3,3,3,5,4,4,3,4,3.38,3.83,3.61,,,,
+E788,Female,Mumbai,RM2,PGDM/MBA_Mkt,YES,27,1,,2.9,5.9,Reference,4.0,3.56,0,4,4,4,4,4.0,4,4,4,5,2,1,3,3,2,5,3,3,5,5,4,3,4,4,3.41,4.11,3.76,,,,
+E789,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,32,1,,5.6,12.7,Agency,4.3,4.17,1,4,4,4,2,3.5,4,4,4,3,2,4,3,1,4,2,2,3,5,3,4,5,4,4,3.15,4.20,3.67,,,,
+E790,Male,NCR,RM2,PGDM/MBA_Mkt,NO,29,1,,3.7,6.3,Walk in,4.1,3.57,0,3,4,3,4,3.5,5,1,4,4,4,4,4,2,5,2,1,3,4,4,1,5,2,5,3.32,3.42,3.37,,,,
+E791,Male,Chennai,RM3,PGDM/MBA_Mkt,NO,24,1,,7.7,13,Campus,4.5,3.65,1,3,4,4,4,3.8,4,5,4,5,5,1,4,4,4,4,3,3,3,5,4,5,4,4,3.78,4.08,3.93,,,,
+E792,Male,Bangalore,RM1,BBA,YES,30,1,,0.2,1.7,Agency,NJ-16,NJ-16,0,4,4,4,4,4.0,5,3,5,4,2,5,4,2,3,3,4,4,4,4,4,5,4,3,3.76,4.00,3.88,,,,
+E793,Male,Mumbai,RM3,MBA(Tier 1) ,YES,32,1,,0,9,IJP,NJ-16,NJ-16,0,3,4,4,4,3.8,1,5,5,3,3,4,4,5,2,4,5,2,5,5,4,5,4,3,3.63,4.26,3.94,,,,
+E794,Male,Mumbai,RM2,PGDM/MBA_Mkt,YES,32,1,,4.3,5.7,Reference,4.3,3.86,1,5,4,4,5,4.5,5,4,4,4,4,4,3,2,4,4,3,1,4,5,2,5,1,4,3.79,3.36,3.58,,,,
+E795,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,27,1,,2.8,5.3,IJP,4.1,3.98,0,4,4,4,5,4.3,4,3,5,4,2,1,4,4,2,2,2,2,4,4,5,5,4,4,3.31,4.14,3.72,,,,
+E796,Female,NCR,RM1,PGDM/MBA_Mkt,YES,26,1,,0,3.2,Agency,NJ-16,NJ-16,0,4,4,3,4,3.8,4,2,4,4,3,3,3,2,1,4,1,5,4,4,1,5,3,3,3.22,3.31,3.26,,,,
+E797,Male,Mumbai,RM4,PGDM/MBA_Mkt,YES,27,1,,4.2,19.6,IJP,4.6,3.89,2,4,4,3,5,4.0,1,4,4,3,2,3,4,4,3,4,2,2,3,2,5,5,5,4,3.27,4.00,3.64,,,,
+E798,Female,Chennai ,RM2,PGDM/MBA_Mkt,NO,25,1,,3.1,4.9,Agency,4.0,4.17,0,4,5,4,4,4.3,5,4,4,5,1,4,4,3,3,4,3,2,4,3,4,5,4,4,3.72,4.00,3.86,,,,
+E799,Female,Mumbai,RM1,PGDM/MBA_Mkt,NO,26,1,,3,4.6,IJP,4.0,4.57,0,5,5,5,5,5.0,4,3,4,5,4,4,4,5,3,4,4,4,4,5,4,4,3,4,4.29,4.00,4.15,,,,
+E800,Female,Bangalore,RM3,PGDM/MBA_Mkt,NO,25,1,,6,9.5,Online,4.5,3.65,3,2,4,5,5,4.0,3,3,4,4,4,5,1,4,2,4,4,2,4,5,4,5,4,5,3.53,4.50,4.01,,,,
+E801,Female,NCR,RM3,PGDM/MBA_Mkt,NO,28,0,Personal,2.8,10.7,Agency,3.2,NA,0,5,5,5,5,5.0,4,1,5,5,5,1,3,4,5,5,4,5,4,2,4,4,3,5,4.24,3.67,3.95,NO,NA,NO,4
+E802,Male,Bangalore,RM2,PGDM/MBA_Mkt,NO,27,0,Involuntary,1.6,5.1,Reference,NJ-15,NA,0,4,4,2,3,3.3,3,5,4,4,4,4,3,4,5,4,4,4,5,3,5,5,2,4,3.74,4.00,3.87,NO,NA,NO,2
+E803,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,25,1,,4.1,12.4,IJP,4.3,3.54,1,2,4,5,3,3.5,1,2,4,4,4,5,1,2,1,4,3,3,4,4,5,3,4,4,2.99,4.00,3.50,,,,2
+E804,Female,NCR,RM2,PGDM/MBA_Mkt,NO,24,1,,3.8,4.1,Reference,4.0,3.85,0,5,4,4,4,4.3,4,4,4,4,4,2,3,4,1,4,3,3,5,3,4,3,5,4,3.64,4.00,3.82,,,,4
+E805,Male,Mumbai,RM3,PGDM/MBA_Mkt,NO,28,1,,4.9,11.5,Agency,4.2,4.17,1,2,4,2,3,2.8,3,3,4,3,4,2,3,3,3,3,4,4,4,4,5,4,3,5,3.14,4.17,3.65,,,,2
+E806,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,28,0,Job Environment ,3.2,2.8,Online,3.6,NA,0,3,4,3,3,3.3,4,2,4,4,4,5,2,3,3,4,4,4,4,5,4,4,4,4,3.52,4.17,3.85,YES,A,,3
+E807,Male,Bangalore,RM1,PGDM/MBA_Mkt,YES,27,0,Involuntary,2.9,3.1,Agency,3.9,NA,0,5,4,5,2,4.0,4,2,4,4,5,3,2,4,2,4,5,5,4,5,5,4,2,4,3.80,4.00,3.90,NO,NA,NO,5
+E808,Male,NCR,RM3,PGDM/MBA_Mkt,NO,26,1,,5.6,12.4,Reference,4.6,3.28,1,2,4,3,1,2.5,5,4,4,5,4,4,5,3,4,4,3,3,4,4,4,4,3,5,3.54,4.00,3.77,,,,5
+E809,Male,NCR,RM2,PGDM/MBA_Mkt,NO,24,1,,4,5.7,Reference,4.2,3.98,2,2,5,5,5,4.3,5,1,5,4,5,4,4,2,3,4,4,4,4,4,5,4,3,5,3.94,4.17,4.05,,,,3
+E810,Male,Bangalore,RM4,PGDM/MBA_Mkt,NO,24,1,,2.5,21.5,Reference,3.6,3.37,0,5,4,3,4,4.0,4,4,4,4,1,4,3,4,4,4,5,3,4,5,2,4,5,3,3.76,3.83,3.80,,,,4
+E811,Female,Mumbai,RM3,PGDM/MBA_Mkt,YES,28,1,,2.9,13.6,IJP,4.4,4.17,0,4,3,4,2,3.3,4,2,4,4,5,2,3,5,1,4,2,5,4,5,5,4,2,4,3.33,4.00,3.66,,,,2
+E812,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,29,1,,2.5,3.1,Reference,3.7,4.17,0,4,5,2,4,3.8,3,2,4,4,4,2,5,2,5,4,4,4,4,4,4,4,1,4,3.63,3.50,3.57,,,,4
+E813,Female,Mumbai,RM1,PGDM/MBA_Mkt,YES,26,1,,2.2,4.9,IJP,4.3,3.65,0,2,5,5,4,4.0,2,4,4,4,2,3,2,5,4,4,3,4,4,4,5,4,4,4,3.55,4.17,3.86,,,,4
+E814,Female,Chennai,RM3,PGDM/MBA_Mkt,YES,25,1,,3,12.7,Online,4.1,3.65,0,3,4,4,2,3.3,3,2,4,4,2,4,1,2,2,4,4,4,5,4,4,3,4,5,3.03,4.17,3.60,,,,4
+E815,Female,Bangalore,RM2,PGDM/MBA_Mkt,NO,22,1,,1.6,4.2,Walk in,NJ-15,3.59,0,5,5,3,4,4.3,5,2,4,4,4,1,1,2,1,4,4,4,4,2,4,4,4,5,3.33,3.83,3.58,,,,2
+E816,Male,NCR,RM5,PGDM/MBA_Mkt,NO,24,1,,3.8,29,Online,4.5,4.17,1,4,5,2,4,3.8,5,2,4,4,3,3,3,4,3,4,4,3,4,5,2,5,5,5,3.57,4.33,3.95,,,,3
+E817,Female,Bangalore,RM4,PGDM/MBA_Mkt,YES,21,1,,4.9,24.3,Online,4.3,3.57,1,5,4,4,4,4.3,5,4,5,3,4,3,2,3,5,3,1,3,4,2,1,4,5,5,3.66,3.50,3.58,,,,
+E818,Male,Mumbai,RM4,PGDM/MBA_Mkt,NO,24,1,,2.9,23.6,Campus,3.9,3.93,0,4,4,2,2,3.0,5,2,4,4,4,3,4,2,1,4,5,4,5,5,4,3,4,4,3.35,4.17,3.76,,,,
+E819,Male,NCR,RM3,PGDM/MBA_Mkt,YES,27,1,,0,13.2,Reference,NJ-16,NJ-16,0,2,4,1,4,2.8,3,2,3,4,2,2,3,4,4,4,3,4,5,4,4,5,5,2,3.00,4.11,3.56,,,,
+E820,Female,Mumbai,RM3,PGDM/MBA_Mkt,YES,25,1,,3.9,11.4,IJP,4.1,3.28,0,4,5,1,2,3.0,3,1,5,4,4,4,2,4,3,2,1,2,5,4,2,5,2,4,2.96,3.61,3.29,,,,
+E821,Male,Bangalore,RM2,PGDM/MBA_Mkt,YES,24,1,,4.5,5.8,Walk in,4.3,4.17,1,5,5,4,5,4.8,4,3,4,2,2,3,2,2,4,2,3,4,4,4,4,5,5,4,3.46,4.39,3.92,,,,
+E822,Male,Bangalore,RM3,PGDM/MBA_Mkt,YES,28,1,,5.5,14.9,Reference,4.3,4.17,1,4,4,4,3,3.8,3,3,5,3,4,3,4,2,5,3,3,3,5,3,4,5,4,5,3.55,4.39,3.97,,,,
+E823,Female,Mumbai,RM1,PGDM/MBA_Mkt,NO,31,1,,4.3,4.3,Online,4.3,4.50,1,4,5,5,3,4.3,3,2,5,4,1,5,2,3,4,5,5,3,4,4,5,5,3,4,3.73,4.22,3.98,,,,
+E824,Male,Chennai ,RM2,PGDM/MBA_Mkt,NO,23,1,,0,3.9,Walk in,NJ-16,NJ-16,0,1,5,2,3,2.8,2,2,4,5,3,5,4,2,3,5,2,4,5,4,5,5,2,4,3.26,4.22,3.74,,,,
+E825,Male,Mumbai,RM1,PGDM/MBA_Mkt,NO,26,1,,1.7,5.2,Online,NJ-15,3.61,0,3,5,4,4,4.0,1,4,4,4,1,4,1,1,2,4,3,5,4,5,5,5,4,5,3.19,4.62,3.90,,,,
+E826,Male,Mumbai,RM3,PGDM/MBA_Mkt,YES,25,1,,6.3,9.9,Reference,4.2,3.28,2,2,5,2,1,2.5,3,4,4,5,4,5,4,4,3,5,4,2,4,4,2,5,2,3,3.54,3.39,3.46,,,,
+E827,Male,Chennai ,RM2,PGDM/MBA_Mkt,YES,30,1,,2.9,2.6,Online,4.0,3.56,0,4,4,4,2,3.5,4,4,5,3,2,1,3,2,4,3,2,4,4,4,5,5,1,5,3.21,4.00,3.60,,,,
+E828,Male,NCR,RM4,PGDM/MBA_Mkt,YES,27,1,,3.8,19.7,Campus,4.2,3.37,1,4,5,3,2,3.5,2,1,5,4,4,4,4,2,5,4,4,5,4,5,4,5,5,5,3.63,4.67,4.15,,,,
